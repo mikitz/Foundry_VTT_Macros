@@ -1,5 +1,5 @@
-// MIKITZ ADDED LINES 3 - 6, 43 - 49, and 53 - 59
-// MIKITZ ALSO MODIFIED LINES 17 AND 18
+// @Mikitz added lines 3 - 6, 43 - 49, and 53 - 59.
+// @Mikitz modified lines 17 and 18.
 // Get the name of the selected actor
 let name = token.actor.data.name;
 // Roll a Dexterity (Stealth) check using the selected actor's stealth modifier
