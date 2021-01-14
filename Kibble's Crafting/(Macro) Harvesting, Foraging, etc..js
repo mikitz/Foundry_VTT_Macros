@@ -1,26 +1,27 @@
-// This is for acquiring materails only
-// TO-DO
-    // [x] Alchemy (pg. 6)
-        // [x] Foraging
-        // [x] Butchering
-    // Blacksmith (pg. 32)
-        // Mining
-        // Salvaging
-        // Butchering
-    // Cooking (pg. 34)
-        // Butchering
-        // Foraging [My addition]
-    // Enchanting (pg. 49)
-        // Butchering [Same as Butchering under Alchemy]
-        // Salvaging Essences
-        // Synthesizing Essences
-        // Making Essences
-    // Scroll Scribing (pg. 50)
-        // Alchemy makes the inks
-        // Alchemy/Tanner makes parchments
-    // Wand Wittling (pg. 52)
-        // Woods
-        // Essence [Same as Enchanting Essences]
+// This is for acquiring materials only
+
+// TODO Crafting left to do
+    // [✔] Alchemy (pg. 6)
+        // [✔] Foraging 
+        // [✔] Butchering
+    // [] Blacksmith (pg. 32)
+        // [] Mining
+        // [] Salvaging
+        // [] Butchering
+    // [] Cooking (pg. 34)
+        // [] Butchering
+        // [] Foraging [My addition]
+    // [] Enchanting (pg. 49)
+        // [] Butchering [Same as Butchering under Alchemy]
+        // [] Salvaging Essences
+        // [] Synthesizing Essences
+        // [] Making Essences
+    // [] Scroll Scribing (pg. 50)
+        // [] Alchemy makes the inks
+        // [] Alchemy/Tanner makes parchments
+    // [] Wand Wittling (pg. 52)
+        // [] Woods
+        // [] Essence [Same as Enchanting Essences]
 
 // Get the name of the called macro
 let macroName = this.name;
