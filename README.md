@@ -5,3 +5,4 @@ TO-DO
 * Stronghold & Followers
 * Spell Discovery Experiments
 * Kibble's Crafting
+* Recreational Drugs
