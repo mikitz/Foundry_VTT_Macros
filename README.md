@@ -5,3 +5,5 @@ TO-DO
 * Stronghold & Followers
 * Spell Discovery Experiments
 * Kibble's Crafting
+* [x] Recreational Drugs
+    * [x] Finish up the bestiary type drugs

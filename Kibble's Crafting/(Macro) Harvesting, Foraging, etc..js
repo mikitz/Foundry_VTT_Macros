@@ -1,3 +1,43 @@
+// This is for acquiring materials only
+
+// TODO Crafting left to do
+    // [✔] Alchemy (pg. 6)
+        // [✔] Foraging 
+        // [✔] Butchering
+    // [] Blacksmith (pg. 32)
+        // [] Mining
+        // [] Salvaging
+        // [] Butchering
+    // [] Cooking (pg. 34)
+        // [] Butchering
+        // [] Foraging [My addition]
+    // [] Enchanting (pg. 49)
+        // [] Butchering [Same as Butchering under Alchemy]
+        // [] Salvaging Essences
+        // [] Synthesizing Essences
+        // [] Making Essences
+    // [] Scroll Scribing (pg. 50)
+        // [] Alchemy makes the inks
+        // [] Alchemy/Tanner makes parchments
+    // [] Wand Wittling (pg. 52)
+        // [] Woods
+        // [] Essence [Same as Enchanting Essences]
+
+// Organization
+    // Select Gathering Method
+        // Description: duration, checks used, etc.
+            // Foraging
+                // Reagants, Cooking Ingredients, Woods
+            // Butchering
+                // Reagants (Alchemy, Enchanting), Cooking Ingredients, Metallurgy Materials
+            // Mining
+                // Metallurgy Materials
+            // Salvaging
+                // Metallurgy Materials
+            //  
+    // What Skill to use for Crafting
+        //
+
 // Get the name of the called macro
 let macroName = this.name;
 // Display a UI message if no actor is selected
