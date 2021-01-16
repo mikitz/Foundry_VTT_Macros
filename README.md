@@ -6,3 +6,4 @@ TO-DO
 * Spell Discovery Experiments
 * Kibble's Crafting
 * Recreational Drugs
+    * Finish up the bestiary type drugs
