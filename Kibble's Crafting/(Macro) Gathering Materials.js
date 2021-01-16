@@ -1,11 +1,12 @@
-// This is for acquiring materials only
+// This macro codifies material-gathering mechanics present in Kibble's Crafting PDF 
+    // PDF Doc: https://www.gmbinder.com/share/-MGivvBo5k0a2tjzWX4l
 
-// TODO Crafting left to do
+// Crafting left to do
     // [✔] Alchemy (pg. 6)
         // [✔] Foraging 
         // [✔] Butchering
     // [] Blacksmith (pg. 32)
-        // [] Mining
+        // [] Mining 
         // [] Salvaging
         // [] Butchering
     // [] Cooking (pg. 34)
@@ -22,33 +23,7 @@
     // [] Wand Wittling (pg. 52)
         // [] Woods
         // [] Essence [Same as Enchanting Essences]
-
-// Organization
-    // Gathering Method
-        // Description: duration, checks used, etc.
-            // Foraging
-                // Reagants, Cooking Ingredients, Woods
-            // Butchering
-                // Reagants (Alchemy, Enchanting), Cooking Ingredients, Metallurgy Materials
-            // Mining
-                // Metallurgy Materials
-            // Salvaging
-                // Metallurgy Materials, Essences
-            //  
-    // Crafting
-        // Alchemy
-            //
-        // Blacksmithing
-            //
-        // Cooking
-            //
-        // Enchanting
-            //
-        // Scroll Scribing
-            //
-        // Wand Wittling
-            //
-
+        
 // Get the name of the called macro
 let macroName = this.name;
 // Display a UI message if no actor is selected
@@ -69,7 +44,7 @@ var randomProperty = function (obj) {
     var keys = Object.keys(obj);
     return obj[keys[ keys.length * Math.random() << 0]];
 };
-// Define the necessary dictionaries
+// Define globally used object arrays
 var dictReagantTypes = {
     1: "curative",
     2: "reactive",
@@ -80,91 +55,96 @@ var dictReagantTypes = {
 let name = `<B>${token.actor.name}</B>`;
 let toolProfs = token.actor.data.data.traits.toolProf.value;
 let gathered = '';
-let quantity = 0;
-let rarity = '';
 let type = ''
 let message = ''
-let rarity1 = ''
-let quantity1 = ''
-
+// FUNCTIONS
+// Define a function for getting reagants from foraging
+function fReagants(roll) {
+    if (roll <= 5) {
+        gathered = '1 common'
+    } else if (roll >= 6 && roll <= 10) {
+        gathered = '2 common'
+    } else if (roll >= 11 && roll <= 15) {
+        gathered = '1 common and 1 uncommon'
+    } else if (roll >= 16 && roll <= 20) {
+        gathered = '2 uncommon'
+    } else if (roll >= 21 && roll <= 25) {
+        gathered = '1 uncommon and 1 rare'
+    } else if (roll >= 26) {
+        gathered = '1 rare and 1 very rare'
+    }
+    return gathered 
+}
 // INITIAL DIALOG
-// Create the initial dialog where the user selects the activity they wish to perform related to crafting
+// Create the initial dialog where the user selects the vActivity they wish to perform related to crafting
 let ddInitial = `<form action="/action_page.php">
-                <label for="crafting">Choose a Crafting Activity:</label>
-                <select name="crafting" id="crafting">
-                    <option value="dGather">Gather Materials</option> // TO-DO
-                    <option value="dCrafting">Craft Something</option>
+                <label for="gathering">Choose a Gathering Method:</label>
+                <select name="gathering" id="gathering">
+                    <option value="foraging">Foraging</option>
+                    <option value="butchering">Butchering</option>
+                    <option value="mining">Mining</option>
+                    <option value="salvaging">Salvaging</option>
                 </select>
             </form>`
+let cInitial = `<B>Foraging.</B> 1 hour: You have a chance to find <I>Reagants</I>, <I>Cooking Ingredients</I>, and/or <I>Woods</I>. <P>
+                <B>Butchering.</B> 1 hour: You have a chance to harvest <I>Reagants</I>, <I>Cooking Ingredients</I> and/or <I>Metallurgy Materials</I>. <P>
+                <B>Mining.</B> 8 hours: You have a chance to find <I>Metallurgy Materials</I> and/or <I>Gemstones</I>. <P>
+                <B>Salvaging.</B> 2 hours:  You have a chance to extract from items <I>Essences</I> and/or <I>Metallurgy Materials</I>. <P>`
 // Define the dialog window
 let dInitialDialog = new Dialog({
-    title: "Crafting Time",
-    content: ddInitial,
+    title: "Gather Materials",
+    content: `${ddInitial} <P> ${cInitial}`,
     buttons: {
         ok: {
             id: "1",
             label: "Next",
             callback (html) {
-                let selection = html.find('#crafting').val();
-                let vdta = eval(selection);
-                let sel = document.getElementById("crafting");
-                let activity = sel.options[sel.selectedIndex].text;
+                let selection = html.find('#gathering').val()
+                let sel = document.getElementById("gathering")
+                let vActivity = sel.options[sel.selectedIndex].text
+                let vdta = eval(`d${vActivity}`)
                 console.log(`ACTIVITY LOG
-                             Value: ${selection}
-                             Activity: ${activity}`)
-                vdta.render(true);
+                             Selected: ${selection}
+                             Activity: ${vActivity}`)
+                vdta.render(true)
             }
         }
     }
 });
-// Define the function for foraging in the wilderness to retrieve reagants
-function fForaging() {
-    // Random type
-    let type = randomProperty(dictReagantTypes)
-    // Set a bonus if the actor has Herbalism Kit Proficiency
-    let bonus = 0;
-    if (toolProfs.includes("herb")) bonus = token.actor.data.data.attributes.prof;
-    // Determine the outcome of the herbalism check
-    let herbalismCheck = new Roll(`1d20 + ${bonus}`).roll().total;
-    if (herbalismCheck <= 5) {
-        rarity = 'common';
-        quantity = 1
-        gathered = `${quantity} ${rarity}`
-    } else if (herbalismCheck > 5 && herbalismCheck <= 10) {
-        rarity = 'common'
-        quantity = 2
-        gathered = `${quantity} ${rarity}`
-    } else if (herbalismCheck > 10 && herbalismCheck <= 15) {
-        rarity = 'common'
-        rarity1 = 'uncommon'
-        quantity = 1
-        quantity1 = 1
-        gathered = `${quantity} ${rarity} and ${quantity1} ${rarity1}`
-    } else if (herbalismCheck > 15 && herbalismCheck <= 20) {
-        rarity = 'uncommon'
-        quantity = 2
-        gathered = `${quantity} ${rarity}`
-    } else if (herbalismCheck > 20 && herbalismCheck <= 25) {
-        rarity = 'uncommon'
-        rarity1 = 'rare'
-        quantity = 1
-        quantity1 = 1
-        gathered = `${quantity} ${rarity} and ${quantity1} ${rarity1}`
-    } else {
-        rarity = 'rare'
-        rarity1 = 'very rare'
-        quantity = 1
-        quantity1 = 1
-        gathered = `${quantity} ${rarity} and ${quantity1} ${rarity1}`
+// FORAGING
+// Define the Dialog for Foraging
+let dForaging = new Dialog ({
+    title: "Foraging",
+    content: "CHICKEN!",
+    buttons: {
+        ok: {
+            id: "1",
+            title: "Foraging",
+            label: "Forage!",
+            callback (html) {
+                let vActivity = this.title
+                // Random type
+                let type = randomProperty(dictReagantTypes)
+                // Set a bonus if the actor has Herbalism Kit Proficiency
+                let bonus = 0;
+                if (toolProfs.includes("herb")) bonus = token.actor.data.data.attributes.prof;
+                // Determine the outcome of the herbalism check
+                let herbalismCheck = new Roll(`1d20 + ${bonus}`).roll().total;
+                gathered = fReagants(herbalismCheck)
+                // Log variables to the console for debugging
+                console.log(`HERBALISM CHECK
+                            Gathered: ${gathered}
+                            Bonus: ${bonus}
+                            Check: ${herbalismCheck}`)
+                // Print the message to chat
+                message = `<H2> Crafting Activity: ${vActivity}</H2> <H3><U>Outcome</U></H3>`;
+                message += `${name} has gathered <I>${gathered} ${type}</I> reagant(s)!`;
+                printMessage(message)
+            }
+        }
     }
-
-    console.log(`HERBALISM CHECK
-                Gathered: ${gathered}
-                Bonus: ${bonus}
-                Check: ${herbalismCheck}`)
-    return gathered, type;
-};
-
+})
+// Define the object array for the Butchering roll
 let arrayButchering = [
     {id: 15, result: '1 common'},
     {id: 16, result: '1 common'},
@@ -175,6 +155,7 @@ let arrayButchering = [
     {id: 24, result: '1 very rare'},
     {id: 30, result: '1 legendary'},
 ]
+// Define the dropdown for Butchering
 let ddButchering = `<form action="/action_page.php">
                 <label for="butchering">Select Creature CR:</label>
                 <select name="butchering" id="butchering">
@@ -188,7 +169,7 @@ let ddButchering = `<form action="/action_page.php">
                     <option value="30">21+</option>
                 </select>
             </form>`
-
+// Define the dialog for Butchering
 let dButchering = new Dialog ({
     title: "Butcher a Creature",
     content: ddButchering,
@@ -196,12 +177,13 @@ let dButchering = new Dialog ({
         ok: {
             id: "1",
             label: "Butcher!",
+            title: "Butchering",
             callback (html) {
                 let selection = html.find('#butchering').val();
                 let vdta = eval(selection);
                 let DC = selection;
                 let sel = document.getElementById("butchering");
-                let activity = sel.options[sel.selectedIndex].text;
+                let vActivity = this.title
                 // Random type
                 let type = randomProperty(dictReagantTypes)
                 // Roll the check 
@@ -212,7 +194,7 @@ let dButchering = new Dialog ({
                     message += `${name} has gathered <I>${gathered} ${type}</I> reagant(s)!`;
                     printMessage(message)
                 } else {
-                    message = `<H2> Crafting Activity: ${activity}</H2> <H3><U>Outcome</U></H3>`;
+                    message = `<H2> Crafting Activity: ${vActivity}</H2> <H3><U>Outcome</U></H3>`;
                     message += `${name} has gathered <I>no</I> reagant(s)!`;
                     printMessage(message)
                 }
@@ -225,55 +207,4 @@ let dButchering = new Dialog ({
         }
     }
 })
-// Define the dropdown menu for selecting the gathering method
-let ddGather = `<form action="/action_page.php">
-                <label for="gather">Choose a Gathering Method:</label>
-                <select name="gather" id="gather">
-                    <option value="fForaging">Foraging</option> // TO-DO
-                    <option value="dButchering">Butchering</option>
-                </select>
-            </form>`
-// Define the dialog for gathering reagants
-let dGather = new Dialog ({
-    title: "Gathering Materials",
-    content: ddGather,
-    buttons: {
-        ok: {
-            id: "1",
-            label: "Next",
-            callback (html) {
-                let selection = html.find('#gather').val();
-                let vdta = eval(selection);
-                let sel = document.getElementById("gather");
-                let activity = sel.options[sel.selectedIndex].text;
-                console.log(`ACTIVITY LOG
-                             Value: ${selection}
-                             Activity: ${activity}`)
-                if (selection == "fForaging") {
-                    gathered, type = fForaging();
-                    message = `<H2> Crafting Activity: ${activity}</H2> <H3><U>Outcome</U></H3>`;
-                    message += `${name} has gathered <I>${gathered} ${type}</I> reagant(s)!`;
-                    printMessage(message)
-                } else {
-                    dButchering.render(true)
-                }
-            }
-        }
-    }
-});
-
-// DETERMINE MODIFIERS
-// define necessary variables
-let time = 0;
-let dice = 0;
-// define the function
-function fModifier() {
-    time = 0;
-    dice = 0;
-    if (roll < DC) {
-        time = time / 2;
-        dice = dice / 2;
-    }
-}
-
 dInitialDialog.render(true);
