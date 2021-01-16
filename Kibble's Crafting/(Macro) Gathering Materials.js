@@ -24,7 +24,7 @@
         // [] Essence [Same as Enchanting Essences]
 
 // Organization
-    // Select Gathering Method
+    // Gathering Method
         // Description: duration, checks used, etc.
             // Foraging
                 // Reagants, Cooking Ingredients, Woods
@@ -33,10 +33,21 @@
             // Mining
                 // Metallurgy Materials
             // Salvaging
-                // Metallurgy Materials
+                // Metallurgy Materials, Essences
             //  
-    // What Skill to use for Crafting
-        //
+    // Crafting
+        // Alchemy
+            //
+        // Blacksmithing
+            //
+        // Cooking
+            //
+        // Enchanting
+            //
+        // Scroll Scribing
+            //
+        // Wand Wittling
+            //
 
 // Get the name of the called macro
 let macroName = this.name;
