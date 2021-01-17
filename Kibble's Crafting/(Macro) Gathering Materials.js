@@ -51,6 +51,7 @@ var dictReagantTypes = {
     3: "exotic",
     4: "poisonous",
 };
+
 // Define global variables
 let name = `<B>${token.actor.name}</B>`;
 let toolProfs = token.actor.data.data.traits.toolProf.value;
@@ -60,9 +61,9 @@ let message = ''
 // FUNCTIONS
 // Define a function for getting reagants from foraging
 function fReagants(roll) {
-    if (roll <= 5) {
+    if (roll <= 4) {
         gathered = '1 common'
-    } else if (roll >= 6 && roll <= 10) {
+    } else if (roll >= 5 && roll <= 9) {
         gathered = '2 common'
     } else if (roll >= 11 && roll <= 15) {
         gathered = '1 common and 1 uncommon'
@@ -70,8 +71,10 @@ function fReagants(roll) {
         gathered = '2 uncommon'
     } else if (roll >= 21 && roll <= 25) {
         gathered = '1 uncommon and 1 rare'
-    } else if (roll >= 26) {
+    } else if (roll >= 26 && roll <= 29) {
         gathered = '1 rare and 1 very rare'
+    } else if (roll >= 30) {
+        gathered = '1 very rare and 1 legendary'
     }
     return gathered 
 }
@@ -112,10 +115,13 @@ let dInitialDialog = new Dialog({
     }
 });
 // FORAGING
+// Define the Foraging object arrays
+let oaCookingIngredients = []
+let oaWoods = []
 // Define the Dialog for Foraging
 let dForaging = new Dialog ({
     title: "Foraging",
-    content: "CHICKEN!",
+    content: "<B>Foraging.</B> 1 hour: You have a chance to find <I>Reagants</I>, <I>Cooking Ingredients</I>, and/or <I>Woods</I>.",
     buttons: {
         ok: {
             id: "1",
@@ -172,7 +178,7 @@ let ddButchering = `<form action="/action_page.php">
 // Define the dialog for Butchering
 let dButchering = new Dialog ({
     title: "Butcher a Creature",
-    content: ddButchering,
+    content: `<B>Butchering.</B> 1 hour: You have a chance to harvest <I>Reagants</I>, <I>Cooking Ingredients</I> and/or <I>Metallurgy Materials</I>. <P> ${ddButchering}`,
     buttons: {
         ok: {
             id: "1",
