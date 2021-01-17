@@ -23,7 +23,7 @@
     // [] Wand Wittling (pg. 52)
         // [] Woods
         // [] Essence [Same as Enchanting Essences]
-        
+
 // Get the name of the called macro
 let macroName = this.name;
 // Display a UI message if no actor is selected
@@ -58,6 +58,9 @@ let toolProfs = token.actor.data.data.traits.toolProf.value;
 let gathered = '';
 let type = ''
 let message = ''
+let quantity = ''
+let DC = ''
+let blah = ''
 // FUNCTIONS
 // Define a function for getting reagants from foraging
 function fReagants(roll) {
@@ -65,13 +68,13 @@ function fReagants(roll) {
         gathered = '1 common'
     } else if (roll >= 5 && roll <= 9) {
         gathered = '2 common'
-    } else if (roll >= 11 && roll <= 15) {
+    } else if (roll >= 10 && roll <= 14) {
         gathered = '1 common and 1 uncommon'
-    } else if (roll >= 16 && roll <= 20) {
+    } else if (roll >= 15 && roll <= 19) {
         gathered = '2 uncommon'
-    } else if (roll >= 21 && roll <= 25) {
+    } else if (roll >= 20 && roll <= 24) {
         gathered = '1 uncommon and 1 rare'
-    } else if (roll >= 26 && roll <= 29) {
+    } else if (roll >= 25 && roll <= 29) {
         gathered = '1 rare and 1 very rare'
     } else if (roll >= 30) {
         gathered = '1 very rare and 1 legendary'
@@ -85,8 +88,8 @@ let ddInitial = `<form action="/action_page.php">
                 <select name="gathering" id="gathering">
                     <option value="foraging">Foraging</option>
                     <option value="butchering">Butchering</option>
-                    <option value="mining">Mining</option>
-                    <option value="salvaging">Salvaging</option>
+                    <option value="mining">Mining (Not Functioning)</option>
+                    <option value="salvaging">Salvaging (Not Functioning)</option>
                 </select>
             </form>`
 let cInitial = `<B>Foraging.</B> 1 hour: You have a chance to find <I>Reagants</I>, <I>Cooking Ingredients</I>, and/or <I>Woods</I>. <P>
@@ -115,22 +118,33 @@ let dInitialDialog = new Dialog({
     }
 });
 // FORAGING
-// Define the Foraging object arrays
-let oaCookingIngredients = []
-let oaWoods = []
+// Define the dropdown for Foraging
+let ddForaging = `<form action="/action_page.php">
+                    <label for="foraging">Select what you are foraging for:</label>
+                    <select name="foraging" id="foraging">
+                        <option value="reagants">Reagants</option>
+                        <option value="cooking-ingredient">Cooking Ingredient</option>
+                        <option value="wood">Wood</option>
+                    </select>
+                </form>`
 // Define the Dialog for Foraging
 let dForaging = new Dialog ({
     title: "Foraging",
-    content: "<B>Foraging.</B> 1 hour: You have a chance to find <I>Reagants</I>, <I>Cooking Ingredients</I>, and/or <I>Woods</I>.",
+    content: `${ddForaging}
+            <B>Foraging.</B> 1 hour: You have a chance to find <I>Reagants</I>, <I>Cooking Ingredients</I>, and/or <I>Woods</I>.`,
     buttons: {
         ok: {
             id: "1",
             title: "Foraging",
             label: "Forage!",
             callback (html) {
+                let sel = document.getElementById("foraging");
+                let foraging = sel.options[sel.selectedIndex].text;
                 let vActivity = this.title
                 // Random type
-                let type = randomProperty(dictReagantTypes)
+                if (foraging != 'Cooking Ingredient') {
+                    let type = randomProperty(dictReagantTypes)
+                }
                 // Set a bonus if the actor has Herbalism Kit Proficiency
                 let bonus = 0;
                 if (toolProfs.includes("herb")) bonus = token.actor.data.data.attributes.prof;
@@ -144,12 +158,13 @@ let dForaging = new Dialog ({
                             Check: ${herbalismCheck}`)
                 // Print the message to chat
                 message = `<H2> Crafting Activity: ${vActivity}</H2> <H3><U>Outcome</U></H3>`;
-                message += `${name} has gathered <I>${gathered} ${type}</I> reagant(s)!`;
+                message += `${name} has gathered <I>${gathered} ${type}</I> ${foraging}(s)!`;
                 printMessage(message)
             }
         }
     }
 })
+// BUTCHERING
 // Define the object array for the Butchering roll
 let arrayButchering = [
     {id: 15, result: '1 common'},
@@ -178,7 +193,8 @@ let ddButchering = `<form action="/action_page.php">
 // Define the dialog for Butchering
 let dButchering = new Dialog ({
     title: "Butcher a Creature",
-    content: `<B>Butchering.</B> 1 hour: You have a chance to harvest <I>Reagants</I>, <I>Cooking Ingredients</I> and/or <I>Metallurgy Materials</I>. <P> ${ddButchering}`,
+    content: `<B>Butchering.</B> 1 hour: You have a chance to harvest <I>Reagants</I>, 
+            <I>Cooking Ingredients</I> and/or <I>Metallurgy Materials</I>. <P> ${ddButchering}`,
     buttons: {
         ok: {
             id: "1",
@@ -197,7 +213,10 @@ let dButchering = new Dialog ({
                 if (medicineCheck >= DC) {
                     gathered = arrayButchering.find(result => result.id == DC).result
                     message = `<H2> Crafting Activity: Butchering</H2> <H3><U>Outcome</U></H3>`;
-                    message += `${name} has gathered <I>${gathered} ${type}</I> reagant(s)!`;
+                    message += `${name} has gathered: 
+                                <P>• <I>${gathered} ${type}</I> reagant(s)
+                                <P>• <I>${gathered}</I> meat(s) [Ask DM]
+                                <P>• <I>${gathered}</I> metallurgy material(s) [Ask DM]`;
                     printMessage(message)
                 } else {
                     message = `<H2> Crafting Activity: ${vActivity}</H2> <H3><U>Outcome</U></H3>`;
@@ -209,6 +228,133 @@ let dButchering = new Dialog ({
                             Quantity: ${quantity}
                             Gathered: ${gathered}
                             Check: ${medicineCheck}`)
+            }
+        }
+    }
+})
+// SALVAGING
+// Define the dropdown for Salvaging
+let ddSalvaging = `<form action="/action_page.php">
+                    <label for="salvaging">Select Item Rarity:</label>
+                    <select name="salvaging" id="salvaging">
+                        <option value="common">Common</option>
+                        <option value="uncommon">Uncommon</option>
+                        <option value="rare">Rare</option>
+                        <option value="very-rare">Very Rare</option>
+                        <option value="legendary">Legendary</option>
+                    </select>
+                </form>`
+// Define the Salvaging object array 
+let aoSalvaging = [
+    {dc: 12, rarity: 'common'},
+    {dc: 15, rarity: 'uncommon'},
+    {dc: 20, rarity: 'rare'},
+    {dc: 25, rarity: 'very-rare'},
+    {dc: 30, rarity: 'legendary'},
+]
+// Define the Outcome object array
+let aoOutcome = [
+    {rarity: 'common', yield: ""},
+]
+// Define the checkbox for Salvaging
+let ddSalvagingMagical = `<form action="/action_page.php">
+                            <label for="salvage">Magical?:</label>
+                            <select name="salvage" id="salvage">
+                                <option value="magical">Magical</option>
+                                <option value="non-magical">Non-magical</option>
+                            </select>
+                        </form>`
+// Define the dialog for Salvaging
+let dSalvaging = new Dialog ({
+    // TODO
+    title: "Salvage an Item",
+    content: `<B>Salvaging.</B> 2 hours:  You have a chance to extract from items 
+            <I>Essences</I> and/or <I>Metallurgy Materials</I>. <P> ${ddSalvaging} <P> ${ddSalvagingMagical}`,
+    buttons: {
+        ok: {
+            id: "1",
+            label: "Salvage!",
+            title: "Salvaging",
+            callback (html) {
+                let selection = html.find('#salvaging').val()
+                let sel = document.getElementById("salvaging")
+                let magical = html.find('#salvage').val()
+                let vActivity = this.title
+                // Random type
+                let type = randomProperty(dictReagantTypes)
+                // Set a bonus if the actor has Smith's tools Proficiency
+                let bonus = 0;
+                if (toolProfs.includes("Smith's tools")) bonus = token.actor.data.data.attributes.prof;
+                // Roll the check 
+                let smithToolsCheck = new Roll(`1d20 + ${token.actor.data.data.skills.med.mod} + ${bonus}`).roll().total;
+                let aracanaCheck = new Roll(`1d20 + ${token.actor.data.data.skills.arc.total}`).roll().total
+                DC = aoSalvaging.find(i => i.rarity == selection).dc
+                // Check the rolls based on whether the item is magical or not
+                if (magical == 'magical') {
+                    blah = 'Yes'
+                    // If the item is magical
+                    if (smithToolsCheck >= DC && aracanaCheck >= DC) {
+                        // TODO
+                        
+                    } else {
+                        message = `<H2> Crafting Activity: ${vActivity}</H2> <H3><U>Outcome</U></H3>`;
+                        message += `${name} has gathered <I>nothing</I>!`;
+                        printMessage(message)
+                    }
+                } else {
+                    blah = 'No'
+                    // If the item is non-magical
+                    if (smithToolsCheck >= DC) {
+                        gathered = arrayButchering.find(result => result.id == DC).result // TODO
+                        message = `<H2> Crafting Activity: Butchering</H2> <H3><U>Outcome</U></H3>`;
+                        message += `${name} has gathered: 
+                                    <P>• <I>${gathered} ${type}</I> reagant(s)
+                                    <P>• <I>${gathered}</I> meat(s) [Ask DM]
+                                    <P>• <I>${gathered}</I> metallurgy material(s) [Ask DM]`;
+                        printMessage(message)
+                    } else {
+                        message = `<H2> Crafting Activity: ${vActivity}</H2> <H3><U>Outcome</U></H3>`;
+                        message += `${name} has gathered <I>nothing</I>!`;
+                        printMessage(message)
+                    }
+                }
+                console.log(`MONSTER HARVESTING
+                            DC: ${DC}
+                            Quantity: ${quantity}
+                            Gathered: ${gathered}
+                            Smith Tools Check: ${smithToolsCheck}
+                            Arcana Check: ${aracanaCheck}
+                            Magical: ${blah}`)
+            }
+        }
+    }
+})
+// MINING
+// Define the dialog for Mining
+let dMining = new Dialog ({
+    // TODO
+    title: "Mine for Resources",
+    content: `<B>Mining.</B> 8 hours: You have a chance to find <I>Metallurgy Materials</I> and/or <I>Gemstones</I>. <P>`,
+    buttons: {
+        ok: {
+            id: "1",
+            label: "Mine!",
+            title: "Mining",
+            callback (html) {
+                let selection = html.find('#salvaging').val()
+                let sel = document.getElementById("salvaging")
+                let magical = html.find('#salvage').val()
+                let vActivity = this.title
+                // Random type
+                let type = randomProperty(dictReagantTypes)
+                // Set a bonus if the actor has Smith's tools Proficiency
+                let bonus = 0;
+                if (toolProfs.includes("Smith's tools")) bonus = token.actor.data.data.attributes.prof;
+                // Roll the check 
+                let smithToolsCheck = new Roll(`1d20 + ${token.actor.data.data.skills.med.mod} + ${bonus}`).roll().total;
+                let aracanaCheck = new Roll(`1d20 + ${token.actor.data.data.skills.arc.total}`).roll().total
+                DC = aoSalvaging.find(i => i.rarity == selection).dc
+
             }
         }
     }
