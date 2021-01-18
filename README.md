@@ -8,6 +8,7 @@ TO-DO
 * Tavern Games
 * [x] Beer Brewing
    * [x] Outputs quality of barrel
+   * Need to account for natual 1s
 * [x] Recreational Drugs
     * [x] Finish up the bestiary type drugs
 * Convert Foundry Roll Tables to JavaScript Object Arrays
