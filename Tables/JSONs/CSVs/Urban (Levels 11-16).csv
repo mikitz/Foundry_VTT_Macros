@@ -1,0 +1,37 @@
+_id,flags,type,text,img,resultId,weight,range,drawn
+0,Amq6Qf8CsEsYhdwX,{},0,1 mimic,icons/svg/d20-black.svg,,1,"[1, 1]",False
+1,9ce1sfODeaRjuDCO,{},0,"1 bandit captain with [[5d10]] bandits, all on riding horses",icons/svg/d20-black.svg,,4,"[2, 5]",False
+2,JbrxcvFGZavMDhvT,{},0,[[1d10]] knights on warhorses (one knight is a doppelganger),icons/svg/d20-black.svg,,5,"[6, 10]",False
+3,4RQsogz2tUT2UaIv,{},0,[[1d8]] succubi or [[1d8]] incubi,icons/svg/d20-black.svg,,3,"[11, 13]",False
+4,K2tt8A50d86eEysX,{},0,[[3d6]] cult fanatics,icons/svg/d20-black.svg,,3,"[14, 16]",False
+5,7QQKXEqWaZTKT7zZ,{},0,[[1d10]] wights,icons/svg/d20-black.svg,,3,"[17, 19]",False
+6,lWnqq5bdakSO0Kr6,{},0,[[3d6]] wererats,icons/svg/d20-black.svg,,3,"[20, 22]",False
+7,FjKCHYMySk1fXu3a,{},0,A distant boom followed by a plume of smoke rising from the other side of the community,icons/svg/d20-black.svg,,3,"[23, 25]",False
+8,vR6gIlilKwoWfwgY,{},0,[[1d8+1]] ghosts,icons/svg/d20-black.svg,,3,"[26, 28]",False
+9,OpHHpzHOzIdTcULa,{},0,[[2d10]] gargoyles,icons/svg/d20-black.svg,,3,"[29, 31]",False
+10,cxMrcTUwCaZfzw4c,{},0,[[1d6+2]] water weirds,icons/svg/d20-black.svg,,3,"[32, 34]",False
+11,sdjBgWJX2rbPUWe4,{},0,[[1d4+4]] will-o'-wisps,icons/svg/d20-black.svg,,3,"[35, 37]",False
+12,Ng54uCDVNwqWHW2Y,{},0,"Street performers putting on a puppet show, involving two puppets beating each other with sticks to the amusement of the gathered crowd",icons/svg/d20-black.svg,,3,"[38, 40]",False
+13,oZblMMOR2cxuriGF,{},0,[[2d4]] couatls,icons/svg/d20-black.svg,,3,"[41, 43]",False
+14,fV6GKseaDKscjtTi,{},0,[[2d8]] ghasts,icons/svg/d20-black.svg,,3,"[44, 46]",False
+15,Xj8vpg3hHqvWaYbG,{},0,[[1d8+1]] veterans,icons/svg/d20-black.svg,,5,"[47, 51]",False
+16,j6UcCFO5ftLieham,{},0,[[3d4]] priests,icons/svg/d20-black.svg,,4,"[52, 55]",False
+17,EgMbbcMCOeGr77Ym,{},0,[[2d4]] cambions,icons/svg/d20-black.svg,,3,"[56, 58]",False
+18,Ch1ZUP895rDcxuYO,{},0,[[1d10]] revenants,icons/svg/d20-black.svg,,3,"[59, 61]",False
+19,SbmPTYvbDVqfruyY,{},0,[[2d4]] phase spiders,icons/svg/d20-black.svg,,4,"[62, 65]",False
+20,hNoMUBtFLTvXU6F4,{},0,A scruffy commoner that ducks into an alley to make a purchase from a suspicious looking figure,icons/svg/d20-black.svg,,4,"[66, 69]",False
+21,ntDeWww3JYQnYg8X,{},0,[[1d8]] invisible stalkers,icons/svg/d20-black.svg,,3,"[70, 72]",False
+22,91Q7hCH35x7LuSae,{},0,[[1d8+1]] gladiators,icons/svg/d20-black.svg,,3,"[73, 75]",False
+23,6MDEVrusfV6nFZXG,{},0,Two farmers trading blows over the price of potatoes (50% chance for one farmer to be a retired assassin),icons/svg/d20-black.svg,,5,"[76, 80]",False
+24,GxzjrtXGBsBPfg1h,{},0,[[1d4]] young silver dragons,icons/svg/d20-black.svg,,2,"[81, 82]",False
+25,3CV4bYN6zsZTADAs,{},0,[[1d4]] assassins,icons/svg/d20-black.svg,,2,"[83, 84]",False
+26,IQ2jhkvqJQp8WaTx,{},0,[[1d8]] oni,icons/svg/d20-black.svg,,2,"[85, 86]",False
+27,EfLjOiXKiGC4DPEi,{},0,[[1d4]] mages with [[1d4]] shield guardians,icons/svg/d20-black.svg,,2,"[87, 88]",False
+28,u3DzDk2pknpcDJNn,{},0,[[1d10]] vampire spawn,icons/svg/d20-black.svg,,2,"[89, 90]",False
+29,PlKHQC6MFzlQpDgo,{},0,1 adult silver dragon,icons/svg/d20-black.svg,,2,"[91, 92]",False
+30,xMuX2yp2baztcEq1,{},0,[[1d4]] gray slaadi,icons/svg/d20-black.svg,,2,"[93, 94]",False
+31,cTe38fknWZ1F4olU,{},0,1 spellcaster vampire or 1 warrior vampire,icons/svg/d20-black.svg,,2,"[95, 96]",False
+32,Q3YmAwshrcxMilAS,{},0,1 rakshasa,icons/svg/d20-black.svg,,1,"[97, 97]",False
+33,gS1ty2gAHzMluFqm,{},0,1 vampire,icons/svg/d20-black.svg,,1,"[98, 98]",False
+34,7krA3oqxNW9olLuK,{},0,1 ancient silver dragon,icons/svg/d20-black.svg,,1,"[99, 99]",False
+35,5LB25XsxBkKjHB4n,{},0,"1 archmage speeding down the street on a riding horse, blasting [[1d4]] guards with spells",icons/svg/d20-black.svg,,1,"[100, 100]",False

@@ -1,0 +1,65 @@
+_id,flags,type,text,img,resultId,weight,range,drawn
+0,TzVrXizyHGLHbyCH,{},0,[[3d6]] carrion crawlers,icons/svg/d20-black.svg,,2,"[1, 2]",False
+1,mQTcrsluUF9gFyO9,{},0,[[1d6+1]] gelatinous cubes,icons/svg/d20-black.svg,,2,"[3, 4]",False
+2,msCwvtZ5OdTp6aw9,{},0,[[1d8+2]] gibbering mouthers,icons/svg/d20-black.svg,,2,"[5, 6]",False
+3,bHUlPvFZLWe2U24L,{},0,[[2d8]] minotaur skeletons,icons/svg/d20-black.svg,,2,"[7, 8]",False
+4,mQ5EpIDvJYPXlkAP,{},0,[[2d6]] ochre jellies,icons/svg/d20-black.svg,,2,"[9, 10]",False
+5,8PPJgv34W2NW5jem,{},0,[[2d4]] doppelgangers,icons/svg/d20-black.svg,,2,"[11, 12]",False
+6,xtCPoKhborwc5u8P,{},0,[[1d4]] quaggoth thonots with [[1d10+2]] quaggoths,icons/svg/d20-black.svg,,2,"[13, 14]",False
+7,xDcofAl6KqM0ROrJ,{},0,[[1d3]] ropers,icons/svg/d20-black.svg,,2,"[15, 16]",False
+8,MWtUuu8JH6qDo3Co,{},0,[[3d6]] gargoyles,icons/svg/d20-black.svg,,2,"[17, 18]",False
+9,kv0b9QJy7Pjpob0R,{},0,[[1d10]] mimics,icons/svg/d20-black.svg,,2,"[19, 20]",False
+10,eW54SdFUAb2EOTk5,{},0,"A 100-foot-long ravine, [[4d10]] feet wide and [[5d20+200]] feet deep",icons/svg/d20-black.svg,,5,"[21, 25]",False
+11,QoJTKX4eMz5WsTb8,{},0,1 hobgoblin captain with [[3d10]] hobgoblins,icons/svg/d20-black.svg,,2,"[26, 27]",False
+12,4sOdFogipQdUuC3o,{},0,[[2d4]] spectators,icons/svg/d20-black.svg,,2,"[28, 29]",False
+13,SsJViz34Jes1iknb,{},0,[[3d6]] ghasts,icons/svg/d20-black.svg,,2,"[30, 31]",False
+14,95uC8nj7zKp0jrW8,{},0,[[2d8]] intellect devourers,icons/svg/d20-black.svg,,2,"[32, 33]",False
+15,HQNpVMsp5Qu5Z9X2,{},0,[[1d3]] orc Eyes of Gruumsh with [[2d4]] orogs and [[2d10]] orcs,icons/svg/d20-black.svg,,2,"[34, 35]",False
+16,Sl2MuGDLY220VbhT,{},0,A large cave containing [[2d10]] extraordinarily detailed statues of various creatures,icons/svg/d20-black.svg,,5,"[36, 40]",False
+17,NvZzE50E8zQjTKtx,{},0,[[1d8+1]] kuo-toa monitors,icons/svg/d20-black.svg,,2,"[41, 42]",False
+18,cQJkjW6Dtmav5Ici,{},0,[[2d4]] water weirds,icons/svg/d20-black.svg,,2,"[43, 44]",False
+19,UcykzZM7hwJSgklY,{},0,[[2d10]] gricks,icons/svg/d20-black.svg,,2,"[45, 46]",False
+20,2FwdVaazx11erFD2,{},0,[[3d6]] nothics,icons/svg/d20-black.svg,,2,"[47, 48]",False
+21,4QAHCIybLyFC6ALq,{},0,[[2d8+1]] ogres,icons/svg/d20-black.svg,,2,"[49, 50]",False
+22,aETLtgswbAKjduR9,{},0,[[1d6+2]] chuuls,icons/svg/d20-black.svg,,2,"[51, 52]",False
+23,zor8S1rEt0ih80Lu,{},0,[[1d8+1]] ettins,icons/svg/d20-black.svg,,2,"[53, 54]",False
+24,QElyT21ZgqvGuDJq,{},0,[[3d6]] grells,icons/svg/d20-black.svg,,1,"[55, 55]",False
+25,N476Q6vSEzEatA6x,{},0,[[2d4]] flameskulls,icons/svg/d20-black.svg,,1,"[56, 56]",False
+26,9h9j4X0y22PEORNQ,{},0,[[2d12]] dwarf soldiers (veterans) on patrol,icons/svg/d20-black.svg,,1,"[57, 57]",False
+27,WuovN3kkhFRUy2sF,{},0,[[2d8]] hell hounds,icons/svg/d20-black.svg,,1,"[58, 58]",False
+28,A1QszwmUNNCWgqyg,{},0,[[1d10]] ghosts,icons/svg/d20-black.svg,,1,"[59, 59]",False
+29,hjFQF51avInEwA55,{},0,[[3d4]] wights,icons/svg/d20-black.svg,,1,"[60, 60]",False
+30,vWYGaTYNSIlA6zsF,{},0,[[3d6]] phase spiders,icons/svg/d20-black.svg,,1,"[61, 61]",False
+31,2sDRPJ104Jg8fsdU,{},0,[[1d8+1]] bone nagas,icons/svg/d20-black.svg,,1,"[62, 62]",False
+32,uNO7ybPQ00xp5L9I,{},0,A shrill scream followed by dark laughter,icons/svg/d20-black.svg,,3,"[63, 65]",False
+33,qtNmaE0VHF24uTHK,{},0,[[1d4]] chimeras,icons/svg/d20-black.svg,,1,"[66, 66]",False
+34,thB1bf2Umn3MCfCc,{},0,[[1d10]] black puddings,icons/svg/d20-black.svg,,1,"[67, 67]",False
+35,CUWZYKelexAlRNqH,{},0,[[3d6]] minotaurs,icons/svg/d20-black.svg,,1,"[68, 68]",False
+36,xcEHlNrO8ba94fej,{},0,[[2d4]] otyughs,icons/svg/d20-black.svg,,1,"[69, 69]",False
+37,dgXvca9aDx6yYgLe,{},0,[[1d6+1]] beholder zombies,icons/svg/d20-black.svg,,1,"[70, 70]",False
+38,NIYNuzR36mMJYu5r,{},0,[[4d4]] hook horrors,icons/svg/d20-black.svg,,1,"[71, 71]",False
+39,0FpjqrGVlFWKzUdF,{},0,[[1d8+1]] umber hulks,icons/svg/d20-black.svg,,1,"[72, 72]",False
+40,vAq1ZNMRzLIaYPzX,{},0,[[2d4]] salamanders,icons/svg/d20-black.svg,,1,"[73, 73]",False
+41,MJsTv62PJuoD1Ypg,{},0,[[1d3]] grick alphas,icons/svg/d20-black.svg,,1,"[74, 74]",False
+42,vu1Doj1w5lUNrztT,{},0,[[1d6+2]] xorn,icons/svg/d20-black.svg,,1,"[75, 75]",False
+43,vNAFmfYy3BDobLnM,{},0,A ruined village that once belonged to deep gnomes. A search has a 50% chance of uncovering [[1d3]] potions of healing and a 25% chance of finding a random common magic item,icons/svg/d20-black.svg,,5,"[76, 80]",False
+44,76z3iyj4F0dg5iGj,{},0,[[2d4]] earth elementals,icons/svg/d20-black.svg,,1,"[81, 81]",False
+45,ci1W2M2uImkdK1sz,{},0,[[1d3]] spirit nagas,icons/svg/d20-black.svg,,1,"[82, 82]",False
+46,2YjTewtmxE99d8mp,{},0,[[1d8+1]] cyclopes,icons/svg/d20-black.svg,,1,"[83, 83]",False
+47,YpQnHhzQGQ1sUzcx,{},0,[[1d6+2]] trolls,icons/svg/d20-black.svg,,1,"[84, 84]",False
+48,1Boi9OG1OPHOx8LD,{},0,[[2d4]] stone giants,icons/svg/d20-black.svg,,1,"[85, 85]",False
+49,vZceus1yiU5LWal9,{},0,[[2d4]] wraiths,icons/svg/d20-black.svg,,1,"[86, 86]",False
+50,8bLud7G1BI5hdmJv,{},0,[[1d4]] fomorians,icons/svg/d20-black.svg,,1,"[87, 87]",False
+51,YfZkArHUNwbGaBm1,{},0,[[1d3]] drow mages with [[1d4]] drow elite warriors,icons/svg/d20-black.svg,,1,"[88, 88]",False
+52,Y7DSX2hRostNe2UA,{},0,[[1d10]] vampire spawn,icons/svg/d20-black.svg,,1,"[89, 89]",False
+53,xhQks64aVHwjFscA,{},0,[[1d3]] cloakers,icons/svg/d20-black.svg,,1,"[90, 90]",False
+54,SFA5qj7GqsIoxDTo,{},0,[[1d4]] fire giants,icons/svg/d20-black.svg,,1,"[91, 91]",False
+55,TwRXSFOO1XGGzTw0,{},0,1 mind flayer arcanist with [[1d6+1]] mind flayers,icons/svg/d20-black.svg,,1,"[92, 92]",False
+56,N1bcTHjQppEw7VAm,{},0,[[1d4]] dao,icons/svg/d20-black.svg,,1,"[93, 93]",False
+57,ljs5efv1pOsgbWrK,{},0,[[1d8+1]] driders,icons/svg/d20-black.svg,,1,"[94, 94]",False
+58,CRIOH9eG09WK41ot,{},0,[[1d3]] behirs,icons/svg/d20-black.svg,,1,"[95, 95]",False
+59,ciSyhLAwlLR6Xss5,{},0,[[1d4]] aboleths,icons/svg/d20-black.svg,,1,"[96, 96]",False
+60,YLLyDTuZUX1MTa3p,{},0,1 beholder,icons/svg/d20-black.svg,,1,"[97, 97]",False
+61,bYRILmNyZnqQMHj8,{},0,1 young red shadow dragon,icons/svg/d20-black.svg,,1,"[98, 98]",False
+62,fcvY8ATp6juiyDE3,{},0,1 death tyrant,icons/svg/d20-black.svg,,1,"[99, 99]",False
+63,tl7zYYkc4Lax7txf,{},0,1 purple worm,icons/svg/d20-black.svg,,1,"[100, 100]",False

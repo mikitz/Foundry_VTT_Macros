@@ -1,0 +1,43 @@
+_id,flags,type,text,weight,range,drawn
+0,GxeO7g375RQsPzzS,{},0,1 hobgoblin captain with [[1d4+1]] hobgoblins,1,"[1, 1]",False
+1,8AwMoSLEIRU96qMM,{},0,1 chimera,1,"[2, 2]",False
+2,I8DUSHZsJDo2RIJZ,{},0,1 gorgon,1,"[3, 3]",False
+3,0KLr3VThUgi6Vaei,{},0,[[1d2]] couatls,1,"[4, 4]",False
+4,plgscdeMeK5zQQew,{},0,1 ankylosaurus,1,"[5, 5]",False
+5,YYsQ6RHxGySWIB8i,{},0,1 weretiger,1,"[6, 6]",False
+6,0pkKX99jnz3AGSaq,{},0,[[1d3]] allosauruses,1,"[7, 7]",False
+7,7kFntBjxeKugyTSi,{},0,[[1d3]] elephants,2,"[8, 9]",False
+8,WH2J4PzaOmaksdWo,{},0,"A circle of standing stones within which the air is utterly still, no matter how hard the wind blows outside",5,"[10, 14]",False
+9,CJWVxnV2Zw2TAuWj,{},0,1 phase spider,2,"[15, 16]",False
+10,hwoI2arjV3SlhQXO,{},0,1 gnoll pack lord with [[1d4]] giant hyenas,2,"[17, 18]",False
+11,o453BbrpGCwp4HnB,{},0,1 pegasus,2,"[19, 20]",False
+12,hsx3StPKgG6G8Kx1,{},0,1 ankheg,2,"[21, 22]",False
+13,ZskDZIiFGSE0HSj0,{},0,[[1d3]] rhinoceroses,2,"[23, 24]",False
+14,c0uPNs2jRhZvVEIx,{},0,[[1d3]] cockatrices,4,"[25, 28]",False
+15,mCEC6m0DM0qCxtA7,{},0,[[1d6+2]] giant wasps or [[1d4+3]] swarms of insects,4,"[29, 32]",False
+16,FStxHBX3jO8iZJGf,{},0,[[1d4]] jackalweres or [[1d4]] scouts,4,"[33, 36]",False
+17,TvnXuMreP3LdQwBL,{},0,[[1d8]] giant goats or [[1d8]] worgs,4,"[37, 40]",False
+18,jC5j77oakfncXL1s,{},0,"[[2d4]] hobgoblins, [[2d4]] orcs, or [[2d4]] gnolls",4,"[41, 44]",False
+19,R6oSifW0doOuEXNE,{},0,[[1d2]] giant poisonous snakes,2,"[45, 46]",False
+20,gcH1tvoMzozDgYmj,{},0,[[1d6+2]] elves or [[1d6+2]] riding horses,2,"[47, 48]",False
+21,dKHPRtx0TSgDDhdx,{},0,[[2d4]] goblins,2,"[49, 50]",False
+22,PKNLkvc1GRSx0ivn,{},0,[[1d3]] boars,2,"[51, 52]",False
+23,wV00Y1qlBeEIftwv,{},0,1 leopard (panther) 1 lion,2,"[53, 54]",False
+24,ySPJNfwWZq9dWBw8,{},0,[[1d6+3]] goblins riding wolves,4,"[55, 58]",False
+25,NH76GlpXRsMz3F7K,{},0,[[2d6]] giant wolf spiders or 1 giant eagle,4,"[59, 62]",False
+26,guk0GA7GkH1ENm1G,{},0,[[1d8+4]] pteranodons,3,"[63, 65]",False
+27,9a4ZPUG6CYX19ljR,{},0,[[3d6]] wolves,4,"[66, 69]",False
+28,pRIsmOqBtdms5i0d,{},0,[[2d4+2]] axe beaks,5,"[70, 74]",False
+29,qEL6kFkDOb1IY81C,{},0,1 giant boar or [[1d2]] tigers,2,"[75, 76]",False
+30,7jUdrFblV4pj9fBW,{},0,1 ogre or [[1d3]] bugbears,2,"[77, 78]",False
+31,LcUEr7BB0zADYqGb,{},0,giant elk or 1 gnoll pack lord or [[1d3]] giant hyenas,2,"[79, 80]",False
+32,6JXAoeJLa3LPbSbq,{},0,[[1d3]] giant vultures or [[1d3]] hippogriffs,2,"[81, 82]",False
+33,xjT2A1MJMoH1Aa2w,{},0,"1 goblin boss with [[1d6+2]] goblins and [[1d4+3]] wolves, or [[1d3]] thri-kreen",2,"[83, 84]",False
+34,J464Nj9aivJtqO7b,{},0,[[1d3]] druids patrolling the wilds,5,"[85, 89]",False
+35,IJxrZwe9cxASdsQA,{},0,[[1d6]] scarecrows or 1 wereboar,2,"[90, 91]",False
+36,FfZu4hSZ2YnkdSQD,{},0,[[1d3]] centaurs or [[1d3]] griffons,2,"[92, 93]",False
+37,rcyzUrMKQUbRXugy,{},0,"[[1d3]] gnoll fangs of Yeenoghu, or 1 orc Eye of Gruumsh with [[2d4+1]] orcs",1,"[94, 94]",False
+38,7AOgJDN1xMhVPDrl,{},0,1 triceratops,2,"[95, 96]",False
+39,C0SQ62Grph5tFAq0,{},0,1 cyclops or 1 bulette,1,"[97, 97]",False
+40,9DFBOLzzwyY6SkNI,{},0,[[1d4]] manticores,2,"[98, 99]",False
+41,8XY6RLdjfVRzgAlt,{},0,1 tyrannosaurus rex,1,"[100, 100]",False

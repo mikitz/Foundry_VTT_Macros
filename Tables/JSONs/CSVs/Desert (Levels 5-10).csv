@@ -1,0 +1,47 @@
+_id,flags,type,text,weight,range,drawn
+0,RPVaknLqA3g4m0wx,{},0,1 scouts,1,"[1, 1]",False
+1,qxAymhBQ2He2o7R0,{},0,[[2d4]] jackalweres,1,"[2, 2]",False
+2,yasJnbxbgZdnhuB7,{},0,[[2d6]] hobgoblins,1,"[3, 3]",False
+3,9kenvlIkDyQh2DTP,{},0,[[1d4+3]] dust mephits,1,"[4, 4]",False
+4,KmwUkGKaitxRnrmF,{},0,[[1d6]] swarm of insects,1,"[5, 5]",False
+5,unHWb9wqkFQUaSpA,{},0,1 giant constrictor snake,1,"[6, 6]",False
+6,1FHyOtHja6AGiVG5,{},0,1 lion,2,"[7, 8]",False
+7,iB1M2ElHHpPNq7CC,{},0,[[2d4]] gnolls,2,"[9, 10]",False
+8,J0HjEK3H5LNwSYiO,{},0,[[2d6]] giant toads,2,"[11, 12]",False
+9,ozTMzzXw8dtjheWd,{},0,1 mummy,5,"[13, 17]",False
+10,w4IbFJA1YZTKDpLM,{},0,[[1d8+1]] giant vultures,3,"[18, 20]",False
+11,8jGulgIuLsAO5XBd,{},0,A stone obelisk partly buried in the sand,5,"[21, 25]",False
+12,i9ML4I2jvIroTa80,{},0,1 ogre with [[1d3]] half-ogres,3,"[26, 28]",False
+13,HlUa03ntxV32XgFk,{},0,[[1d10]] giant hyenas,7,"[29, 35]",False
+14,TOFQuCgXGQ1aiAQj,{},0,[[1d6+1]] empty tents,5,"[36, 40]",False
+15,w3Idj8FQ3GkPHfZ4,{},0,[[1d6+2]] thri-kreen,3,"[41, 43]",False
+16,hCFXJkszn3lwEjgX,{},0,[[2d4]] yuan-ti purebloods,3,"[44, 46]",False
+17,EvCdXQM20vkn3Fjg,{},0,[[1d6+3]] death dogs,4,"[47, 50]",False
+18,qtaNEkGUnvgt0GNI,{},0,[[1d4]] giant scorpions,2,"[51, 52]",False
+19,e2vfL5zz4T37VysN,{},0,1 fire elemental,1,"[53, 53]",False
+20,Uqe58H17GyTgUgJv,{},0,1 hobgoblin captain with [[3d4]] hobgoblins,2,"[54, 55]",False
+21,fsqojNKPmpghZPCp,{},0,[[1d6+2]] ogres,1,"[56, 56]",False
+22,BCX4ZGyAVQPNxond,{},0,[[1d4]] lamias,2,"[57, 58]",False
+23,K5sjg4Im1rf9hsWp,{},0,1 air elemental,2,"[59, 60]",False
+24,hGCoIXek0VZYZk8I,{},0,A meteorite resting at the bottom of a glassy crater,5,"[61, 65]",False
+25,5Kj83iN7471MscT5,{},0,[[1d4+1]] wights,1,"[66, 66]",False
+26,eHIhysnFru9FNSuV,{},0,1 young brass dragon,2,"[67, 68]",False
+27,Mri5Jzb61oxWzbNa,{},0,1 bandit captain with [[1d3]] berserkers and [[3d6]] bandits,2,"[69, 70]",False
+28,NTK5LwBoWDwiyZfF,{},0,1 cyclops,2,"[71, 72]",False
+29,g56CDn49t1Zoeu4w,{},0,[[1d4]] couatls,1,"[73, 73]",False
+30,aUpz9paqHg3IaDUo,{},0,[[1d4]] yuan-ti malisons,2,"[74, 75]",False
+31,K8Wb5MlWhDKdt3M3,{},0,Strong winds that kick up dust and reduce visibility to [[1d6]] feet for [[1d4]] hours,5,"[76, 80]",False
+32,0LsvRUCJAirDkHW1,{},0,1 revenant with [[1d3]] wights,3,"[81, 83]",False
+33,iRfHTCoXeXm6mYsU,{},0,[[1d8+1]] phase spiders,2,"[84, 85]",False
+34,El4LW6bQGZL6SGMj,{},0,[[1d6+2]] weretigers,2,"[86, 87]",False
+35,NpojGQaVjeoAemSz,{},0,[[2d4]] gnoll fangs of Yeenoghu,3,"[88, 90]",False
+36,OsiHxkmbG5THAxup,{},0,1 young blue dragon,1,"[91, 91]",False
+37,XhB3Ra4RrNXFRj3k,{},0,[[1d4]] cyclopes,1,"[92, 92]",False
+38,zuqdSp5Jx2k0ACmO,{},0,[[1d3]] yuan-ti abominations,1,"[93, 93]",False
+39,4xZvhUtGoB2hyvKw,{},0,[[1d4]] medusas,1,"[94, 94]",False
+40,HUgP8ISvuXzv7j8Q,{},0,1 guardian naga,1,"[95, 95]",False
+41,tnaXgNFVaPPG4hpQ,{},0,[[1d3]] young brass dragons,1,"[96, 96]",False
+42,iJzIpAXfqMHNCrYZ,{},0,1 efreeti,1,"[97, 97]",False
+43,iCBrLlVHSM7ejd86,{},0,1 roc,1,"[98, 98]",False
+44,GbiWYXbaFnR1VV6M,{},0,1 gynosphinx,1,"[99, 99]",False
+45,vyUBnr9FTcbYdaMC,{},0,1 adult brass dragon,1,"[100, 100]",False

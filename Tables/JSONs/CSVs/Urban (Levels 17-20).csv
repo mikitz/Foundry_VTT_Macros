@@ -1,0 +1,26 @@
+_id,flags,type,text,img,resultId,weight,range,drawn
+0,GFcIc9Wh9HDTndf0,{},0,[[1d10]] invisible stalkers,icons/svg/d20-black.svg,,5,"[1, 5]",False
+1,fMnjRUxfubAErwcF,{},0,[[1d10]] revenants,icons/svg/d20-black.svg,,5,"[6, 10]",False
+2,KWDJkN3kSEeuNyUT,{},0,[[1d6+2]] gladiators,icons/svg/d20-black.svg,,4,"[11, 14]",False
+3,kh9SrjdSAzvHWUF9,{},0,[[2d4]] cambions,icons/svg/d20-black.svg,,4,"[15, 18]",False
+4,6b4L2jdYJoYJ1lyH,{},0,[[2d6]] succubi or [[2d6]] incubi,icons/svg/d20-black.svg,,4,"[19, 22]",False
+5,UQpNFEzVPMMICaoi,{},0,A witch (archmage) who zooms overhead on a broom of flying,icons/svg/d20-black.svg,,3,"[23, 25]",False
+6,wL868xfqHoAwxsQq,{},0,[[1d4]] gray slaadi,icons/svg/d20-black.svg,,5,"[26, 30]",False
+7,lRqG4COPcrnIcuju,{},0,[[2d8]] couatls,icons/svg/d20-black.svg,,5,"[31, 35]",False
+8,CE9irHptIBHwHwgJ,{},0,"A distraught parent who rushes up to people, begging for help for a child who fell into the sewer",icons/svg/d20-black.svg,,5,"[36, 40]",False
+9,53QSgxttSZ3ornWd,{},0,[[1d3]] young silver dragons,icons/svg/d20-black.svg,,5,"[41, 45]",False
+10,uDef8otXVPsu7mV4,{},0,[[3d6]] ghosts,icons/svg/d20-black.svg,,5,"[46, 50]",False
+11,Qf7HecAym89argFT,{},0,1 adult silver dragon,icons/svg/d20-black.svg,,5,"[51, 55]",False
+12,a41X3l3ppiNRcFHh,{},0,[[1d4]] mages with [[1d4]] shield guardians,icons/svg/d20-black.svg,,5,"[56, 60]",False
+13,iyioC04EAqaR1kJC,{},0,"An aggressive merchant who hawks wares to passersby, claiming to be the purveyor of the finest silks in all the land",icons/svg/d20-black.svg,,5,"[61, 65]",False
+14,iLafZTa4Z5qcxHig,{},0,1 ancient silver dragon,icons/svg/d20-black.svg,,5,"[66, 70]",False
+15,xBaXbhIeUhVSiRfj,{},0,[[3d6]] vampire spawn,icons/svg/d20-black.svg,,5,"[71, 75]",False
+16,VuCn4TgGjsvuh891,{},0,"A patrol of [[2d10]] guards marching up the street, searching for someone or something",icons/svg/d20-black.svg,,5,"[76, 80]",False
+17,onoJDoCQpgjrQ1w6,{},0,[[1d10]] assassins,icons/svg/d20-black.svg,,5,"[81, 85]",False
+18,JLzG3A4GERJ9Sd6U,{},0,[[1d4+1]] gray slaadi,icons/svg/d20-black.svg,,5,"[86, 90]",False
+19,10Dtf93aRSuCPKN5,{},0,[[1d10]] oni,icons/svg/d20-black.svg,,3,"[91, 93]",False
+20,jmrMzZxVi4wBlIVM,{},0,1 spellcaster vampire or 1 warrior vampire,icons/svg/d20-black.svg,,3,"[94, 96]",False
+21,al6nXSrn9ZSsB4Y0,{},0,[[1d4]] archmages,icons/svg/d20-black.svg,,1,"[97, 97]",False
+22,wzcLEJeOvEPwhjIt,{},0,[[1d3]] rakshasas,icons/svg/d20-black.svg,,1,"[98, 98]",False
+23,gcy8NcBNkkpB2W7L,{},0,[[1d4]] vampires,icons/svg/d20-black.svg,,1,"[99, 99]",False
+24,TkwRYCCyljCDyZsx,{},0,1 tarrasque,icons/svg/d20-black.svg,,1,"[100, 100]",False

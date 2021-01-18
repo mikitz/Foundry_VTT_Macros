@@ -1,0 +1,4 @@
+_id,flags,type,text,img,weight,range,drawn
+0,MOQKoXgj2rES7rhM,{},0,normal for the season,icons/svg/d20-black.svg,1,"[1, 14]",False
+1,JloMqeAsPbzEArCb,{},0,1d4 × 10 degrees Fahrenheit colder than normal,icons/svg/d20-black.svg,1,"[15, 17]",False
+2,pu94TVQKUrMswZeW,{},0,1d4 × 10 degrees Fahrenheit hotter than normal,icons/svg/d20-black.svg,1,"[18, 20]",False

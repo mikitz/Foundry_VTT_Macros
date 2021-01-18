@@ -1,0 +1,19 @@
+_id,flags,type,text,weight,range,drawn
+0,jpnWJ7AAYHmWKDgR,{},0,[[3d6]] wereboars,5,"[1, 5]",False
+1,G0miwQDTRlscD1AE,{},0,[[2d10]] gnoll fangs of Yeenoghu,5,"[6, 10]",False
+2,OGoHuFvFif1Zj4DU,{},0,[[1d4]] bulettes,5,"[11, 15]",False
+3,RhJJMd0bDuVndueM,{},0,"An old road of paved stones, partly reclaimed by wilderness, that travels for [[1d8]] miles in either direction before ending",2,"[16, 17]",False
+4,mecbyQsI2jsfBhy1,{},0,[[1d12]] couatls,10,"[18, 27]",False
+5,1tMehgvxnxHeNBng,{},0,"A witch (mage) dwelling in a crude hut. She offers potions of healing, antitoxins, and other consumable items for sale in exchange for food and news.",3,"[28, 30]",False
+6,RjYGbTkgSy6GNgsh,{},0,[[2d10]] elephants,10,"[31, 40]",False
+7,Nh38eHnA2mAaYs6A,{},0,[[2d4]] weretigers,6,"[41, 46]",False
+8,rRNrXOJDsKJeHXxl,{},0,[[1d8+1]] cyclopes,10,"[47, 56]",False
+9,UVJ4BefrcUthsvl1,{},0,[[1d3]] chimeras,5,"[57, 61]",False
+10,zTqk1dpjEEnoIogi,{},0,5 triceratopses,5,"[62, 66]",False
+11,ioDlSCiFyXOODYPc,{},0,A giant hole 50 feet across that descends nearly 500 feet before opening into an empty cave,3,"[67, 69]",False
+12,eKqnw89zQpzEtjtp,{},0,[[1d4+3]] gorgons,10,"[70, 79]",False
+13,uDtWwX8G3HVKB5tQ,{},0,[[1d3]] young gold dragons,9,"[80, 88]",False
+14,RbJonzdraAf2R8rR,{},0,A circular section of grass nearly a quarter-mile across that appears to have been pressed down; [[1d4]] more such circles connected by lines can be seen from overhead.,2,"[89, 90]",False
+15,KLF6PJvj9sz0PvwB,{},0,[[2d4]] tyrannosaurus rexes,6,"[91, 96]",False
+16,L2VRky43QAflCSjh,{},0,1 adult gold dragon,3,"[97, 99]",False
+17,eVEoxnlZzf3lBNqG,{},0,1 ancient gold dragon,1,"[100, 100]",False

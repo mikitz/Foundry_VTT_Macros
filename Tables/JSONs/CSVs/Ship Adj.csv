@@ -1,0 +1,21 @@
+_id,flags,type,text,img,resultId,weight,range,drawn
+0,m7GRIwde2V0FOqn8,{},0,Beautiful,icons/svg/d20-black.svg,,1,"[1, 1]",False
+1,Vs2nmaqioH1dmL38,{},0,Bilious,icons/svg/d20-black.svg,,1,"[2, 2]",False
+2,QmBmEBQiZYdAeqBS,{},0,Bold,icons/svg/d20-black.svg,,1,"[3, 3]",False
+3,mtF4uAmasGJPmagO,{},0,Cold,icons/svg/d20-black.svg,,1,"[4, 4]",False
+4,iULCfKSBV7kL3W8H,{},0,Dandy,icons/svg/d20-black.svg,,1,"[5, 5]",False
+5,fJEKZyh7G1xnMc3d,{},0,Dawn,icons/svg/d20-black.svg,,1,"[6, 6]",False
+6,qPmDScqp6xLKiwBG,{},0,Drunken,icons/svg/d20-black.svg,,1,"[7, 7]",False
+7,HnOdNQpNYxTsZYX5,{},0,Fiery,icons/svg/d20-black.svg,,1,"[8, 8]",False
+8,SXqCYIwJpC52RuRr,{},0,Furious,icons/svg/d20-black.svg,,1,"[9, 9]",False
+9,C1Y0SU4WDnXJNJss,{},0,Grinning,icons/svg/d20-black.svg,,1,"[10, 10]",False
+10,dKnRUpj6y5vmBzx3,{},0,Intrepid,icons/svg/d20-black.svg,,1,"[11, 11]",False
+11,IoK862Z4woQphcSJ,{},0,Jolly,icons/svg/d20-black.svg,,1,"[12, 12]",False
+12,DKcavybUyyecc1im,{},0,Misty,icons/svg/d20-black.svg,,1,"[13, 13]",False
+13,6ZWTta91Emy5nyoo,{},0,Rambunctious,icons/svg/d20-black.svg,,1,"[14, 14]",False
+14,IYiFbQKT9FKKv12u,{},0,Red,icons/svg/d20-black.svg,,1,"[15, 15]",False
+15,PNRXtZ3QFchZTwiy,{},0,Royal,icons/svg/d20-black.svg,,1,"[16, 16]",False
+16,aTCa5UIzvIMoK0lY,{},0,Salty,icons/svg/d20-black.svg,,1,"[17, 17]",False
+17,6BjvyTB4L7YTQPnN,{},0,Sinful,icons/svg/d20-black.svg,,1,"[18, 18]",False
+18,l2shOFfLuA0GMN42,{},0,Twilight,icons/svg/d20-black.svg,,1,"[19, 19]",False
+19,Ic6WJZqzWScy8IHN,{},0,Zealous,icons/svg/d20-black.svg,,1,"[20, 20]",False

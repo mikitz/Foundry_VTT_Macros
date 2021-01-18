@@ -1,0 +1,4 @@
+_id,flags,type,text,img,weight,range,drawn
+0,uDlU3DXrGoToDroR,{},0,no precipitation,icons/svg/d20-black.svg,1,"[1, 12]",False
+1,xTHv4uY8yjxohl51,{},0,light rain or light snowfall,icons/svg/d20-black.svg,1,"[13, 17]",False
+2,MJ8q4qZB1BIyykMr,{},0,heavy rain or heavy snowfall,icons/svg/d20-black.svg,1,"[18, 20]",False

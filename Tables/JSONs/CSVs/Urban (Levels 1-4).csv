@@ -1,0 +1,68 @@
+_id,flags,type,text,img,resultId,weight,range,drawn
+0,qTl642sDnuak8Nt7,{},0,[[1d6]] cats,icons/svg/d20-black.svg,,1,"[1, 1]",False
+1,5xyaz5RVpoOPaRJL,{},0,1 commoner with [[1d6]] goats,icons/svg/d20-black.svg,,2,"[2, 3]",False
+2,71GIikUVmWyhI8Zh,{},0,[[2d10]] rats,icons/svg/d20-black.svg,,2,"[4, 5]",False
+3,BBSdWmjmCYavqUlo,{},0,1 raven perched on a signpost,icons/svg/d20-black.svg,,1,"[6, 6]",False
+4,SiDDMKYJVy1KoqTm,{},0,1 commoner on a draft horse,icons/svg/d20-black.svg,,1,"[7, 7]",False
+5,jT1YDPAG0M5worVi,{},0,[[2d4]] mastiffs,icons/svg/d20-black.svg,,1,"[8, 8]",False
+6,11ya1C0FIkKRvTfW,{},0,[[1d2]] commoners leading [[1d4]] mules or [[1d4]] ponies,icons/svg/d20-black.svg,,1,"[9, 9]",False
+7,8pEqxXAMZuatKi6j,{},0,1 pseudodragon,icons/svg/d20-black.svg,,1,"[10, 10]",False
+8,mvM9SCpqHX145zWQ,{},0,1 spy,icons/svg/d20-black.svg,,1,"[11, 11]",False
+9,q3zDPmQrl9BU23YM,{},0,[[1d8+1]] acolytes,icons/svg/d20-black.svg,,2,"[12, 13]",False
+10,1XswkyWmgOrJiJzq,{},0,[[1d6+6]] flying snakes,icons/svg/d20-black.svg,,1,"[14, 14]",False
+11,XtQfVt50Nz9theEq,{},0,[[3d6]] kobolds,icons/svg/d20-black.svg,,1,"[15, 15]",False
+12,W8ZUBZbU2Gv1ZqFc,{},0,[[2d4]] giant centipedes,icons/svg/d20-black.svg,,1,"[16, 16]",False
+13,uuK1kPrm3tllV6Mt,{},0,[[1d8+1]] skeletons,icons/svg/d20-black.svg,,1,"[17, 17]",False
+14,HaQEqCCBxLi42Ti3,{},0,[[1d6+2]] swarms of rats,icons/svg/d20-black.svg,,2,"[18, 19]",False
+15,VycvdQZaEosH2ENm,{},0,[[1d12]] zombies,icons/svg/d20-black.svg,,1,"[20, 20]",False
+16,jL1Zzs57HV2E3pAK,{},0,"A peddler weighed down with a load of pots, pans, and other basic supplies",icons/svg/d20-black.svg,,5,"[21, 25]",False
+17,2TzM5EnynkCbtvst,{},0,1 giant wasp,icons/svg/d20-black.svg,,1,"[26, 26]",False
+18,9UbRWkZTbcAYoTuE,{},0,1 warhorse,icons/svg/d20-black.svg,,2,"[27, 28]",False
+19,UYbdD6datkQTSJQH,{},0,[[2d8]] cultists,icons/svg/d20-black.svg,,1,"[29, 29]",False
+20,R6Kik6wMXWAh5DfP,{},0,[[3d4]] giant rats,icons/svg/d20-black.svg,,2,"[30, 31]",False
+21,7tkgKoGfTTvF3WSI,{},0,[[2d8]] stirges,icons/svg/d20-black.svg,,1,"[32, 32]",False
+22,NaRTIF97b8kd9mJo,{},0,[[1d3+2]] giant poisonous snakes,icons/svg/d20-black.svg,,1,"[33, 33]",False
+23,xBrCh9iEPrYtl2Dg,{},0,[[1d4+2]] swarms of bats,icons/svg/d20-black.svg,,1,"[34, 34]",False
+24,0NCR6cp3YcoHMLCH,{},0,[[2d4]] winged kobolds,icons/svg/d20-black.svg,,1,"[35, 35]",False
+25,WRKwC9t8UE6TjYqM,{},0,A wagon loaded with apples that has a broken wheel and holds up traffic,icons/svg/d20-black.svg,,5,"[36, 40]",False
+26,C1NkuIc7fy7NCufe,{},0,1 crocodile,icons/svg/d20-black.svg,,1,"[41, 41]",False
+27,CU4C9cjDY0lPKGK7,{},0,1 swarm of insects,icons/svg/d20-black.svg,,2,"[42, 43]",False
+28,ERY3A4Pfp5JRaAAx,{},0,[[3d6]] bandits,icons/svg/d20-black.svg,,2,"[44, 45]",False
+29,sa65r5LIDN4Ik43N,{},0,[[1d3+2]] nobles on riding horses with an escort of [[1d10]] guards,icons/svg/d20-black.svg,,2,"[46, 47]",False
+30,TztREZIsGLeSftBO,{},0,[[2d4]] kenku,icons/svg/d20-black.svg,,1,"[48, 48]",False
+31,V10gE590j4Wa4x5S,{},0,[[1d6+2]] smoke mephits,icons/svg/d20-black.svg,,1,"[49, 49]",False
+32,mlGRRBIjiVzCQnWR,{},0,[[1d8+1]] swarms of ravens,icons/svg/d20-black.svg,,1,"[50, 50]",False
+33,oyqbJLvh8re5Ci2R,{},0,1 wererat,icons/svg/d20-black.svg,,2,"[51, 52]",False
+34,LbTf8QMYehxF6vLL,{},0,[[1d3]] half-ogres,icons/svg/d20-black.svg,,2,"[53, 54]",False
+35,D6oiFKfrNLsicjSi,{},0,1 mimic,icons/svg/d20-black.svg,,2,"[55, 56]",False
+36,8SnqMD31DlqaMYgM,{},0,[[1d4]] ghouls,icons/svg/d20-black.svg,,2,"[57, 58]",False
+37,5CA6mc1zlX4Kijzu,{},0,[[1d4]] specters,icons/svg/d20-black.svg,,2,"[59, 60]",False
+38,gMd6LdQwL583Z21J,{},0,[[1d10]] shadows,icons/svg/d20-black.svg,,2,"[61, 62]",False
+39,5DHDjXz2VcFVoeCh,{},0,Someone empties a chamber pot onto the street from a second-floor window,icons/svg/d20-black.svg,,3,"[63, 65]",False
+40,hdrBf34qewR672xA,{},0,1 ghast,icons/svg/d20-black.svg,,2,"[66, 67]",False
+41,h2aHJ1GLl1YasBMY,{},0,1 priest,icons/svg/d20-black.svg,,2,"[68, 69]",False
+42,TdoVtnIfsCa9QMHD,{},0,1 will-o'-wisp,icons/svg/d20-black.svg,,2,"[70, 71]",False
+43,CzDwxbvJB1iVFGtC,{},0,[[1d3]] giant-spiders,icons/svg/d20-black.svg,,2,"[72, 73]",False
+44,lU0wMweHIPMgOVcH,{},0,[[1d4]] yuan-ti purebloods,icons/svg/d20-black.svg,,2,"[74, 75]",False
+45,6a1I2w2FOPAURSWS,{},0,[[2d4]] thugs,icons/svg/d20-black.svg,,2,"[76, 77]",False
+46,1FRGNdoWG99DbFKq,{},0,A doomsayer who preaches the end of the world from a street corner,icons/svg/d20-black.svg,,3,"[78, 80]",False
+47,DfM3DaGya9YjDjhd,{},0,1 cambion,icons/svg/d20-black.svg,,1,"[81, 81]",False
+48,KP7LfmFZtrRuMq3D,{},0,1 vampire spawn,icons/svg/d20-black.svg,,1,"[82, 82]",False
+49,v9wL4RqDRu6SzQ2q,{},0,1 couatl,icons/svg/d20-black.svg,,1,"[83, 83]",False
+50,KCEBExv3jbj6QJNO,{},0,1 ghost,icons/svg/d20-black.svg,,1,"[84, 84]",False
+51,DqT0CZqZmmfBNhM0,{},0,1 succubus or 1 incubus,icons/svg/d20-black.svg,,1,"[85, 85]",False
+52,8esvPGMJG18YuIw1,{},0,1 bandit captain with [[3d6]] bandits,icons/svg/d20-black.svg,,1,"[86, 86]",False
+53,s0bsnUMWGR8w6KRW,{},0,[[1d4+1]] cult fanatics,icons/svg/d20-black.svg,,1,"[87, 87]",False
+54,pAFBoC1qH0FsrKCu,{},0,1 knight or 1 veteran,icons/svg/d20-black.svg,,1,"[88, 88]",False
+55,K3LnyfNFSk7hrJr4,{},0,1 water weird,icons/svg/d20-black.svg,,1,"[89, 89]",False
+56,N1z49AW68D7bFHjZ,{},0,1 wight,icons/svg/d20-black.svg,,1,"[90, 90]",False
+57,iqlTvAigEVGpNtJN,{},0,1 mage,icons/svg/d20-black.svg,,1,"[91, 91]",False
+58,gSofBjbin1yJehnc,{},0,1 shield guardian,icons/svg/d20-black.svg,,1,"[92, 92]",False
+59,QJ5vVSjOktDSIjcd,{},0,1 gladiator,icons/svg/d20-black.svg,,1,"[93, 93]",False
+60,SxBSb5UqrqhvAQoe,{},0,1 revenant,icons/svg/d20-black.svg,,1,"[94, 94]",False
+61,E6p4n8aJvxzNkCJh,{},0,[[2d4]] gargoyles,icons/svg/d20-black.svg,,1,"[95, 95]",False
+62,RgrZZWiYQUKkbGcb,{},0,[[1d4]] doppelgangers,icons/svg/d20-black.svg,,1,"[96, 96]",False
+63,Zrg4esVkQ1Y9BfDc,{},0,1 oni,icons/svg/d20-black.svg,,1,"[97, 97]",False
+64,HKk2M19VxytKQbki,{},0,1 invisible stalker,icons/svg/d20-black.svg,,1,"[98, 98]",False
+65,mGcXLxgBA2CH25om,{},0,[[1d3+1]] phase spiders,icons/svg/d20-black.svg,,1,"[99, 99]",False
+66,TgzPmFQNMZp6rZRk,{},0,1 assassin,icons/svg/d20-black.svg,,1,"[100, 100]",False

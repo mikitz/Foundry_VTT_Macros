@@ -1,0 +1,20 @@
+_id,flags,type,text,weight,range,drawn
+0,ppe1ZLoIZ2hKbiiZ,{},0,1 adult brass dragon,5,"[1, 5]",False
+1,nA8cmZPYENyKWGWi,{},0,[[1d2]] yuan-ti abominations with [[2d10+5]] yuan-ti malisons and [[4d6+6]] yuan-ti purebloods,5,"[6, 10]",False
+2,OzHkD4BB3K8iTD3s,{},0,[[1d6+2]] medusas,4,"[11, 14]",False
+3,H5wYMCpEBzA5AYYY,{},0,[[1d2]] purple worms,4,"[15, 18]",False
+4,k7zTa7WG0bQoXnu2,{},0,[[2d4]] cyclopes,4,"[19, 22]",False
+5,yLNL7YTOHlaOUt3n,{},0,"An abandoned city made from white marble, empty during the day. At night, harmless apparitions roam the streets, replaying the final moments of their lives.",3,"[23, 25]",False
+6,m5PDTYxHogB2ulcq,{},0,[[1d3]] young blue dragons,5,"[26, 30]",False
+7,QnQuTG5vnL6jBqWV,{},0,1 mummy lord,5,"[31, 35]",False
+8,e9sp6NaBuL80RYkQ,{},0,[[1d4]] hours of extreme heat (see chapter 5 of the Dungeon Master's Guide),5,"[36, 40]",False
+9,jfZM6MMpiaJzzJ6H,{},0,[[1d3]] guardian nagas,10,"[41, 50]",False
+10,HEa8nh2zAxIK5ML3,{},0,[[1d4]] efreet,10,"[51, 60]",False
+11,l6Ga2jsXQ0HASCeX,{},0,"An old signpost identifying a single destination, called Pazar",3,"[61, 63]",False
+12,3BduffdEpJhDOjrT,{},0,[[1d4]] rocs,9,"[64, 72]",False
+13,UftYsNK57rzj0eP3,{},0,[[1d3]] gynosphinxes,8,"[73, 80]",False
+14,mUudXJVLCuxzTn4o,{},0,1 adult blue dracolich,5,"[81, 85]",False
+15,GEpejUJWWqL0Zwpg,{},0,1 androsphinx,5,"[86, 90]",False
+16,TWqEK54q7FjNCXwf,{},0,1 ancient brass dragon,6,"[91, 96]",False
+17,i116AaSew8JIETWy,{},0,1 ancient blue dragon,3,"[97, 99]",False
+18,7hLntEtALow4MuEv,{},0,[[1d4]] adult brass dragons,1,"[100, 100]",False

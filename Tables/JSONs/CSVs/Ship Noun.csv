@@ -1,0 +1,21 @@
+_id,flags,type,text,img,resultId,weight,range,drawn
+0,I7iNXEguu7HJQxUV,{},0,Adventure,icons/svg/d20-black.svg,,1,"[1, 1]",False
+1,1VjslpF87Y9ZobTl,{},0,Barnacle,icons/svg/d20-black.svg,,1,"[2, 2]",False
+2,F9v1WoLx0rONP5iE,{},0,Brawler,icons/svg/d20-black.svg,,1,"[3, 3]",False
+3,D9PMvFrLaBhuxvDi,{},0,Devil,icons/svg/d20-black.svg,,1,"[4, 4]",False
+4,SBXHkNc7rrotSfgY,{},0,Dragon,icons/svg/d20-black.svg,,1,"[5, 5]",False
+5,lZhtvHjcpSqprpnC,{},0,Gem,icons/svg/d20-black.svg,,1,"[6, 6]",False
+6,Bl0XxSMBjGekk0oA,{},0,Flower,icons/svg/d20-black.svg,,1,"[7, 7]",False
+7,uZfTJH9deBf3LRjI,{},0,Jester,icons/svg/d20-black.svg,,1,"[8, 8]",False
+8,bFWGLG00QUOEN6a9,{},0,Kraken,icons/svg/d20-black.svg,,1,"[9, 9]",False
+9,rlvUQWt49EsptBhz,{},0,Leviathan,icons/svg/d20-black.svg,,1,"[10, 10]",False
+10,EYGT1KlQ1RnIHNVC,{},0,Mermaid,icons/svg/d20-black.svg,,1,"[11, 11]",False
+11,5tMXnztuznn5Acxd,{},0,Prince,icons/svg/d20-black.svg,,1,"[12, 12]",False
+12,8YOyt7D3hRB42RLG,{},0,Princess,icons/svg/d20-black.svg,,1,"[13, 13]",False
+13,tSEJlvjP4KyVPfqw,{},0,Revenge,icons/svg/d20-black.svg,,1,"[14, 14]",False
+14,TLawIs0aD7RGgo1Q,{},0,Saber,icons/svg/d20-black.svg,,1,"[15, 15]",False
+15,1A90oQLnGLy7xFgT,{},0,Shark,icons/svg/d20-black.svg,,1,"[16, 16]",False
+16,hwFUgTEDsOBP53Wd,{},0,Tide,icons/svg/d20-black.svg,,1,"[17, 17]",False
+17,jVyZDdTyhYiPLgEZ,{},0,Treasure,icons/svg/d20-black.svg,,1,"[18, 18]",False
+18,mTwk8W6ZLrCsIuox,{},0,Victory,icons/svg/d20-black.svg,,1,"[19, 19]",False
+19,QWeNlW5ANgs68zhQ,{},0,Wanderer,icons/svg/d20-black.svg,,1,"[20, 20]",False

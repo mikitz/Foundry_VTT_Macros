@@ -1,0 +1,11 @@
+_id,flags,type,text,img,resultId,weight,range,drawn
+0,3LIHZqMUYYHwFfPS,{},0,Gold Dragon,icons/svg/d20-black.svg,,1,"[1, 1]",False
+1,lF66jWDBxS1NyOVh,{},0,Silver Dragon,icons/svg/d20-black.svg,,1,"[2, 2]",False
+2,Av05XCTjU5HHVB1X,{},0,Copper Dragon,icons/svg/d20-black.svg,,1,"[3, 3]",False
+3,tBzxjXt2VJp0EDCA,{},0,Brass Dragon,icons/svg/d20-black.svg,,1,"[4, 4]",False
+4,shfZxzNUhyGTjcWZ,{},0,Bronze Dragon,icons/svg/d20-black.svg,,1,"[5, 5]",False
+5,386nXhwokX1X3k64,{},0,Black Dragon,icons/svg/d20-black.svg,,1,"[6, 6]",False
+6,FMkeJXN9PBZnyxy5,{},0,Blue Dragon,icons/svg/d20-black.svg,,1,"[7, 7]",False
+7,sw2DvTRmaIGiBay3,{},0,Green Dragon,icons/svg/d20-black.svg,,1,"[8, 8]",False
+8,xr47Sa62sqRiBhsv,{},0,Red Dragon,icons/svg/d20-black.svg,,1,"[9, 9]",False
+9,E36EiCgaE9UGmAh9,{},0,White Dragon,icons/svg/d20-black.svg,,1,"[10, 10]",False

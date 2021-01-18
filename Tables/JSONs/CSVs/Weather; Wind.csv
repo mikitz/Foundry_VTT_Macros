@@ -1,0 +1,4 @@
+_id,flags,type,text,img,resultId,weight,range,drawn
+0,MwFOU525rHGxJQAY,{},0,no wind,icons/svg/d20-black.svg,,1,"[1, 12]",False
+1,ck4AZKsATlsORELm,{},0,light wind,icons/svg/d20-black.svg,,1,"[13, 17]",True
+2,1qXWTt1LYhlFh2BW,{},0,strong wind,icons/svg/d20-black.svg,,1,"[18, 20]",False

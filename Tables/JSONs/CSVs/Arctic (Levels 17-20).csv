@@ -1,0 +1,19 @@
+_id,flags,type,text,weight,range,drawn
+0,veDLdntOLKGmiMik,{},0,[[2d10]] revenants,2,"[1, 2]",False
+1,bDm7rwOfFZiyYwKE,{},0,[[2d8]] trolls,2,"[3, 4]",False
+2,H2spzMxO5dtjvX5l,{},0,[[2d10]] werebears,2,"[5, 6]",False
+3,1IBtVFt0gOijnQ9F,{},0,1 frost giant,2,"[7, 8]",False
+4,RcHX4tySdvLF124D,{},0,[[2d4]] young remorhazes,2,"[9, 10]",False
+5,GqtHHGjoYA2IPRk8,{},0,[[1d4]] frost giants,10,"[11, 20]",False
+6,GwpwkhZlCKGshUad,{},0,"A Circular patch of black ice on the ground. The air temperature around the patch is warmer than in the surrounding area, and characters who inspect the ice find bits of machinery frozen within.",5,"[21, 25]",False
+7,AIYOVbAp2oouaxcv,{},0,1 ancient white dragon,10,"[26, 35]",False
+8,7KdsHFmiRX5i4GvC,{},0,An adventurer frozen 6 feet under the ice; 50% chance the corpse has a rare magic item of the DM's choice,5,"[36, 40]",False
+9,buFKk4LJjbQFmBhx,{},0,[[1d3]] abominable yetis,10,"[41, 50]",False
+10,50vDvl6CMZ1grWEo,{},0,[[1d4]] remorhazes,10,"[51, 60]",False
+11,Ak3ChaFrYI3NHX8b,{},0,A 500-foot-high wall of ice that is 300 feet thick and spread across 1d4 miles,5,"[61, 65]",False
+12,vhSgTnqSwSXZoH79,{},0,[[1d4]] rocs,10,"[66, 75]",False
+13,WwFvH7X8DKvMs24z,{},0,"The likeness of a stern woman with long, flowing hair, carved into the side of a mountain",5,"[76, 80]",False
+14,Q6WFTLhhWQTQcjaM,{},0,[[1d10]] frost giants with 2d4 polar bears,10,"[81, 90]",False
+15,n8rQMLEyoYOLUJUO,{},0,[[1d3]] adult white dragons,6,"[91, 96]",False
+16,AD8qAMF1K7208Ij4,{},0,[[2d4]] abominable yetis,3,"[97, 99]",False
+17,ZhLpOvZwkJPqeP8e,{},0,1 ancient white dragon with 1d3 young white dragons,1,"[100, 100]",False

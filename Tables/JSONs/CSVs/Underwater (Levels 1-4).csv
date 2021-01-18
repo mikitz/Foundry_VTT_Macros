@@ -1,0 +1,24 @@
+_id,flags,type,text,weight,range,drawn
+0,GHuanTTQkaaP33zd,{},0,[[3d6]] quippers,10,"[1, 10]",False
+1,Zw6EW9J8WjnGimNu,{},0,[[2d4]] steam mephits,4,"[11, 14]",False
+2,GKG0OTzsmFXBfhQu,{},0,[[1d4]] sahuagin,4,"[15, 18]",False
+3,jQCjWWZIYCQCalci,{},0,[[2d6]] merfolk,4,"[19, 22]",False
+4,ZQKAklP1GGde5tKW,{},0,[[2d4]] corpses of drowned sailors tangled in kelp,3,"[23, 25]",False
+5,X4lB3BMj7RbkCwC2,{},0,[[2d4]] constrictor snakes,4,"[26, 29]",False
+6,ypXy77IJoqL7Kwqb,{},0,[[1d4]] reef sharks,4,"[30, 33]",False
+7,Nu1nHcswibmy4Th7,{},0,1 swarm of quippers,4,"[34, 37]",False
+8,bSnaWYJtT1GWDfp5,{},0,A bed of enormous clams,3,"[38, 40]",False
+9,iiMApSoSjkntjQMp,{},0,[[1d10]] merfolk with [[1d3]] giant sea horses,5,"[41, 45]",False
+10,3p3Falwj9zprIMgg,{},0,1 giant octopus,5,"[46, 50]",False
+11,PoxPZb2MF3IuIs70,{},0,1 merrow,5,"[51, 55]",False
+12,vW6LzO1as00Q5ZDn,{},0,1 plesiosaurus,5,"[56, 60]",False
+13,XD5ryxBXRVqMpx9u,{},0,[[2d10]] pieces of corroded brass dinnerware littering the bottom,5,"[61, 65]",False
+14,PJpnDdsovneIG5Za,{},0,1 giant constrictor snake,5,"[66, 70]",False
+15,l2ulVLK2RO4Mmjk3,{},0,1 sea hag,5,"[71, 75]",False
+16,YAoEHc0sVVFxv0FU,{},0,A school of silvery fish darting through the water,5,"[76, 80]",False
+17,N0M1xKpc3zICyjEW,{},0,[[1d4]] hunter sharks,5,"[81, 85]",False
+18,2d9fN8TrWf6U5wTQ,{},0,1 sahuagin priestess with [[2d4]] sahuagin,5,"[86, 90]",False
+19,VZ1XAKb193iR3XwH,{},0,[[1d4]] killer whales,6,"[91, 96]",False
+20,bfWvhSIUXXotldRb,{},0,1 giant shark,2,"[97, 98]",False
+21,cdq1pK0Vr0DqHWHI,{},0,1 water elemental,1,"[99, 99]",False
+22,B0C5D0I1vk2KCOkm,{},0,1 sahuagin baron,1,"[100, 100]",False

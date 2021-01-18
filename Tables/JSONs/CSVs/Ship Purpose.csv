@@ -1,0 +1,8 @@
+_id,flags,type,text,img,resultId,weight,range,drawn
+0,E4pK5UejStkfSvMk,{},0,Cargo,icons/svg/d20-black.svg,,17,"[1, 17]",False
+1,xRRK6UdqFNbe0Fc3,{},0,Passenger,icons/svg/d20-black.svg,,17,"[18, 34]",False
+2,cPbCTyPTLFu4HjZf,{},0,Fishing,icons/svg/d20-black.svg,,17,"[35, 51]",False
+3,p3F40Q8OszskOHIa,{},0,Military,icons/svg/d20-black.svg,,17,"[52, 68]",False
+4,rww7O45361opBgBQ,{},0,Piracy,icons/svg/d20-black.svg,,17,"[69, 85]",False
+5,jaZVYFZOuV8zDefz,{},0,Mercenary,icons/svg/d20-black.svg,,10,"[86, 95]",False
+6,qstumFOdWX8XRqCv,{},0,Ghost,icons/svg/d20-black.svg,,5,"[96, 100]",False

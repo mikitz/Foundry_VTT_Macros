@@ -1,0 +1,29 @@
+_id,flags,type,text,img,resultId,weight,range,drawn
+0,PqnDLhWTymQNs7V3,{},0,[[2d8]] manticores or [[2d8]] phase spiders,icons/svg/d20-black.svg,,1,"[1, 1]",False
+1,88fHUYM4gVlmTU6X,{},0,[[1d6]] green hags with [[1d6]] wyverns,icons/svg/d20-black.svg,,3,"[2, 4]",False
+2,0Q3YIq8mrYshj3Uj,{},0,1 hobgoblin captain with 1 hill giant and [[4d10]] hobgoblins,icons/svg/d20-black.svg,,3,"[5, 7]",False
+3,CFVERjpjricblNLu,{},0,[[2d6+3]] werewolves,icons/svg/d20-black.svg,,3,"[8, 10]",False
+4,igUDKXAoOu4cCf1e,{},0,[[1d6+2]] ettins,icons/svg/d20-black.svg,,4,"[11, 14]",False
+5,ZmZgriqR3RV03qjy,{},0,[[1d3]] bulettes,icons/svg/d20-black.svg,,4,"[15, 18]",False
+6,DjyNuBw0COluOtHd,{},0,[[1d4]] werebears,icons/svg/d20-black.svg,,4,"[19, 22]",False
+7,95J6SZi3LZm0Qvx0,{},0,A stream of smoke emerging from a small chimney in the hillside,icons/svg/d20-black.svg,,2,"[23, 24]",False
+8,pLjBklsJI4ufg0hd,{},0,[[1d4]] wyverns,icons/svg/d20-black.svg,,4,"[25, 28]",False
+9,4BbmPInXYK01R33Q,{},0,[[1d8+1]] wereboars,icons/svg/d20-black.svg,,4,"[29, 32]",False
+10,A4miCLWbYAmzcSrs,{},0,[[1d3]] revenants,icons/svg/d20-black.svg,,4,"[33, 36]",False
+11,F8Bc4QfJUwVvbVSM,{},0,A mild earthquake that shakes the region for [[1d20]] seconds,icons/svg/d20-black.svg,,2,"[37, 38]",False
+12,dn1XGAJNV8ODyAYM,{},0,[[1d3]] chimeras,icons/svg/d20-black.svg,,4,"[39, 42]",False
+13,0XcUVbRuJ1RroVl6,{},0,[[1d4]] gorgons,icons/svg/d20-black.svg,,4,"[43, 46]",False
+14,VRiuKJUEJgQoO7lx,{},0,[[1d6+2]] gnoll fangs of Yeenoghu,icons/svg/d20-black.svg,,4,"[47, 50]",False
+15,JC8vfsVei7R0ERX1,{},0,[[1d4]] hill giants,icons/svg/d20-black.svg,,4,"[51, 54]",False
+16,i0VXcowq1uSvvw4x,{},0,1 young red dragon,icons/svg/d20-black.svg,,4,"[55, 58]",False
+17,DBwKTaaYbOgMn43W,{},0,[[1d3+1]] galeb duhr,icons/svg/d20-black.svg,,4,"[59, 62]",False
+18,7sIF8MQv0TkemMEC,{},0,"[[2d10]] dwarf miners (commoners), whistling as they march toward their mine",icons/svg/d20-black.svg,,3,"[63, 65]",False
+19,AkDDLYuOkM5H1aOo,{},0,[[1d3]] young copper dragons,icons/svg/d20-black.svg,,4,"[66, 69]",False
+20,udZJ7SP2z2VlgQzh,{},0,[[1d4]] trolls,icons/svg/d20-black.svg,,4,"[70, 73]",False
+21,Gg8hHF9hpeKPqsp5,{},0,[[1d3]] cyclopes,icons/svg/d20-black.svg,,4,"[74, 77]",False
+22,s6nMe5gcieyQM860,{},0,[[1d3]] nobles with [[1d4]] scouts prospecting for gold,icons/svg/d20-black.svg,,3,"[78, 80]",False
+23,lLZcCd8f3Cd882XP,{},0,1 adult copper dragon,icons/svg/d20-black.svg,,5,"[81, 85]",False
+24,sPZcSyA7A4CVzF6H,{},0,[[2d4]] stone giants,icons/svg/d20-black.svg,,5,"[86, 90]",False
+25,72q0jSi2cLxg4K5y,{},0,[[1d4]] rocs,icons/svg/d20-black.svg,,6,"[91, 96]",False
+26,1bBNgDJwairUpJdb,{},0,1 adult red dragon,icons/svg/d20-black.svg,,3,"[97, 99]",False
+27,4Nm1EBF94F56faRs,{},0,1 ancient copper dragon,icons/svg/d20-black.svg,,1,"[100, 100]",False

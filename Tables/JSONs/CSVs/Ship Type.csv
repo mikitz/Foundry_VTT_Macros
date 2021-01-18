@@ -1,0 +1,8 @@
+_id,flags,type,text,img,resultId,weight,range,drawn
+0,tpGQK01geK0Beb56,{},0,Rowboat,icons/svg/d20-black.svg,,9,"[1, 9]",False
+1,7aE1Btym3gs3AXie,{},0,Keelboat,icons/svg/d20-black.svg,,16,"[10, 25]",False
+2,xFuBmJOtb6r6uUD1,{},0,Longship,icons/svg/d20-black.svg,,13,"[26, 38]",False
+3,jSLRtLiTtSLTTMmK,{},0,Sailing ship,icons/svg/d20-black.svg,,22,"[39, 60]",False
+4,45JIpA1bsOUEvQIl,{},0,Galley,icons/svg/d20-black.svg,,19,"[61, 79]",False
+5,wjt74lJoAhiv80Dx,{},0,Warship,icons/svg/d20-black.svg,,21,"[80, 100]",False
+6,1ncgrxjVMvL3TqSb,{},0,<h2>Nautiloid</h2>,icons/svg/d20-black.svg,,1,"[101, 101]",False

@@ -1,0 +1,118 @@
+_id,flags,type,text,weight,range,drawn
+0,asBPwwBylaEZGVA5,{},0,AarakocraDex +2; Wis +1MediumEEPC,1,"[1, 1]",False
+1,WmLY5MHjxE2jybe1,{},0,AasimarCha +2; Wis +1MediumDMG,1,"[2, 2]",False
+2,DHYWawSbXPMfFAmX,{},0,AasimarCha +2MediumVGM,1,"[3, 3]",False
+3,eWlNp5eoChVXHHHy,{},0,Aasimar (Fallen)Cha +2; Str +1MediumVGM,1,"[4, 4]",False
+4,RaPNXVMbezvQeIDR,{},0,Aasimar (Protector)Cha +2; Wis +1MediumVGM,1,"[5, 5]",False
+5,cKyiab1zEKYhXa96,{},0,Aasimar (Scourge)Cha +2; Con +1MediumVGM,1,"[6, 6]",False
+6,jKPEKmhBxDp7VpvO,{},0,BugbearStr +2; Dex +1MediumERLW,1,"[7, 7]",False
+7,wtDw46osBr9oo41A,{},0,BugbearStr +2; Dex +1MediumVGM,1,"[8, 8]",False
+8,hkjIVNRa4mAk3zdD,{},0,CentaurStr +2; Wis +1MediumGGR,1,"[9, 9]",False
+9,fPS5QuhBAnBsTw4y,{},0,CentaurStr +2; Wis +1MediumMOT,1,"[10, 10]",False
+10,3n9dMtjGjXW6nb8A,{},0,ChangelingCha +2; Any other +1MediumERLW,1,"[11, 11]",False
+11,3mu5CAbzsqjJBH4H,{},0,Custom LineageAny +2VariesTCE,1,"[12, 12]",False
+12,zoDmnshdzQqWhRG2,{},0,DragonbornStr +2; Cha +1MediumPHB,1,"[13, 13]",False
+13,uLQNIZVbfS4sv1LG,{},0,Dragonborn (Base)Str +2; Cha +1MediumPHB,1,"[14, 14]",False
+14,PxBVG6CN6E9w0wCI,{},0,Dragonborn (Draconblood)Int +2; Cha +1MediumEGW,1,"[15, 15]",False
+15,rKGxMVAfa02mnSMM,{},0,Dragonborn (Ravenite)Str +2; Con +1MediumEGW,1,"[16, 16]",False
+16,SKc3re9bFy8VZ51a,{},0,DwarfCon +2MediumPHB,1,"[17, 17]",False
+17,Iq2TGNVj6owOOohI,{},0,Dwarf (Duergar)Con +2; Str +1MediumMTF,1,"[18, 18]",False
+18,Xgv1AnNmtX4cwmA4,{},0,Dwarf (Hill)Con +2; Wis +1MediumPHB,1,"[19, 19]",False
+19,uTiDRCwbyjaV5KJJ,{},0,Dwarf (Mark of Warding)Con +2; Int +1MediumERLW,1,"[20, 20]",False
+20,x3SQ3diAA2IiEFhi,{},0,Dwarf (Mountain)Str +2; Con +2MediumPHB,1,"[21, 21]",False
+21,B942Hn9UIHMF7VHz,{},0,ElfDex +2MediumPHB,1,"[22, 22]",False
+22,a4ktyowRbGmaX0WM,{},0,Elf (Drow)Dex +2; Cha +1MediumPHB,1,"[23, 23]",False
+23,r375VkZ188fWa9ai,{},0,Elf (Eladrin)Dex +2; Int +1MediumDMG,1,"[24, 24]",False
+24,chRmG7OOcpGLhL8C,{},0,Elf (Eladrin)Dex +2; Cha +1MediumMTF,1,"[25, 25]",False
+25,fonp4E725uYKewLW,{},0,Elf (High)Dex +2; Int +1MediumPHB,1,"[26, 26]",False
+26,P9gUR54Rza0PrxmQ,{},0,Elf (Mark of Shadow)Dex +2; Cha +1MediumERLW,1,"[27, 27]",False
+27,zlszcBRpohT9Z52v,{},0,Elf (Pallid)Dex +2; Wis +1MediumEGW,1,"[28, 28]",False
+28,FMzeGfcgpi8O5VN5,{},0,Elf (Sea)Dex +2; Con +1MediumMTF,1,"[29, 29]",False
+29,JsZocBvGMc09SG0y,{},0,Elf (Shadar-kai)Dex +2; Con +1MediumMTF,1,"[30, 30]",False
+30,8JzAoBVEL3zrvTaP,{},0,Elf (Wood)Dex +2; Wis +1MediumPHB,1,"[31, 31]",False
+31,Gy09VzO0IynDEQnx,{},0,FirbolgWis +2; Str +1MediumVGM,1,"[32, 32]",False
+32,bG0mgVAGwGHnyrmj,{},0,GenasiCon +2MediumEEPC,1,"[33, 33]",False
+33,mRD5mS9KHXDsG36h,{},0,Genasi (Air)Con +2; Dex +1MediumEEPC,1,"[34, 34]",False
+34,VjmzPKjn3ipqeeOs,{},0,Genasi (Earth)Con +2; Str +1MediumEEPC,1,"[35, 35]",False
+35,wuIzsc6GJuxWoalI,{},0,Genasi (Fire)Con +2; Int +1MediumEEPC,1,"[36, 36]",False
+36,Vo9hROAf35aM9C8T,{},0,Genasi (Water)Con +2; Wis +1MediumEEPC,1,"[37, 37]",False
+37,cicUigaCXZWSuVj4,{},0,GithInt +1MediumMTF,1,"[38, 38]",False
+38,R71UICLtMbLvRCoF,{},0,Gith (Githyanki)Str +2; Int +1MediumMTF,1,"[39, 39]",False
+39,2YflfbISOmbIMdsj,{},0,Gith (Githzerai)Wis +2; Int +1MediumMTF,1,"[40, 40]",False
+40,ytcTdJlCPQd41kHS,{},0,GnomeInt +2SmallPHB,1,"[41, 41]",False
+41,t3x0caRYL3rcLiVc,{},0,Gnome (Deep)Int +2; Dex +1SmallMTF,1,"[42, 42]",False
+42,q8lDHUvH8eauMhcu,{},0,Gnome (Deep/Svirfneblin)Int +2; Dex +1SmallSCAG,1,"[43, 43]",False
+43,M9oTL5mZtouHB4yo,{},0,Gnome (Forest)Int +2; Dex +1SmallPHB,1,"[44, 44]",False
+44,5y3wb27xtD4XlmUY,{},0,Gnome (Mark of Scribing)Int +2; Cha +1SmallERLW,1,"[45, 45]",False
+45,dx8mnmG5X1S8kKAc,{},0,Gnome (Rock)Int +2; Con +1SmallPHB,1,"[46, 46]",False
+46,Cz0JU7e1YmLrqeha,{},0,GoblinDex +2; Con +1SmallERLW,1,"[47, 47]",False
+47,SoH1K84D1DIfvfOc,{},0,GoblinDex +2; Con +1SmallGGR,1,"[48, 48]",False
+48,1P4dZryExsI4lyNO,{},0,GoblinDex +2; Con +1SmallVGM,1,"[49, 49]",False
+49,IcwpLwEef4tuKHsK,{},0,GoliathStr +2; Con +1MediumVGM,1,"[50, 50]",False
+50,lC6GviSF9RmXTXRh,{},0,Half-ElfCha +2; Any other two unique +1MediumPHB,1,"[51, 51]",False
+51,SoI8K5kVf25b14OE,{},0,Half-Elf (Variant)Cha +2; Any other two unique +1MediumPHB,1,"[52, 52]",False
+52,dhRXPSIvIfrT5buE,{},0,Half-Elf (Variant; Aquatic Elf Descent)Cha +2; Any other two unique +1MediumSCAG,1,"[53, 53]",False
+53,dSEjtYeuTxwYtu3g,{},0,Half-Elf (Variant; Drow Descent)Cha +2; Any other two unique +1MediumSCAG,1,"[54, 54]",False
+54,KLzDxyWrnyiyCFdi,{},0,Half-Elf (Variant; Mark of Detection)Wis +2; Any other +1MediumERLW,1,"[55, 55]",False
+55,AYRHGMgw3qlBsuZr,{},0,Half-Elf (Variant; Mark of Storm)Cha +2; Dex +1MediumERLW,1,"[56, 56]",False
+56,TT8ZO0p3mokUOfif,{},0,Half-Elf (Variant; Moon Elf or Sun Elf Descent)Cha +2; Any other two unique +1MediumSCAG,1,"[57, 57]",False
+57,bFKxFVgaUOQNNsJw,{},0,Half-Elf (Variant; Wood Elf Descent)Cha +2; Any other two unique +1MediumSCAG,1,"[58, 58]",False
+58,i7aHv6YM20P3xEdy,{},0,Half-OrcStr +2; Con +1MediumPHB,1,"[59, 59]",False
+59,yaqBE5WWyefZKClc,{},0,Half-Orc (Mark of Finding)Wis +2; Con +1MediumERLW,1,"[60, 60]",False
+60,lPvtqsehjyhPAyVL,{},0,HalflingDex +2SmallPHB,1,"[61, 61]",False
+61,WDURuYjpsZfFK6pJ,{},0,Halfling (Ghostwise)Dex +2; Wis +1SmallSCAG,1,"[62, 62]",False
+62,YLETjKoEehitWD48,{},0,Halfling (Lightfoot)Dex +2; Cha +1SmallPHB,1,"[63, 63]",False
+63,cXLMqc6F3A65vFVA,{},0,Halfling (Lotusden)Dex +2; Wis +1SmallEGW,1,"[64, 64]",False
+64,ImkXlyqLGL1F8D2S,{},0,Halfling (Mark of Healing)Dex +2; Wis +1SmallERLW,1,"[65, 65]",False
+65,7QTieLscYfEBNVHl,{},0,Halfling (Mark of Hospitality)Dex +2; Cha +1SmallERLW,1,"[66, 66]",False
+66,gcRhsk6Kmw6TVf8O,{},0,Halfling (Stout)Dex +2; Con +1SmallPHB,1,"[67, 67]",False
+67,cqeTxD01lX9pUkFf,{},0,HobgoblinCon +2; Int +1MediumERLW,1,"[68, 68]",False
+68,oNGA1Hq20ej8hzqO,{},0,HobgoblinCon +2; Int +1MediumVGM,1,"[69, 69]",False
+69,GH4tslaREPKvOBpR,{},0,HumanStr +1; Dex +1; Con +1; Int +1; Wis +1; Cha +1MediumPHB,1,"[70, 70]",False
+70,V15fYIVCabR0SP1Z,{},0,Human (Base)NoneMediumPHB,1,"[71, 71]",False
+71,qMYQTYaDeVePHzLW,{},0,Human (Mark of Finding)Wis +2; Con +1MediumERLW,1,"[72, 72]",False
+72,vuX6ksmvhOdJFJuc,{},0,Human (Mark of Handling)Wis +2; Any other +1MediumERLW,1,"[73, 73]",False
+73,HxR8nUc6x6LDehQQ,{},0,Human (Mark of Making)Int +2; Any other +1MediumERLW,1,"[74, 74]",False
+74,YtSwhx9Jm5HWIOP9,{},0,Human (Mark of Passage)Dex +2; Any other +1MediumERLW,1,"[75, 75]",False
+75,kUlS4O2EKimD52RV,{},0,Human (Mark of Sentinel)Con +2; Wis +1MediumERLW,1,"[76, 76]",False
+76,2U0Y7PHgiGJqlxTf,{},0,Human (Variant)Any two unique +1MediumPHB,1,"[77, 77]",False
+77,Cl9NJTMRczKQhmdX,{},0,KalashtarWis +2; Cha +1MediumERLW,1,"[78, 78]",False
+78,47RUZ3QOUE7LaeQd,{},0,KenkuDex +2; Wis +1MediumVGM,1,"[79, 79]",False
+79,o49vuXfShL9YMh4q,{},0,KoboldDex +2SmallVGM,1,"[80, 80]",False
+80,aAsXDEhZ6VPvtcrg,{},0,LeoninCon +2; Str +1MediumMOT,1,"[81, 81]",False
+81,rSYV3Z0yH51NsCEd,{},0,LizardfolkCon +2; Wis +1MediumVGM,1,"[82, 82]",False
+82,IBdcUTzcZjAc3V1k,{},0,LoxodonCon +2; Wis +1MediumGGR,1,"[83, 83]",False
+83,ZHQQq4ZWQhglqUXO,{},0,MinotaurStr +2; Con +1MediumGGR,1,"[84, 84]",False
+84,OEIo5l3tqGLIwhPS,{},0,MinotaurStr +2; Con +1MediumMOT,1,"[85, 85]",False
+85,mGFUjVV3fsp08Xdt,{},0,OrcStr +2; Con +1MediumEGW,1,"[86, 86]",False
+86,aybvOa9q8v2HHODX,{},0,OrcStr +2; Con +1MediumERLW,1,"[87, 87]",False
+87,fpVvyGhfgv3V4UHP,{},0,OrcStr +2; Con +1MediumVGM,1,"[88, 88]",False
+88,ScFRS03mvPxKOa8x,{},0,SatyrCha +2; Dex +1MediumMOT,1,"[89, 89]",False
+89,aVg60z8AiaB6bdS7,{},0,ShifterNoneMediumERLW,1,"[90, 90]",False
+90,TzGGl1QhRxbE3rMZ,{},0,Shifter (Beasthide)Con +2; Str +1MediumERLW,1,"[91, 91]",False
+91,QyCHoGNYiXm8ysVW,{},0,Shifter (Longtooth)Str +2; Dex +1MediumERLW,1,"[92, 92]",False
+92,Uew227AnbKrBmR00,{},0,Shifter (Swiftstride)Dex +2; Cha +1MediumERLW,1,"[93, 93]",False
+93,bYzEqtS3XbhWDYkP,{},0,Shifter (Wildhunt)Wis +2; Dex +1MediumERLW,1,"[94, 94]",False
+94,Qo6mILL9WOsnnUyV,{},0,Simic HybridCon +2; Any other +1MediumGGR,1,"[95, 95]",False
+95,mWt9dzgcdv11Gc9H,{},0,TabaxiDex +2; Cha +1MediumVGM,1,"[96, 96]",False
+96,d31lij3EM73JeEuA,{},0,TieflingCha +2; Int +1MediumPHB,1,"[97, 97]",False
+97,WcAiUfrD70R2KgiU,{},0,Tiefling (Asmodeus)Cha +2; Int +1MediumMTF,1,"[98, 98]",False
+98,saURKzlGFCBobDTm,{},0,Tiefling (Baalzebul)Cha +2; Int +1MediumMTF,1,"[99, 99]",False
+99,w8bqFgsU1qgCMswy,{},0,Tiefling (Base)Cha +2; Int +1MediumPHB,1,"[100, 100]",False
+100,G0LdQl3wFAr6qis3,{},0,Tiefling (Dispater)Cha +2; Dex +1MediumMTF,1,"[101, 101]",False
+101,mrRMORIMsCEnejBk,{},0,Tiefling (Fierna)Cha +2; Wis +1MediumMTF,1,"[102, 102]",False
+102,NrPwJ1DbRHzSBhOo,{},0,Tiefling (Glasya)Cha +2; Dex +1MediumMTF,1,"[103, 103]",False
+103,nOpSMnkezD0r0ytn,{},0,Tiefling (Levistus)Cha +2; Con +1MediumMTF,1,"[104, 104]",False
+104,Ad0tWBcekuBm9sCv,{},0,Tiefling (Mammon)Cha +2; Int +1MediumMTF,1,"[105, 105]",False
+105,VM5UNcbHo0lfd4Dr,{},0,Tiefling (Mephistopheles)Cha +2; Int +1MediumMTF,1,"[106, 106]",False
+106,79PAFdV4gIIB10U9,{},0,Tiefling (Variant; Devil's Tongue)Int +1; Dex or Cha +2MediumSCAG,1,"[107, 107]",False
+107,leE3AwTzSpHDtqvx,{},0,Tiefling (Variant; Hellfire)Int +1; Dex or Cha +2MediumSCAG,1,"[108, 108]",False
+108,x7V4DXww2xp2fPzZ,{},0,Tiefling (Variant; Infernal Legacy)Int +1; Dex or Cha +2MediumSCAG,1,"[109, 109]",False
+109,yOjJFbCk3UHaATGB,{},0,Tiefling (Variant; Winged)Int +1; Dex or Cha +2MediumSCAG,1,"[110, 110]",False
+110,qEru9fYAOPrNMMW2,{},0,Tiefling (Zariel)Cha +2; Str +1MediumMTF,1,"[111, 111]",False
+111,F7I8jzwrDgqepzdK,{},0,TritonStr +1; Con +1; Cha +1MediumMOT,1,"[112, 112]",False
+112,Tf1XyheAba3XtUMq,{},0,TritonStr +1; Con +1; Cha +1MediumVGM,1,"[113, 113]",False
+113,chzHjdYGlGLJ5AAv,{},0,VedalkenInt +2; Wis +1MediumGGR,1,"[114, 114]",False
+114,WmOJ3h6ON477UdjP,{},0,VerdanCha +2; Con +1VariesAI,1,"[115, 115]",False
+115,coqp1Ue82JCXXF9S,{},0,WarforgedCon +2; Any other +1MediumERLW,1,"[116, 116]",False
+116,mqBUfdU7smqfXVMe,{},0,Yuan-ti PurebloodCha +2; Int +1MediumVGM,1,"[117, 117]",False

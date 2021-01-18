@@ -1,0 +1,26 @@
+_id,flags,type,text,img,resultId,weight,range,drawn
+vTboYzltSeNtZlhV,{},0,[[3d6]] quippers,icons/svg/d20-black.svg,,3,"[1, 3]",False
+A8IiqAJORktXm0sj,{},0,1 swarm of quippers,icons/svg/d20-black.svg,,5,"[4, 8]",False
+1iK3NsLjiYh9STSw,{},0,[[3d10]] dolphins (see appendix C),icons/svg/d20-black.svg,,4,"[9, 12]",False
+9y2RbRJgP3blADUX,{},0,1 giant octopus,icons/svg/d20-black.svg,,2,"[13, 14]",False
+LpJv1IItJhGN8aFA,{},0,[[1d4]] killer whales,icons/svg/d20-black.svg,,2,"[15, 16]",False
+cYpnOWm5gLofv71K,{},0,[[1d6]] merfolk,icons/svg/d20-black.svg,,2,"[17, 18]",False
+qI62FsDfqrJIyzqw,{},0,[[1d6]] giant sea horses,icons/svg/d20-black.svg,,2,"[19, 20]",False
+UW4mxmVXkkM8BqFT,{},0,[[1d8]] giant crabs,icons/svg/d20-black.svg,,4,"[21, 24]",False
+iNAaMveVZzRfBnRy,{},0,[[1d4]] reef sharks,icons/svg/d20-black.svg,,4,"[25, 28]",False
+mkeXZukaMyL6l6O3,{},0,1 hunter shark,icons/svg/d20-black.svg,,1,"[29, 29]",False
+8P2cLiQqIawvTa13,{},0,[[1d4]]sahuagin,icons/svg/d20-black.svg,,5,"[30, 34]",False
+9FHbwUeRTzitqcka,{},0,[[1d4]] koalinth (see appendix C),icons/svg/d20-black.svg,,3,"[35, 37]",False
+xGeHa1wjzklIsC4Q,{},1,Whirlpool,icons/svg/daze.svg,Macro,61FUIw9pfM2KPXQb,3,"[38, 40]",False
+YVRw9xOT5gqnSqAz,{},0,[[1d4]] locathahs (see appendix C),icons/svg/d20-black.svg,,5,"[41, 45]",False
+YQbAfedlIAhX4J5v,{},0,[[1d3]] harpies,icons/svg/d20-black.svg,,6,"[46, 51]",False
+ITilqYGBgZlp5Ufe,{},0,2 merrow,icons/svg/d20-black.svg,,3,"[52, 54]",False
+sJohV47UnBSucFXh,{},0,1 sahuagin priestess and [[1d4]] sahuagin,icons/svg/d20-black.svg,,3,"[55, 57]",False
+H3RYGnhaWy45fRVo,{},0,1 koalinth sergeant and [[2d4]] koalinth (see appendix C for both),icons/svg/d20-black.svg,,2,"[58, 59]",False
+AKJ0PZ6lzEbelckn,{},0,1 plesiosaurus,icons/svg/d20-black.svg,,3,"[60, 62]",False
+VrbB3HzDbvUwJ6sD,{},0,[[1d3]] sea hags,icons/svg/d20-black.svg,,2,"[63, 64]",False
+Qqf3RX6hloUqK0Mu,{},0,[[1d4]] blood hawks,icons/svg/d20-black.svg,,3,"[65, 67]",False
+4JEVGqyZrzSpWT9r,{},0,1 sahuagin champion (see appendix C),icons/svg/d20-black.svg,,3,"[68, 70]",False
+oRhwSrFCLtygwM5i,{},0,1 giant shark,icons/svg/d20-black.svg,,4,"[71, 74]",False
+qNQhPv7aPZ50F3Zm,{},0,"<p>DRAGON</p> <p>AGE</p> <p>[[1d3]] (Young, Adult, Ancient)</p> <p>TYPE</p> <p>[[1d2]] (Bronze, Blue)</p>",icons/svg/d20-black.svg,uXDlGnP8ZEJ7n2wX,1,"[75, 75]",False
+cQ9F3VmJ5cKxuzpb,{},1,Random Ship,icons/svg/dice-target.svg,Macro,ltWSLq3zK32IfBE7,25,"[76, 100]",False

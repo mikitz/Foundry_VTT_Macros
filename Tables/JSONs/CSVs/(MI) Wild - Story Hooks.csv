@@ -1,0 +1,5 @@
+_id,flags,type,text,img,resultId,weight,range,drawn
+0,NLGrGRryht506P8k,{},0,"The island hides a spring that restores life to anyone washed in it, as per the raise dead spell. A creature can only benefit from the spring once.",icons/svg/d20-black.svg,,1,"[1, 1]",False
+1,FqNIKT8NHPeBBCdx,{},0,A djinni recluse dwells on the island and grants favors.,icons/svg/d20-black.svg,,1,"[2, 2]",False
+2,Kv2k7sxNVBurCBdA,{},0,Pixies beg the characters to help them oust a group of [[3d10]] trophy hunters (scouts) from the island.,icons/svg/d20-black.svg,,1,"[3, 3]",False
+3,zwJZhIa0pV74UY4P,{},0,"The island holds the tomb of an archdruid, which contains a portal to the Feywild.",icons/svg/d20-black.svg,,1,"[4, 4]",False

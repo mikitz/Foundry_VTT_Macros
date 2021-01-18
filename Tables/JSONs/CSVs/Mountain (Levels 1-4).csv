@@ -1,0 +1,47 @@
+_id,flags,type,text,img,resultId,weight,range,drawn
+0,qt0IA5yBWl8AhOLP,{},0,1 eagle,icons/svg/d20-black.svg,,2,"[1, 2]",False
+1,x78hhmxzdDBT3pjw,{},0,[[1d3]] swarms of bats,icons/svg/d20-black.svg,,3,"[3, 5]",False
+2,lfscdr2nJD6JLf6s,{},0,[[1d6]] goats,icons/svg/d20-black.svg,,3,"[6, 8]",False
+3,PetJ92ezHc2tfxC8,{},0,[[1d10+5]] tribal warriors,icons/svg/d20-black.svg,,3,"[9, 11]",False
+4,EpyjYuI9xSQhCYI8,{},0,[[1d6+3]] pteranodons,icons/svg/d20-black.svg,,3,"[12, 14]",False
+5,1eEozGgIA3e5Dl38,{},0,[[1d8+1]] winged kobolds,icons/svg/d20-black.svg,,3,"[15, 17]",False
+6,Lvl3G2TRocPXuRgY,{},0,1 lion,icons/svg/d20-black.svg,,3,"[18, 20]",False
+7,pii9O2AHWcJsdOXz,{},0,Stairs chiseled into the side of the mountain that climb [[3d20+40]] feet before ending abruptly,icons/svg/d20-black.svg,,4,"[21, 24]",False
+8,bKPstUF0JEBsfqUb,{},0,[[2d10]] stirges,icons/svg/d20-black.svg,,3,"[25, 27]",False
+9,U5ZGCrn6gzrAyjNv,{},0,[[2d4]] aarakocra,icons/svg/d20-black.svg,,3,"[28, 30]",False
+10,TcIlN7ReS7IRDfLQ,{},0,[[2d6]] dwarf soldiers (guards) with [[1d6]] mules laden with iron ore,icons/svg/d20-black.svg,,3,"[31, 33]",False
+11,fBcuJ6X7vs8VLfSC,{},0,1 giant eagle,icons/svg/d20-black.svg,,3,"[34, 36]",False
+12,vDCdw1LDYNOoJVt5,{},0,"A small shrine dedicated to a lawful neutral god, perched on a stone outcropping",icons/svg/d20-black.svg,,2,"[37, 38]",False
+13,y4EVVsjnu0Q1Gow4,{},0,[[2d8+1]] blood hawks,icons/svg/d20-black.svg,,3,"[39, 41]",False
+14,rBFKOogSpEsrhDd9,{},0,1 giant goat,icons/svg/d20-black.svg,,3,"[42, 44]",False
+15,2yWbouuDP0EIw42C,{},0,[[3d4]] kobolds,icons/svg/d20-black.svg,,3,"[45, 47]",False
+16,LJw7UGc5YLQdrDLg,{},0,1 half-ogre,icons/svg/d20-black.svg,,3,"[48, 50]",False
+17,O2WUWB1BcqWlBnJo,{},0,1 berserker,icons/svg/d20-black.svg,,3,"[51, 53]",False
+18,wrja4C2AndUALNkV,{},0,1 orog,icons/svg/d20-black.svg,,2,"[54, 55]",False
+19,vgb53gBmCUiJJagQ,{},0,1 hell hound,icons/svg/d20-black.svg,,1,"[56, 56]",False
+20,7ABMe8DvvZkUgJDO,{},0,1 druid,icons/svg/d20-black.svg,,1,"[57, 57]",False
+21,oQzW2yjkbKy3HJKa,{},0,1 peryton,icons/svg/d20-black.svg,,2,"[58, 59]",False
+22,NNp7xuUkmBFHNCrE,{},0,[[1d2]] hippogriffs,icons/svg/d20-black.svg,,2,"[60, 61]",False
+23,iPSgnAMpsQlPzQuj,{},0,1 manticore,icons/svg/d20-black.svg,,1,"[62, 62]",False
+24,zfB680Xd2dIQwoqU,{},0,[[1d6+2]] scouts,icons/svg/d20-black.svg,,2,"[63, 64]",False
+25,Qb1TEEIxwAcaMF3E,{},0,"Enormous footprints left by a giant, which head into the mountain peaks",icons/svg/d20-black.svg,,3,"[65, 67]",False
+26,9RF1hHm7ndFk7tc1,{},0,[[2d4]] orcs,icons/svg/d20-black.svg,,6,"[68, 73]",False
+27,ID2YgyNYs5teYY7Z,{},0,1 giant elk,icons/svg/d20-black.svg,,2,"[74, 75]",False
+28,X5PXNVbzEj6O6MYj,{},0,1 veteran,icons/svg/d20-black.svg,,2,"[76, 77]",False
+29,kcwQ7WsJfTcDo4UX,{},0,1 orc Eye of Gruumsh,icons/svg/d20-black.svg,,2,"[78, 79]",False
+30,88xeEj5EcxqwId1D,{},0,[[1d4]] harpies,icons/svg/d20-black.svg,,1,"[80, 80]",False
+31,YLcWJ5PHwmlKvrjG,{},0,1 ogre,icons/svg/d20-black.svg,,1,"[81, 81]",False
+32,IDhQNkSVwJpsH40U,{},0,1 griffon,icons/svg/d20-black.svg,,1,"[82, 82]",False
+33,uE5IRwWjG45kLE4w,{},0,1 basilisk,icons/svg/d20-black.svg,,1,"[83, 83]",False
+34,aUfncSxI6zdvhhOt,{},0,1 saber-toothed tiger,icons/svg/d20-black.svg,,2,"[84, 85]",False
+35,aMY7v6lkRx8xPqn1,{},0,A sparkling stream of water spilling from a crevice,icons/svg/d20-black.svg,,5,"[86, 90]",False
+36,iXQqZmhQQ3ToPqvk,{},0,[[1d2]] ettins,icons/svg/d20-black.svg,,1,"[91, 91]",False
+37,0JMRdObn1RvuDrHD,{},0,1 cyclops,icons/svg/d20-black.svg,,1,"[92, 92]",False
+38,lfFQvosoUTyOaWxE,{},0,1 troll,icons/svg/d20-black.svg,,1,"[93, 93]",False
+39,Zjazl35ykOqPwTrz,{},0,1 galeb duhr,icons/svg/d20-black.svg,,1,"[94, 94]",False
+40,ySl5t1p7h0r2NfJD,{},0,1 air elemental,icons/svg/d20-black.svg,,1,"[95, 95]",False
+41,N67n96HSocN8zGE4,{},0,1 bulette,icons/svg/d20-black.svg,,1,"[96, 96]",False
+42,nuE5tIlsYXK2Bx7I,{},0,1 chimera,icons/svg/d20-black.svg,,1,"[97, 97]",False
+43,mnm0eIrpeIud8P5v,{},0,1 wyvern,icons/svg/d20-black.svg,,1,"[98, 98]",False
+44,ySdWuNnNSp2RHBo1,{},0,1 stone giant,icons/svg/d20-black.svg,,1,"[99, 99]",False
+45,WlBGKv20PCmGVR1R,{},0,1 frost giant,icons/svg/d20-black.svg,,1,"[100, 100]",False

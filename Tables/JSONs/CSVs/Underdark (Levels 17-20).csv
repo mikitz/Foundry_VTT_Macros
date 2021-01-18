@@ -1,0 +1,43 @@
+_id,flags,type,text,img,resultId,weight,range,drawn
+0,ebNPXGyaZ3MmvU5p,{},0,[[1d4]] grick alphas,icons/svg/d20-black.svg,,1,"[1, 1]",False
+1,Yl7PN65vP4Tb8TPe,{},0,[[2d8]] spectators,icons/svg/d20-black.svg,,1,"[2, 2]",False
+2,cApqBwrW17nbS9h0,{},0,[[3d6]] minotaurs or [[2d8]] kuo-toa monitors,icons/svg/d20-black.svg,,2,"[3, 4]",False
+3,QFtPRotFDyvglpTV,{},0,[[2d8]] grells,icons/svg/d20-black.svg,,2,"[5, 6]",False
+4,9xrdexjAgCjf61Kp,{},0,[[2d10]] phase spiders,icons/svg/d20-black.svg,,2,"[7, 8]",False
+5,t2ynuwSnGgjjkcj5,{},0,[[4d4]] hell hounds,icons/svg/d20-black.svg,,2,"[9, 10]",False
+6,Y2rfzEwFtGXxx1xi,{},0,[[1d6+2]] ropers,icons/svg/d20-black.svg,,2,"[11, 12]",False
+7,NuMzY3PsDIPR9jEy,{},0,[[2d10]] wights,icons/svg/d20-black.svg,,2,"[13, 14]",False
+8,idqWlDkMA8CR0Heh,{},0,[[3d6]] doppelgangers,icons/svg/d20-black.svg,,2,"[15, 16]",False
+9,GErkupQ4LKmeR5wN,{},0,[[1d8+1]] chimeras,icons/svg/d20-black.svg,,2,"[17, 18]",False
+10,PMgxjicVUNrb2Jer,{},0,[[1d4]] cloakers,icons/svg/d20-black.svg,,2,"[19, 20]",False
+11,pmbVv1wK6pcf2JX2,{},0,[[1d4]] hobgoblin captains with [[5d10]] hobgoblins,icons/svg/d20-black.svg,,1,"[21, 21]",False
+12,wmTcFa48sW15Vpt2,{},0,[[1d8+1]] earth elementals,icons/svg/d20-black.svg,,2,"[22, 23]",False
+13,nHYwrA02Qf95detI,{},0,[[2d4]] vampire spawn,icons/svg/d20-black.svg,,2,"[24, 25]",False
+14,jK2znn1LyQ7eYkBf,{},0,[[3d6]] minotaurs,icons/svg/d20-black.svg,,2,"[26, 27]",False
+15,23V2WcOVHxNRvCTZ,{},0,A 30-foot-tall inverted black pyramid floating 1 inch above the floor in a large cave,icons/svg/d20-black.svg,,3,"[28, 30]",False
+16,Pj5qK3ewo2XzsbEK,{},0,[[1d10]] beholder zombies,icons/svg/d20-black.svg,,2,"[31, 32]",False
+17,TtO7peHicchrMYof,{},0,[[1d4]] mind flayer arcanists,icons/svg/d20-black.svg,,2,"[33, 34]",False
+18,CmHwJOe12mPJd80h,{},0,[[1d6+2]] otyughs,icons/svg/d20-black.svg,,2,"[35, 36]",False
+19,HU7fcHbdNkDk4zlr,{},0,[[1d12]] trolls,icons/svg/d20-black.svg,,2,"[37, 38]",False
+20,6K3ITOxJIXXvtrQE,{},0,[[1d10]] wraiths,icons/svg/d20-black.svg,,2,"[39, 40]",False
+21,ZHZDNDuVsS3PpoAk,{},0,A beautiful obsidian sculpture of a panther lying on the floor,icons/svg/d20-black.svg,,3,"[41, 43]",False
+22,Vtm9QmIdUVKiHIeN,{},0,[[1d4]] drow mages with [[1d6]] drow elite warriors,icons/svg/d20-black.svg,,2,"[44, 45]",False
+23,sSHde7tHcGqswTZI,{},0,[[1d4]] spirit nagas,icons/svg/d20-black.svg,,2,"[46, 47]",False
+24,9ho44vsx4ssDeVXl,{},0,[[1d8+1]] salamanders,icons/svg/d20-black.svg,,2,"[48, 49]",False
+25,MgN8OBcKQo8lZFen,{},0,[[2d4]] umber hulks,icons/svg/d20-black.svg,,2,"[50, 51]",False
+26,1Ozv9kqHmLVBMfNr,{},0,[[1d10]] xorn,icons/svg/d20-black.svg,,2,"[52, 53]",False
+27,GVBKhNwD3MggUwWk,{},0,1 young red shadow dragon,icons/svg/d20-black.svg,,3,"[54, 56]",False
+28,mqZVX6Gyw5b0GVf6,{},0,[[2d4]] fomorians,icons/svg/d20-black.svg,,3,"[57, 59]",False
+29,C4Ba4dxduMbe4vr7,{},0,[[1d8+1]] driders,icons/svg/d20-black.svg,,3,"[60, 62]",False
+30,roaNBRWXpVqJ8ajF,{},0,[[1d20+20]] spiders crawling on the walls of a web-filled cave,icons/svg/d20-black.svg,,3,"[63, 65]",False
+31,n8m9GcaS17zkOsb5,{},0,[[1d4]] fire giants,icons/svg/d20-black.svg,,3,"[66, 68]",False
+32,GNKo0AwefN3gq4f8,{},0,[[1d10]] mind flayers,icons/svg/d20-black.svg,,2,"[69, 70]",False
+33,kzbrk4KN0CGp3P6p,{},0,[[2d4]] stone giants,icons/svg/d20-black.svg,,3,"[71, 73]",False
+34,MCTS6LT43op68qDi,{},0,[[1d12]] cyclopes,icons/svg/d20-black.svg,,3,"[74, 76]",False
+35,N9C9LqEIHw0PU9ov,{},0,A large cave in which stands a 50-foot-tall idol of Blibdoolpoolp,icons/svg/d20-black.svg,,4,"[77, 80]",False
+36,L27iI27cc7sCc1UH,{},0,[[1d3]] dao,icons/svg/d20-black.svg,,5,"[81, 85]",False
+37,2P3RXKdoo4OnV0O5,{},0,[[1d4]] beholders,icons/svg/d20-black.svg,,5,"[86, 90]",False
+38,Vhe5vjb0Ry7BvPqp,{},0,[[1d4]] behirs,icons/svg/d20-black.svg,,3,"[91, 93]",False
+39,9mbZao9EwUUdavpE,{},0,1 death tyrant,icons/svg/d20-black.svg,,3,"[94, 96]",False
+40,sH6XP3pvLItc6mqX,{},0,[[1d3]] purple worms,icons/svg/d20-black.svg,,3,"[97, 99]",False
+41,3VR4FV9N39C6h34V,{},0,[[2d4]] aboleths,icons/svg/d20-black.svg,,1,"[100, 100]",False

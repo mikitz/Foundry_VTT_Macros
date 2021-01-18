@@ -1,0 +1,85 @@
+_id,flags,type,text,img,resultId,weight,range,drawn
+0,fYVYBDzw9M6NgxVH,{},0,1 giant owl,icons/svg/d20-black.svg,,1,"[1, 1]",False
+1,ffci47zhlugBHHQB,{},0,[[1d4]] cats,icons/svg/d20-black.svg,,1,"[2, 2]",False
+2,boXk7rhgzRrfcr9e,{},0,[[2d4]] woodcutters (commoners),icons/svg/d20-black.svg,,1,"[3, 3]",False
+3,nV3KB9tFzxd38RL4,{},0,1 badger or [[1d4]] poisonous snakes,icons/svg/d20-black.svg,,1,"[4, 4]",False
+4,7D1aV5Z6Vqszzw5h,{},0,[[2d8]] baboons,icons/svg/d20-black.svg,,1,"[5, 5]",False
+5,OxmcKiFpvrVtMKaT,{},0,[[1d6+3]] hyenas,icons/svg/d20-black.svg,,1,"[6, 6]",False
+6,WPVtqS0XXF9UKjjf,{},0,1 owl,icons/svg/d20-black.svg,,1,"[7, 7]",False
+7,qoyEujw0bn3Awstl,{},0,1 pseudodragon,icons/svg/d20-black.svg,,1,"[8, 8]",False
+8,TzBIDdts36pF4QEk,{},0,1 panther,icons/svg/d20-black.svg,,1,"[9, 9]",False
+9,pZjsboxHWadekhfj,{},0,1 giant poisonous snake,icons/svg/d20-black.svg,,1,"[10, 10]",False
+10,sJyInuQlrANt9RN5,{},0,[[1d6+2]] boars,icons/svg/d20-black.svg,,1,"[11, 11]",False
+11,NAFYuPCbTeVANhj5,{},0,[[1d4+1]] giant lizards,icons/svg/d20-black.svg,,1,"[12, 12]",False
+12,JYimmiZFFyLqoAKn,{},0,1 ape or 1 tiger,icons/svg/d20-black.svg,,1,"[13, 13]",False
+13,Tt2ChmS5rTsjwdGt,{},0,[[2d6]] tribal warriors with [[1d6]] mastiffs,icons/svg/d20-black.svg,,1,"[14, 14]",False
+14,QgLn00QoE2j01qES,{},0,[[1d6+2]] giant bats or [[3d6]] flying snakes,icons/svg/d20-black.svg,,1,"[15, 15]",False
+15,qOAd1PQD5is593vh,{},0,1 scout or [[2d4]] guards with [[1d6]] mastiffs,icons/svg/d20-black.svg,,1,"[16, 16]",False
+16,g1FYHD7SkXxB6neq,{},0,[[1d8+1]] winged kobolds,icons/svg/d20-black.svg,,1,"[17, 17]",False
+17,w7lyW9IHhL2clqSL,{},0,[[1d3]] constrictor snakes,icons/svg/d20-black.svg,,1,"[18, 18]",False
+18,lzM6fRIfZLW7GNUE,{},0,[[1d10+5]] giant rats or [[2d6+3]] giant weasels,icons/svg/d20-black.svg,,1,"[19, 19]",False
+19,UCVxw6IMqU9UqM7f,{},0,[[1d4+1]] needle blights with [[1d6+3]] twig blights,icons/svg/d20-black.svg,,1,"[20, 20]",False
+20,CixiRXo6U9Nj4TKy,{},0,"A lost, weeping child. If the characters take the child home, the parents reward them with [[1d3]] potions of healing.",icons/svg/d20-black.svg,,5,"[21, 25]",False
+21,GCoKMjXWMKneQXU2,{},0,[[1d8+1]] giant frogs,icons/svg/d20-black.svg,,1,"[26, 26]",False
+22,mYO5G7DRV46hfkMV,{},0,[[4d4]] kobolds,icons/svg/d20-black.svg,,1,"[27, 27]",False
+23,T1w9UByMZls9kEpF,{},0,[[1d3]] black bears,icons/svg/d20-black.svg,,1,"[28, 28]",False
+24,Su9Wof4K6qntoaZv,{},0,[[3d6]] stirges,icons/svg/d20-black.svg,,1,"[29, 29]",False
+25,d1EqpGHviir0y11c,{},0,1 satyr,icons/svg/d20-black.svg,,1,"[30, 30]",False
+26,Kcxjbf5wxmYw0Yct,{},0,[[2d4]] kenku,icons/svg/d20-black.svg,,1,"[31, 31]",False
+27,MZZfq3FcJ0o6743n,{},0,[[1d3]] vine blights with [[1d12]] awakened shrubs,icons/svg/d20-black.svg,,1,"[32, 32]",False
+28,IgZVCktTZHl8RHy1,{},0,[[1d4]] swarms of ravens,icons/svg/d20-black.svg,,1,"[33, 33]",False
+29,VnESA2CCIyEAiYBo,{},0,1 faerie dragon (yellow or younger),icons/svg/d20-black.svg,,1,"[34, 34]",False
+30,uxCIlVWebIy9fdrQ,{},0,[[1d4+2]] giant badgers,icons/svg/d20-black.svg,,1,"[35, 35]",False
+31,O5cXvMofbt2R8sfi,{},0,A young woodcutter (scout) racing through the forest to rescue a lost friend,icons/svg/d20-black.svg,,5,"[36, 40]",False
+32,BvuxUzeHUAhY94eg,{},0,[[2d4]] blink dogs,icons/svg/d20-black.svg,,1,"[41, 41]",False
+33,WUBPi4g2sqyHlESp,{},0,[[1d8+1]] sprites,icons/svg/d20-black.svg,,1,"[42, 42]",False
+34,YShNmsf1M6Nc2roQ,{},0,[[1d6+2]] elk,icons/svg/d20-black.svg,,1,"[43, 43]",False
+35,Pts6ZUUxDA9OCTAY,{},0,[[1d4]] lizardfolk or [[3d6]] bandits,icons/svg/d20-black.svg,,1,"[44, 44]",False
+36,Nk9ODnDVv3uwdDHY,{},0,[[1d4+4]] wolves,icons/svg/d20-black.svg,,1,"[45, 45]",False
+37,ytc190yxe3Xj6wuI,{},0,[[2d4]] giant wolf spiders,icons/svg/d20-black.svg,,1,"[46, 46]",False
+38,dxmDGRJWQBD71q2u,{},0,1 swarm of insects or [[2d8]] blood hawks,icons/svg/d20-black.svg,,1,"[47, 47]",False
+39,MYBGtwwZfg8lbYQ2,{},0,[[1d6+2]] pixies,icons/svg/d20-black.svg,,1,"[48, 48]",False
+40,7dQMhaQlKAce2IGG,{},0,1 brown bear,icons/svg/d20-black.svg,,1,"[49, 49]",False
+41,co2VLJcvHxj761HX,{},0,[[1d4+3]] goblins,icons/svg/d20-black.svg,,1,"[50, 50]",False
+42,QZXdTsltePFQiMM8,{},0,[[1d3]] dryads,icons/svg/d20-black.svg,,1,"[51, 51]",False
+43,W5Ysd4e5fvya9NcW,{},0,1 awakened tree,icons/svg/d20-black.svg,,1,"[52, 52]",False
+44,aRxsM9uytPFzPXDk,{},0,1 phase spider,icons/svg/d20-black.svg,,1,"[53, 53]",False
+45,qOJGglrvv9TkIP7M,{},0,[[1d6]] harpies,icons/svg/d20-black.svg,,1,"[54, 54]",False
+46,OgTibrmxdgnD5pQk,{},0,1 ettercap or [[1d8+1]] orcs,icons/svg/d20-black.svg,,1,"[55, 55]",False
+47,q9M63hXyn4eMMwTG,{},0,1 goblin boss with [[2d6+1]] goblins,icons/svg/d20-black.svg,,1,"[56, 56]",False
+48,t6NdC2zXJXMAvgYc,{},0,1 ankheg,icons/svg/d20-black.svg,,1,"[57, 57]",False
+49,q77ACVMxvWfxP6IE,{},0,1 giant constrictor snake,icons/svg/d20-black.svg,,1,"[58, 58]",False
+50,WDqVDItBzAFTN1cu,{},0,[[1d4]] bugbears or [[2d4]] hobgoblins,icons/svg/d20-black.svg,,1,"[59, 59]",False
+51,xCnLqduJfU2Gl1vr,{},0,1 pegasus,icons/svg/d20-black.svg,,1,"[60, 60]",False
+52,ZkrPRc5pcCj0qjHD,{},0,"A stream of cool, clean water flowing between the trees",icons/svg/d20-black.svg,,5,"[61, 65]",False
+53,mMXzuAwZcSjXO8UI,{},0,[[1d4]] half-ogres or 1 ogre,icons/svg/d20-black.svg,,1,"[66, 66]",False
+54,kr9IrkbgrhaR9FC4,{},0,1 faerie dragon (green or older),icons/svg/d20-black.svg,,1,"[67, 67]",False
+55,Wu1vRryrK0e7BR4o,{},0,1 werewolf or [[1d8+1]] worgs,icons/svg/d20-black.svg,,1,"[68, 68]",False
+56,sK7nLpAW6xBVwlmd,{},0,1 druid harvesting mistletoe,icons/svg/d20-black.svg,,1,"[69, 69]",False
+57,2gYU12l2dCChAjmM,{},0,1 will-o'-wisp,icons/svg/d20-black.svg,,1,"[70, 70]",False
+58,qPIwruuzQozAlTzP,{},0,[[1d4]] dire wolves or 1 giant boar,icons/svg/d20-black.svg,,1,"[71, 71]",False
+59,ynBmsBLs83PbVl9r,{},0,[[1d10]] giant wasps,icons/svg/d20-black.svg,,1,"[72, 72]",False
+60,ZiU5jZiGW2iaLd2h,{},0,1 owlbear or 1 giant elk,icons/svg/d20-black.svg,,1,"[73, 73]",False
+61,cYjvG6PFMcKL8zBs,{},0,[[2d6]] gnolls,icons/svg/d20-black.svg,,1,"[74, 74]",False
+62,NXnt3dpk6urC04jL,{},0,[[1d6]] giant toads,icons/svg/d20-black.svg,,1,"[75, 75]",False
+63,L5QWLLIgx966TyYk,{},0,"[[1d6]] web cocoons hanging from the branches, holding withered carcasses",icons/svg/d20-black.svg,,5,"[76, 80]",False
+64,U6ZMHvuAlEwaDC4O,{},0,1 wereboar or [[1d4]] giant boars,icons/svg/d20-black.svg,,1,"[81, 81]",False
+65,CQtluGPuogQtZUXZ,{},0,[[1d6+2]] giant spiders,icons/svg/d20-black.svg,,1,"[82, 82]",False
+66,Q4nuXm8i13kYGfMc,{},0,[[1d4]] centaurs or [[1d4]] giant elk,icons/svg/d20-black.svg,,1,"[83, 83]",False
+67,9WINgVAPaPat2JHh,{},0,1 orc Eye of Gruumsh with [[2d4+2]] orcs,icons/svg/d20-black.svg,,1,"[84, 84]",False
+68,s2UDjV67y20LQXau,{},0,1 gnoll fang of Yeenoghu,icons/svg/d20-black.svg,,1,"[85, 85]",False
+69,Od3YFRUJIdpX0mA8,{},0,[[1d4]] gricks,icons/svg/d20-black.svg,,1,"[86, 86]",False
+70,GEMNrBKuLqlExPQw,{},0,1 bandit captain with [[2d6+3]] bandits,icons/svg/d20-black.svg,,1,"[87, 87]",False
+71,B5aNnA117rdJbIId,{},0,[[1d4]] wererats,icons/svg/d20-black.svg,,1,"[88, 88]",False
+72,pOfgfw4KCFJk1kwm,{},0,1 couatl (day) or 1 banshee (night),icons/svg/d20-black.svg,,1,"[89, 89]",False
+73,IlcTfzWdQPaCS0O4,{},0,1 gnoll pack lord with [[1d4]] giant hyenas,icons/svg/d20-black.svg,,1,"[90, 90]",False
+74,cBIDAlxODfWJGVjd,{},0,[[2d4]] berserkers or [[1d4]] veterans,icons/svg/d20-black.svg,,1,"[91, 91]",False
+75,2DvZRsF8oJVmLvKs,{},0,1 lizardfolk shaman with [[1d3]] swarms of poisonous snakes and [[1d10+2]] lizardfolk,icons/svg/d20-black.svg,,1,"[92, 92]",False
+76,nQ3WYLcRcgdtJ9co,{},0,[[1d4]] displacer beasts,icons/svg/d20-black.svg,,1,"[93, 93]",False
+77,0OnNKdIya9AGIVMN,{},0,[[1d3]] green hags,icons/svg/d20-black.svg,,1,"[94, 94]",False
+78,K2wAvigzJ8ocyolU,{},0,1 hobgoblin captain with [[2d6]] hobgoblins and [[1d4]] giant boars,icons/svg/d20-black.svg,,1,"[95, 95]",False
+79,0clcNqCRfUZ8rV1V,{},0,1 yuan-ti malison with [[1d6+1]] yuan-ti purebloods,icons/svg/d20-black.svg,,1,"[96, 96]",False
+80,1OvQ3UWn5nS3MWvL,{},0,[[1d3]] weretigers,icons/svg/d20-black.svg,,1,"[97, 97]",False
+81,u6N2Tk12wZcQZjgV,{},0,1 gorgon or 1 unicorn,icons/svg/d20-black.svg,,1,"[98, 98]",False
+82,917tYwZnmQN3KaL8,{},0,1 shambling mound,icons/svg/d20-black.svg,,1,"[99, 99]",False
+83,H83RoCp5pqYKqrKa,{},0,1 yuan-ti abomination,icons/svg/d20-black.svg,,1,"[100, 100]",False

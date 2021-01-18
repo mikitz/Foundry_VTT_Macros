@@ -1,0 +1,64 @@
+_id,flags,type,text,img,resultId,weight,range,drawn
+0,FQk6rVf2H8MsqE27,{},0,[[2d4]] vine blights,icons/svg/d20-black.svg,,1,"[1, 1]",False
+1,DydvF6M8GRYi6whx,{},0,[[2d6]] hobgoblins or [[2d6]] orcs,icons/svg/d20-black.svg,,1,"[2, 2]",False
+2,29zeeaw7oOLK4aP4,{},0,[[2d4]] apes or [[2d4]] satyrs,icons/svg/d20-black.svg,,1,"[3, 3]",False
+3,ZS46hKOODjrXSwc3,{},0,[[1d3]] will-o'-wisps,icons/svg/d20-black.svg,,1,"[4, 4]",False
+4,tT5XJS0UVTZZqExo,{},0,[[1d4]] swarms of poisonous snakes,icons/svg/d20-black.svg,,1,"[5, 5]",False
+5,IWkHwyKcgbcYBt7E,{},0,1 orc Eye of Gruumsh with [[1d3]] orogs and [[1d8+2]] orcs,icons/svg/d20-black.svg,,1,"[6, 6]",False
+6,B7KKpPyc5CYp33OM,{},0,[[1d3]] constrictor snakes or [[1d4]] tigers,icons/svg/d20-black.svg,,1,"[7, 7]",False
+7,YrDreONy6G916RNn,{},0,1 goblin boss with [[3d6]] goblins,icons/svg/d20-black.svg,,1,"[8, 8]",False
+8,uUVmU06bkxr583Ah,{},0,1 faerie dragon (any age),icons/svg/d20-black.svg,,1,"[9, 9]",False
+9,dUhKyrbJoXODawh4,{},0,1 brown bear or [[1d6+2]] black bears,icons/svg/d20-black.svg,,1,"[10, 10]",False
+10,557gwrsn6ttmNFaC,{},0,[[1d4]] giant boars,icons/svg/d20-black.svg,,3,"[11, 13]",False
+11,EfgJQVyd6U17FQ5e,{},0,[[1d8+1]] giant spiders,icons/svg/d20-black.svg,,2,"[14, 15]",False
+12,BbODmlMYIdSkuFgJ,{},0,1 lizardfolk shaman with [[2d4]] lizardfolk,icons/svg/d20-black.svg,,2,"[16, 17]",False
+13,1xl4H0XfjQTbZ2yh,{},0,[[1d10]] giant toads,icons/svg/d20-black.svg,,1,"[18, 18]",False
+14,pYxXFYxaCl4N4EtU,{},0,[[1d4]] ankhegs,icons/svg/d20-black.svg,,1,"[19, 19]",False
+15,Ive4C53VsyyQHxrF,{},0,[[1d3]] awakened trees (day) or 1 banshee (night),icons/svg/d20-black.svg,,1,"[20, 20]",False
+16,buZ8DJQJQZe8Hi7G,{},0,A small shack almost hidden by the deep forest. The interior is empty aside from a large cast-iron oven.,icons/svg/d20-black.svg,,5,"[21, 25]",False
+17,7BYNGF1wcRmIo9ts,{},0,1 couatl,icons/svg/d20-black.svg,,1,"[26, 26]",False
+18,sDMMcikkDkhqVHV7,{},0,[[1d4]] ogres or [[1d6+2]] half-ogres,icons/svg/d20-black.svg,,2,"[27, 28]",False
+19,O5HS12o4akt4DbTN,{},0,1 gnoll pack lord with [[1d4+1]] giant hyenas,icons/svg/d20-black.svg,,2,"[29, 30]",False
+20,Yuzo9R6Ga12rNv3v,{},0,[[1d6]] wererats,icons/svg/d20-black.svg,,2,"[31, 32]",False
+21,YqWkpksZfLdhEFgx,{},0,[[1d4]] gricks,icons/svg/d20-black.svg,,1,"[33, 33]",False
+22,N7iYGGeXgvF4vwdf,{},0,[[1d8+1]] yuan-ti purebloods,icons/svg/d20-black.svg,,1,"[34, 34]",False
+23,jN4gfnP8NWVkMaML,{},0,[[1d6]] pegasi,icons/svg/d20-black.svg,,1,"[35, 35]",False
+24,sVlfVIRoLE4nn3SY,{},0,An old stone archway of obvious elven design. Any character who passes under it makes Wisdom (Perception) checks with advantage for 1 hour.,icons/svg/d20-black.svg,,5,"[36, 40]",False
+25,VRiYb2Yj3V5UUngG,{},0,[[1d6+2]] dryads,icons/svg/d20-black.svg,,2,"[41, 42]",False
+26,j05dYCawD67aHXtV,{},0,[[1d4]] giant elk,icons/svg/d20-black.svg,,1,"[43, 43]",False
+27,OH1Ajnv8aZXFT5Bi,{},0,[[1d8+1]] harpies,icons/svg/d20-black.svg,,1,"[44, 44]",False
+28,SkYFC6oMN4SrRZHD,{},0,1 bandit captain with 1 druid and [[1d6+5]] bandits,icons/svg/d20-black.svg,,2,"[45, 46]",False
+29,d9g6WOcSW14nmIZm,{},0,[[2d4]] dire wolves,icons/svg/d20-black.svg,,2,"[47, 48]",False
+30,YtfxtCfhFtxyejqZ,{},0,[[2d4]] bugbears,icons/svg/d20-black.svg,,2,"[49, 50]",False
+31,bAAY2MppFMH5mL4y,{},0,[[2d4]] centaurs,icons/svg/d20-black.svg,,2,"[51, 52]",False
+32,xhZeSY7Ajw3TtPuP,{},0,[[3d10]] blink dogs,icons/svg/d20-black.svg,,2,"[53, 54]",False
+33,qSmZJCXnUpQvSRh2,{},0,[[1d4]] owlbears,icons/svg/d20-black.svg,,2,"[55, 56]",False
+34,dcN0dAFV5Zg2ntrW,{},0,[[1d8+1]] berserkers,icons/svg/d20-black.svg,,2,"[57, 58]",False
+35,qVR59EulIAkXQJTJ,{},0,[[1d3]] green hags,icons/svg/d20-black.svg,,2,"[59, 60]",False
+36,eUdXWnpgJ6k7CYtt,{},0,A clear pool of water with [[1d6]] sleeping animals lying around its edge,icons/svg/d20-black.svg,,5,"[61, 65]",False
+37,q27gQX3f8wEhb5Zw,{},0,[[1d4]] werewolves,icons/svg/d20-black.svg,,2,"[66, 67]",False
+38,q8GjDBLsOoD78auz,{},0,1 werebear,icons/svg/d20-black.svg,,2,"[68, 69]",False
+39,qrGKszbnAZQatFnm,{},0,[[1d8+1]] ettercaps,icons/svg/d20-black.svg,,2,"[70, 71]",False
+40,0WcGqi2CLqqV9PEP,{},0,[[2d10]] elk,icons/svg/d20-black.svg,,2,"[72, 73]",False
+41,UsB2HWWqrv65v61Z,{},0,[[1d4]] veterans,icons/svg/d20-black.svg,,2,"[74, 75]",False
+42,me0MEqwCh1PV8CUR,{},0,An old tree with a wizened face carved into the trunk,icons/svg/d20-black.svg,,5,"[76, 80]",False
+43,P4azOuU2Htvze3CW,{},0,[[1d4]] wereboars,icons/svg/d20-black.svg,,1,"[81, 81]",False
+44,SFM6ymw7gLo7yRPh,{},0,[[2d4]] displacer beasts,icons/svg/d20-black.svg,,1,"[82, 82]",False
+45,XVYVhFerYHdNrv58,{},0,[[1d4]] shambling mounds,icons/svg/d20-black.svg,,1,"[83, 83]",False
+46,JyazjIqZN18ADvCu,{},0,1 hobgoblin captain with [[3d10]] hobgoblins and [[4d12]] goblins,icons/svg/d20-black.svg,,1,"[84, 84]",False
+47,VqsQb9EA3cQq9Tfu,{},0,1 yuan-ti abomination,icons/svg/d20-black.svg,,1,"[85, 85]",False
+48,uIWeaflb3OBzd7YX,{},0,[[1d8+1]] phase spiders,icons/svg/d20-black.svg,,1,"[86, 86]",False
+49,Y0rZRCTI8S5Biy1r,{},0,[[1d4]] trolls,icons/svg/d20-black.svg,,1,"[87, 87]",False
+50,Uoku92Fh7NzMflPP,{},0,[[2d4]] yuan-ti malisons,icons/svg/d20-black.svg,,1,"[88, 88]",False
+51,95I5yxfIlXefvnP6,{},0,1 oni,icons/svg/d20-black.svg,,1,"[89, 89]",False
+52,5X8wAQkrXzXw32CZ,{},0,[[1d4]] unicorns,icons/svg/d20-black.svg,,1,"[90, 90]",False
+53,6ZhnbYpsKN1O13c0,{},0,[[1d6+2]] weretigers,icons/svg/d20-black.svg,,1,"[91, 91]",False
+54,u6INxXFRQ3QtpC2c,{},0,1 young green dragon,icons/svg/d20-black.svg,,1,"[92, 92]",False
+55,PYQuJVqKwlnPDh1f,{},0,[[1d4]] gorgons,icons/svg/d20-black.svg,,1,"[93, 93]",False
+56,HJTLDZU4jcOVfQ7S,{},0,[[1d6+2]] gnoll fangs of Yeenoghu,icons/svg/d20-black.svg,,1,"[94, 94]",False
+57,WwRMFHcmANlAzcDg,{},0,1 treant,icons/svg/d20-black.svg,,1,"[95, 95]",False
+58,qcuSPWSuAVM0iIyL,{},0,[[1d4]] revenants,icons/svg/d20-black.svg,,1,"[96, 96]",False
+59,FAK7cf8nsSiw6oUX,{},0,1 grick alpha with [[1d6+1]] gricks,icons/svg/d20-black.svg,,1,"[97, 97]",False
+60,y1DfTddbl5cTDMBY,{},0,[[1d4]] giant apes,icons/svg/d20-black.svg,,1,"[98, 98]",False
+61,uznz6pG4CNOjGPiz,{},0,1 guardian naga,icons/svg/d20-black.svg,,1,"[99, 99]",False
+62,7GNo9ZZvEJv4Z91a,{},0,1 adult gold dragon,icons/svg/d20-black.svg,,1,"[100, 100]",False

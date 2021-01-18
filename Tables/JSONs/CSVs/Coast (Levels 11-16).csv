@@ -1,0 +1,25 @@
+_id,flags,type,text,img,resultId,weight,range,drawn
+0,2tqEduLAeD67t0Pv,{},0,[[1d4]] banshees (night only),icons/svg/d20-black.svg,,1,"[1, 1]",False
+1,qs6ZQboLd0ocdT8U,{},0,1 cyclops,icons/svg/d20-black.svg,,3,"[2, 4]",False
+2,xOTqPJJzVBoAkc5b,{},0,[[1d6+2]] manticores,icons/svg/d20-black.svg,,4,"[5, 8]",False
+3,NBDGad7cQHZ9tipi,{},0,[[1d8+2]] veterans,icons/svg/d20-black.svg,,2,"[9, 10]",False
+4,8YvfUB7OXtqOixRw,{},0,1 young blue dragon,icons/svg/d20-black.svg,,10,"[11, 20]",False
+5,iBIwPp8vgRKse1I9,{},0,A nest of [[1d6]] dragon turtle eggs,icons/svg/d20-black.svg,,5,"[21, 25]",False
+6,YjeW98K2jGBkc3fA,{},0,[[1d4]] sahuagin barons,icons/svg/d20-black.svg,,10,"[26, 35]",False
+7,LDxnIskhpwFYsuRS,{},0,A trident partially buried in the sand,icons/svg/d20-black.svg,,5,"[36, 40]",False
+8,OabBrybPvqyYvEaE,{},0,1 young bronze dragon,icons/svg/d20-black.svg,,10,"[41, 50]",False
+9,r3AHiFnW6Jt0pIS5,{},0,1 marid,icons/svg/d20-black.svg,,5,"[51, 55]",False
+10,ioaU1f5bFn07hzHt,{},0,[[1d6]] water elementals,icons/svg/d20-black.svg,,5,"[56, 60]",False
+11,Z8DbCIq02POUXXVU,{},0,[[2d6]] ghasts crawling over [[1d6]] wrecked ships and feeding on the dead,icons/svg/d20-black.svg,,5,"[61, 65]",False
+12,XXsSfVS5n4Ictrq6,{},0,1 djinni,icons/svg/d20-black.svg,,5,"[66, 70]",False
+13,NQCu0vVpdXludbq1,{},0,[[1d3]] young bronze dragons,icons/svg/d20-black.svg,,5,"[71, 75]",False
+14,cozA9idmy8fp5LhZ,{},0,"A beached whale, dead and bloated. If it takes any damage, it explodes, and each creature within 30 feet of it must make a DC 15 Dexterity saving throw, taking [[5d6]] bludgeoning damage on a failed save, or half as much damage on a successful one.",icons/svg/d20-black.svg,,5,"[76, 80]",False
+15,LwAjtNaBgwJUTo8u,{},0,[[2d4]] cyclopes,icons/svg/d20-black.svg,,2,"[81, 82]",False
+16,fJw7qk4yjt2IkKcw,{},0,1 storm giant,icons/svg/d20-black.svg,,2,"[83, 84]",False
+17,mATXnxCwHBh0GetY,{},0,[[1d3]] young blue dragons,icons/svg/d20-black.svg,,2,"[85, 86]",False
+18,wrrP7mWughDT4k00,{},0,1 adult bronze dragon,icons/svg/d20-black.svg,,2,"[87, 88]",False
+19,flPmdjAlQPJdefzS,{},0,1 adult blue dragon,icons/svg/d20-black.svg,,2,"[89, 90]",False
+20,jr3NaqnLZlr8RUqs,{},0,[[1d3]] rocs,icons/svg/d20-black.svg,,3,"[91, 93]",False
+21,XHx70Lr6hCcnAIll,{},0,1 dragon turtle,icons/svg/d20-black.svg,,4,"[94, 97]",False
+22,TNfItbCBtliOlloX,{},0,1 ancient bronze dragon,icons/svg/d20-black.svg,,2,"[98, 99]",False
+23,cS6almpaaVeATcTA,{},0,1 ancient blue dragon,icons/svg/d20-black.svg,,1,"[100, 100]",False

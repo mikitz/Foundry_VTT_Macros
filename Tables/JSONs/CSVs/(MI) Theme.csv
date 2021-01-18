@@ -1,0 +1,7 @@
+_id,flags,type,text,img,resultId,weight,range,drawn
+0,Pf5xFkFyZBEkvm3g,{},0,Alien,icons/svg/d20-black.svg,ENlY0lHuh7nadHPA,1,"[1, 1]",False
+1,VZeapeM6PAXZvjEa,{},0,Cursed,icons/svg/d20-black.svg,dNKanvcEauj2KFWb,1,"[2, 2]",False
+2,XJkeP2cpATVkPua7,{},0,Hostile,icons/svg/d20-black.svg,JJ7ZRKL7lOVDCoYU,1,"[3, 3]",False
+3,h6PJDeBYNtAYtZ85,{},0,Sanctum,icons/svg/d20-black.svg,BGpv3WIBe9po9XTt,1,"[4, 4]",False
+4,foTfgSH2d3KGjAhW,{},0,Welcoming,icons/svg/d20-black.svg,FmuwCmoK3nn7w1kt,1,"[5, 5]",False
+5,DzphsVyuQcmF7hF4,{},0,Wild,icons/svg/d20-black.svg,ifevGkslfjqxwaE8,1,"[6, 6]",False

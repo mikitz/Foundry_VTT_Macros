@@ -1,0 +1,34 @@
+_id,flags,type,text,img,resultId,weight,range,drawn
+0,WWn1vgY9iOUyhuzo,{},0,1 werebear,icons/svg/d20-black.svg,,3,"[1, 3]",False
+1,0Euo89VukJx7E3RD,{},0,[[1d4]] druids performing a ritual for the dead (day only) or [[1d4]] banshees (night only),icons/svg/d20-black.svg,,2,"[4, 5]",False
+2,ccdrFvivtkCaBpis,{},0,[[1d3]] couatls,icons/svg/d20-black.svg,,2,"[6, 7]",False
+3,JZq9V72uTW8uqRF2,{},0,[[1d3]] gnoll fangs of Yeenoghu with [[2d6+3]] gnolls,icons/svg/d20-black.svg,,3,"[8, 10]",False
+4,hHZWbN7a93H9wp3g,{},0,[[2d4]] displacer beasts,icons/svg/d20-black.svg,,5,"[11, 15]",False
+5,F2pd7voS730tHJRj,{},0,[[1d6+2]] veterans,icons/svg/d20-black.svg,,5,"[16, 20]",False
+6,tijvI4EXNHQQkXTV,{},0,"A pool of clear, still water. Gold coins litter the bottom, but they disappear if removed from the pool.",icons/svg/d20-black.svg,,5,"[21, 25]",False
+7,JUt4FXp7PSjhpWel,{},0,[[1d4+1]] green hags with [[1d3]] owlbears,icons/svg/d20-black.svg,,5,"[26, 30]",False
+8,0RHLcFxQkSnKLgmJ,{},0,[[1d6+2]] werewolves,icons/svg/d20-black.svg,,5,"[31, 35]",False
+9,SXdjnjZx3eTnwQ6o,{},0,A small woodland shrine dedicated to a mysterious cult named the Siswa,icons/svg/d20-black.svg,,5,"[36, 40]",False
+10,mNDIQMVy2Ba04g30,{},0,[[1d6+2]] phase spiders,icons/svg/d20-black.svg,,5,"[41, 45]",False
+11,HkCICOUiwl39odgh,{},0,[[2d4]] yuan-ti malisons,icons/svg/d20-black.svg,,5,"[46, 50]",False
+12,RM89BmhePoHxyiFx,{},0,[[1d3]] werebears,icons/svg/d20-black.svg,,2,"[51, 52]",False
+13,i6J9TSV8H9v6rlQb,{},0,[[1d4]] revenants,icons/svg/d20-black.svg,,2,"[53, 54]",False
+14,RPrBcIvMffL0Vqdd,{},0,1 young green dragon,icons/svg/d20-black.svg,,2,"[55, 56]",False
+15,ykmRZlse54E96im5,{},0,[[1d4]] trolls,icons/svg/d20-black.svg,,2,"[57, 58]",False
+16,Y6GzunPLHutAdOCx,{},0,[[1d6+2]] wereboars,icons/svg/d20-black.svg,,2,"[59, 60]",False
+17,9HtPa18EAOYmn4TJ,{},0,A group of seven people (commoners) wearing animal masks and ambling through the woods,icons/svg/d20-black.svg,,5,"[61, 65]",False
+18,mqtimLtW9L57OUU0,{},0,[[1d4]] gorgons,icons/svg/d20-black.svg,,2,"[66, 67]",False
+19,CaYlmOdlpJrxnRTc,{},0,[[1d3]] shambling mounds,icons/svg/d20-black.svg,,2,"[68, 69]",False
+20,2tYffJhGUnLxwPiE,{},0,1 treant,icons/svg/d20-black.svg,,2,"[70, 71]",False
+21,9fYwakZXJDugLf3c,{},0,[[1d4]] unicorns,icons/svg/d20-black.svg,,2,"[72, 73]",False
+22,4FtmrksHmvWi7TLP,{},0,[[1d6+2]] weretigers,icons/svg/d20-black.svg,,2,"[74, 75]",False
+23,IVOmznqlYBONV8Js,{},0,Peals of silvery laughter that echo from a distance,icons/svg/d20-black.svg,,5,"[76, 80]",False
+24,Kf9oDlLvcQBONbb3,{},0,1 guardian naga,icons/svg/d20-black.svg,,2,"[81, 82]",False
+25,N0MHJOODVg9l82XO,{},0,1 young gold dragon,icons/svg/d20-black.svg,,2,"[83, 84]",False
+26,wa52TWHwhuV2Ozuo,{},0,1 grick alpha with [[2d4]] gricks,icons/svg/d20-black.svg,,2,"[85, 86]",False
+27,Y3Eit58lot1cavyA,{},0,[[1d3]] yuan-ti abominations,icons/svg/d20-black.svg,,2,"[87, 88]",False
+28,bIiVHwGJYR67PPNp,{},0,1 adult green dragon,icons/svg/d20-black.svg,,2,"[89, 90]",False
+29,gaDQY6LLEkAhLoSx,{},0,[[1d8+1]] giant apes,icons/svg/d20-black.svg,,3,"[91, 93]",False
+30,LJP8TVYZIzZidAqR,{},0,[[2d4]] oni,icons/svg/d20-black.svg,,3,"[94, 96]",False
+31,9rJR55MR4fFf0ZCz,{},0,[[1d3]] treants,icons/svg/d20-black.svg,,3,"[97, 99]",False
+32,UykixXDqIs5Nx3NE,{},0,1 ancient green dragon,icons/svg/d20-black.svg,,1,"[100, 100]",False

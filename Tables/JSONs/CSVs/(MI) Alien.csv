@@ -1,0 +1,5 @@
+_id,flags,type,text,collection,resultId,weight,range,drawn
+0,JanZt2bNr0Lft5tS,{},1,(MI) Alien - Island Leader,RollTable,aNgbEvGhP9S4b1wK,1,"[1, 1]",False
+1,ZkvLev8sEXWt5mn1,{},1,(MI) Alien - Island Inhabitants,RollTable,8gdwKFgFXUS5HkwM,1,"[1, 1]",False
+2,paiZn5QOiNbuZGxO,{},1,(MI) Alien - Inhabitant Reactions,RollTable,nVbRlyoWxM100x4h,1,"[1, 1]",False
+3,UVDbDtoWtvYIdPGQ,{},1,(MI) Alien - Story Hooks,RollTable,Io3izAatxeYbPaW7,1,"[1, 1]",False

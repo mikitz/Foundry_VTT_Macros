@@ -1,0 +1,6 @@
+_id,flags,type,text,img,collection,resultId,weight,range,drawn
+0,NPg5r2sPEfYcvD7D,{},1,Ship Type,icons/svg/d20-black.svg,RollTable,LokUouybkqfE8L6x,1,"[1, 1]",False
+1,cNgcYttiM8XTdxsO,{},1,Ship Purpose,icons/svg/d20-black.svg,RollTable,FYweZ3nDHA7xRXte,1,"[1, 1]",False
+2,l8lzb9eLukOYedOU,{},1,Ship Adj,icons/svg/d20-black.svg,RollTable,QNbGTaaOei9yG0nL,1,"[1, 1]",False
+3,hKlQiMhwmzFn6u3Z,{},1,Ship Noun,icons/svg/d20-black.svg,RollTable,8CtvBc2ysIIYuBdS,1,"[1, 1]",False
+4,94WanGY8V3apOKxR,{},1,Ship Port o' Call,icons/svg/d20-black.svg,RollTable,LZBjYKtzLVET3ITf,1,"[1, 1]",False

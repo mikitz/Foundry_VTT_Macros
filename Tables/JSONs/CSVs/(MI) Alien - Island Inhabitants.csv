@@ -1,0 +1,6 @@
+_id,flags,type,text,img,resultId,weight,range,drawn
+0,wn0ftY6xMoM8a8Pm,{},0,[[1d6]] berserkers and [[5d10]] tribal warriors,icons/svg/d20-black.svg,,1,"[1, 1]",False
+1,k5Igo62jltDNdTGv,{},0,[[1d6]] cult fanatics and [[5d10]] cultists,icons/svg/d20-black.svg,,2,"[2, 3]",False
+2,AOOu3e8z54U27bB2,{},0,[[1d6]] lizardfolk shamans and [[5d10]] lizardfolk,icons/svg/d20-black.svg,,1,"[4, 4]",False
+3,lsbL0PaovuPSFjHt,{},0,[[1d6]] bullywug croakers (see appendix C) and [[5d10]] bullywugs,icons/svg/d20-black.svg,,1,"[5, 5]",False
+4,JLEqeN24u8b6tTvk,{},0,[[1d8]] locathah hunters (see appendix C) and [[3d10]] locathah (see appendix C),icons/svg/d20-black.svg,,1,"[6, 6]",False

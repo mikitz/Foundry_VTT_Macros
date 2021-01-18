@@ -1,0 +1,14 @@
+_id,flags,type,text,img,resultId,weight,range,drawn
+0,IXCeqfID4N6QP8X2,{},0,1 roc,icons/svg/d20-black.svg,,10,"[1, 10]",False
+1,OUjGoDE6PF05o9uo,{},0,1 storm giant,icons/svg/d20-black.svg,,10,"[11, 20]",False
+2,ZMGYeJHdR6ZKvpuE,{},0,An adult bronze dragon fighting an adult blue dragon to the death,icons/svg/d20-black.svg,,5,"[21, 25]",False
+3,1aonNsUMHpZRXHs2,{},0,[[2d4]] cyclopes,icons/svg/d20-black.svg,,15,"[26, 40]",False
+4,GjqYRSVIfcARdpov,{},0,1 adult bronze dragon or 1 adult blue dragon,icons/svg/d20-black.svg,,10,"[41, 50]",False
+5,JZCSPAaNZCRLpGtj,{},0,[[1d3]] djinni or 1d3 marids,icons/svg/d20-black.svg,,10,"[51, 60]",False
+6,QI2uLh93fzRgEMJ4,{},0,1 dragon turtle,icons/svg/d20-black.svg,,10,"[61, 70]",False
+7,RwFzABOmHyx0zJ6W,{},0,[[1d3]] rocs,icons/svg/d20-black.svg,,5,"[71, 75]",False
+8,d0Un3Y3f4En1g3Zs,{},0,[[1d6+2]] waterspouts that dance on the water before stopping abruptly,icons/svg/d20-black.svg,,5,"[76, 80]",False
+9,icqmLJCThT3TOxk4,{},0,[[1d6]] young blue dragons,icons/svg/d20-black.svg,,10,"[81, 90]",False
+10,tFeLFjtOe5gvkmPg,{},0,1 ancient bronze dragon,icons/svg/d20-black.svg,,6,"[91, 96]",False
+11,0X3Qh9nzNLRn4eww,{},0,1 ancient blue dragon,icons/svg/d20-black.svg,,3,"[97, 99]",False
+12,yX5HnBfu7FNT0eqd,{},0,[[1d3+1]] storm giants,icons/svg/d20-black.svg,,1,"[100, 100]",False

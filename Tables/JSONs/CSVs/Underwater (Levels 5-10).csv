@@ -1,0 +1,24 @@
+_id,flags,type,text,weight,range,drawn
+0,lEenC1yf2crep7lX,{},0,[[3d6]] steam mephits,2,"[1, 2]",False
+1,58q5Xka0NpYRRNMN,{},0,[[1d10]] sahuagin,2,"[3, 4]",False
+2,ryeCNw2p6jn2O1BO,{},0,1 giant octopus,2,"[5, 6]",False
+3,Huba4klwW6pzDEHH,{},0,[[3d6]] constrictor snakes,2,"[7, 8]",False
+4,NCKvRv8xB9YHQf5K,{},0,[[2d10]] merfolk with [[1d4]] giant sea horses,2,"[9, 10]",False
+5,o2qbCqXaijT2pung,{},0,[[1d4]] sea hags,5,"[11, 15]",False
+6,NTsH2uQXH2bgXBS6,{},0,[[2d4]] swarms of quippers,5,"[16, 20]",False
+7,2wA2zgcI4ftCQWin,{},0,A sunken galleon with a 50% chance of a random treasure hoard inside (roll on the Treasure Hoard: Challenge 5-10 table in chapter 7 of the Dungeon Master's Guide),5,"[21, 25]",False
+8,Jg2ZfbPrL4bEnQCC,{},0,[[1d4]] plesiosauruses,5,"[26, 30]",False
+9,ukCt7kHSBhbxN98B,{},0,[[3d6]] reef sharks,5,"[31, 35]",False
+10,a9aK8TvMpl6DxgGH,{},0,An abandoned bathysphere,5,"[36, 40]",False
+11,638U1AyUSyZ7XXrP,{},0,[[1d4]] giant constrictor snakes,10,"[41, 50]",False
+12,EDlocHGz2oHMcZLT,{},0,[[2d4]] hunter sharks,5,"[51, 55]",False
+13,ZSLDuyRsOF1FgcT2,{},0,[[1d3]] sahuagin priestesses with [[2d10]] sahuagin,5,"[56, 60]",False
+14,YxrWmy1IiyuOrZrF,{},0,An empty castle made from coral,5,"[61, 65]",False
+15,PQ9EWcX3RE6ySY3d,{},0,[[1d4]] killer whales,5,"[66, 70]",False
+16,PovX76MFrtgJHct8,{},0,[[1d10]] merrow,5,"[71, 75]",False
+17,drGWSl87MtJX77NM,{},0,"An eerie statue of a squatting humanoid, with bat wings on its back and tentacles sprouting from its face",5,"[76, 80]",False
+18,LrO2Gn4W8pYMksmv,{},0,[[1d4]] water elementals,5,"[81, 85]",False
+19,R4K997RxOcfCUdSx,{},0,1 sahuagin baron with [[2d8]] sahuagin,5,"[86, 90]",False
+20,hMvdVRgjffxCCgu4,{},0,[[1d4]] giant sharks,6,"[91, 96]",False
+21,bOsF3g7uWiUo7c8R,{},0,1 marid,3,"[97, 99]",False
+22,XjsAcBpCK92M6S74,{},0,1 storm giant,1,"[100, 100]",False

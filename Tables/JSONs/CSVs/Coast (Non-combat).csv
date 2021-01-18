@@ -1,0 +1,36 @@
+_id,flags,type,text,img,resultId,weight,range,drawn
+0,6HCJVMPw0aK2Obu4,{},0,[[2d8]] giant wolf spiders,icons/svg/d20-black.svg,,1,"[1, 1]",False
+1,wyAt9Ao3MVioFxM6,{},0,[[3d6]] pteranodons,icons/svg/d20-black.svg,,2,"[2, 3]",False
+2,ysKRLucTHX39xkf6,{},0,[[2d4]] scouts,icons/svg/d20-black.svg,,2,"[4, 5]",False
+3,jpC5yrjYtFZfnuVk,{},0,[[1d6+2]] sahuagin,icons/svg/d20-black.svg,,2,"[6, 7]",False
+4,CBbssHMTDG8egGly,{},0,1 sea hag,icons/svg/d20-black.svg,,1,"[8, 8]",False
+5,1za5bOUNwemkF8h9,{},0,[[1d4+1]] giant toads,icons/svg/d20-black.svg,,2,"[9, 10]",False
+6,IYYKdLGghE6Ykooy,{},0,[[3d6]] sahuagin,icons/svg/d20-black.svg,,5,"[11, 15]",False
+7,CJzqPI002taUhVIt,{},0,[[2d6]] giant eagles,icons/svg/d20-black.svg,,5,"[16, 20]",False
+8,H74Uakp1meIrw5Jz,{},0,A pseudodragon chasing gulls through the air,icons/svg/d20-black.svg,,5,"[21, 25]",False
+9,2ge3z7NIIv8pJk7F,{},0,[[1d2]] druids,icons/svg/d20-black.svg,,4,"[26, 29]",False
+10,65UUs3lhE9SC5UPc,{},0,[[2d4+1]] giant toads,icons/svg/d20-black.svg,,3,"[30, 32]",False
+11,Et8CsTa54WNnQl0u,{},0,1 commoner singing a dirge (day only) or 1 banshee (night only),icons/svg/d20-black.svg,,3,"[33, 35]",False
+12,JFuPesPo8cUIvvu8,{},0,A stoppered bottle containing an illegible note and half buried in the sand,icons/svg/d20-black.svg,,5,"[36, 40]",False
+13,MD67uGHlJiCHYdmS,{},0,3 sea hags,icons/svg/d20-black.svg,,3,"[41, 43]",False
+14,VDex8iIM5fYCCCfA,{},0,[[1d8+1]] harpies,icons/svg/d20-black.svg,,3,"[44, 46]",False
+15,n2jxIVTpTwQdrYWF,{},0,[[1d4]] plesiosauruses,icons/svg/d20-black.svg,,4,"[47, 50]",False
+16,BbxKsdx3nslWuPvU,{},0,[[1d4]] manticores,icons/svg/d20-black.svg,,3,"[51, 53]",False
+17,90v26f00emrX43jC,{},0,[[2d4]] ogres,icons/svg/d20-black.svg,,3,"[54, 56]",False
+18,gW5W7uVNa5O8Kjn9,{},0,[[1d10]] griffons,icons/svg/d20-black.svg,,4,"[57, 60]",False
+19,S4Ycjrc4jsDcX6y4,{},0,A battle at sea between two galleons,icons/svg/d20-black.svg,,5,"[61, 65]",False
+20,OatAHiMccj7Jpr3e,{},0,[[1d4+3]] merrow,icons/svg/d20-black.svg,,5,"[66, 70]",False
+21,zl6I9a913CvSbZa8,{},0,"A pirate crew consisting of 1 bandit captain, 1 druid, 2 berserkers, and [[2d12]] bandits, all searching for buried treasure",icons/svg/d20-black.svg,,5,"[71, 75]",False
+22,bcbn4niW6ToddZKA,{},0,A severed humanoid hand tangled in a net,icons/svg/d20-black.svg,,5,"[76, 80]",False
+23,gxhCsLNW4EZalUiZ,{},0,1 water elemental,icons/svg/d20-black.svg,,2,"[81, 82]",False
+24,xeiIkYHEGvQikoIq,{},0,1 cyclops,icons/svg/d20-black.svg,,2,"[83, 84]",False
+25,0YzjZSfAcGYKrugJ,{},0,[[1d4]] banshees (night only),icons/svg/d20-black.svg,,2,"[85, 86]",False
+26,kO6SQHYdSVH6Ad4m,{},0,[[2d4]] veterans,icons/svg/d20-black.svg,,2,"[87, 88]",False
+27,oTsV5uV2xLDkf0zT,{},0,1 young bronze dragon,icons/svg/d20-black.svg,,2,"[89, 90]",False
+28,raAH80Wvt8uBSQ0d,{},0,[[1d3]] cyclopes,icons/svg/d20-black.svg,,3,"[91, 93]",False
+29,O31ia5KLejpuA9ZH,{},0,1 young blue dragon,icons/svg/d20-black.svg,,2,"[94, 95]",False
+30,1JKoUa3f10XtfkW4,{},0,1 sahuagin baron with [[1d3]] sahuagin priestesses and [[2d8]] sahuagin,icons/svg/d20-black.svg,,1,"[96, 96]",False
+31,U1ieyoyhobRGBTbH,{},0,1 djinni,icons/svg/d20-black.svg,,1,"[97, 97]",False
+32,MwLX8TAWRuMwIeJa,{},0,1 roc,icons/svg/d20-black.svg,,1,"[98, 98]",False
+33,zaXoXsBH1Nrd6ZR9,{},0,1 marid,icons/svg/d20-black.svg,,1,"[99, 99]",False
+34,PvlWOoDRTuuh0vMI,{},0,1 storm giant,icons/svg/d20-black.svg,,1,"[100, 100]",False

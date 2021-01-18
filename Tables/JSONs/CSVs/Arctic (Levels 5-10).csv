@@ -1,0 +1,32 @@
+_id,flags,type,text,img,resultId,weight,range,drawn
+0,19HgUaGpSXgrJesD,{},0,2 saber-toothed tigers,icons/svg/d20-black.svg,,5,"[1, 5]",False
+1,AmHcQBPySO6o1DtK,{},0,[[1d4]] half-ogres,icons/svg/d20-black.svg,,2,"[6, 7]",False
+2,woeVUh94w3dG5Erd,{},0,[[1d3+1]] brown bears,icons/svg/d20-black.svg,,3,"[8, 10]",False
+3,VslZIuMXK1TdVgfO,{},0,[[1d3]] polar bears,icons/svg/d20-black.svg,,5,"[11, 15]",False
+4,WbW968wLxQPzK5X2,{},0,[[2d4]] berserkers,icons/svg/d20-black.svg,,5,"[16, 20]",False
+5,Q8AYAZgTbQ2Ta7As,{},0,"A half-orc druid tending to an injured polar bear. If the characters assist the druid, she gives them a vial of antitoxin.",icons/svg/d20-black.svg,,5,"[21, 25]",False
+6,8Yzmnp8GJfjmed6L,{},0,[[2d8]] scouts,icons/svg/d20-black.svg,,5,"[26, 30]",False
+7,pBnA4OGIYOO6gj0f,{},0,[[2d4]] ice mephits,icons/svg/d20-black.svg,,5,"[31, 35]",False
+8,NHAhdQsq6bTc4xBC,{},0,[[2d6+1]] zombies aboard a galleon trapped in the ice. Searching the ship yields [[2d20]] days of rations.,icons/svg/d20-black.svg,,5,"[36, 40]",False
+9,9agtxJS6kdKiAfye,{},0,1 manticore,icons/svg/d20-black.svg,,5,"[41, 45]",False
+10,FYnW0IJ62Q7alrpr,{},0,[[2d6+3]] orcs,icons/svg/d20-black.svg,,5,"[46, 50]",False
+11,gjQZdWAE7Kb9koEK,{},0,[[1d6+2]] ogres,icons/svg/d20-black.svg,,3,"[51, 53]",False
+12,VUf1Uv2WDZWYQIQ8,{},0,[[2d4]] griffons,icons/svg/d20-black.svg,,2,"[54, 55]",False
+13,qAmVwUWp0KU88BYN,{},0,[[1d4]] veterans,icons/svg/d20-black.svg,,2,"[56, 57]",False
+14,BovFdwrVhD8ybUt1,{},0,"1 bandit captain with 1 druid, 1d3 berserkers, and 2d10+5 bandits",icons/svg/d20-black.svg,,3,"[58, 60]",False
+15,0VWRzBEDuVWBl52P,{},0,[[1d4]] hours of extreme cold (see chapter 5 of the Dungeon Master's Guide),icons/svg/d20-black.svg,,5,"[61, 65]",False
+16,f0wUsL6maF2kIz8F,{},0,1 young remorhaz,icons/svg/d20-black.svg,,3,"[66, 68]",False
+17,UODqATzBSJQbVfHs,{},0,1 orc Eye of Gruumsh with 1d6 orogs and 2d8+6 orcs,icons/svg/d20-black.svg,,4,"[69, 72]",False
+18,Tv0kQ7NnQs3Tzv2s,{},0,1 revenant,icons/svg/d20-black.svg,,3,"[73, 75]",False
+19,2ST9Vbb4230sAump,{},0,A howl that echoes over the land for [[1d3]] minutes,icons/svg/d20-black.svg,,5,"[76, 80]",False
+20,nhOdr7o7QaACl9Fh,{},0,[[1d3]] mammoths,icons/svg/d20-black.svg,,2,"[81, 82]",False
+21,voe4Q7GVkSAiRsLL,{},0,1 young white dragon,icons/svg/d20-black.svg,,2,"[83, 84]",False
+22,Z5U5cvTmfKS1uofy,{},0,[[2d4]] winter wolves,icons/svg/d20-black.svg,,2,"[85, 86]",False
+23,0Hc8GlCT2sOdax8z,{},0,[[1d6+2]] yetis,icons/svg/d20-black.svg,,2,"[87, 88]",False
+24,LeUEdxlBWuYbfvoC,{},0,[[1d2]] frost giants,icons/svg/d20-black.svg,,2,"[89, 90]",False
+25,BOPjQ8tTxwzdCN4Z,{},0,[[1d3]] werebears,icons/svg/d20-black.svg,,2,"[91, 92]",False
+26,PYGXR7OL90SGQU8v,{},0,[[1d4]] trolls,icons/svg/d20-black.svg,,2,"[93, 94]",False
+27,mNtd2i76KRoERvUS,{},0,1 abominable yeti,icons/svg/d20-black.svg,,2,"[95, 96]",False
+28,zho7wgVeozHenPUn,{},0,1 remorhaz,icons/svg/d20-black.svg,,2,"[97, 98]",False
+29,9cxhSbu7fLCDjIzE,{},0,1 roc,icons/svg/d20-black.svg,,1,"[99, 99]",False
+30,DU0Rf0acJmhzxj7E,{},0,[[2d4]] young remorhazes,icons/svg/d20-black.svg,,1,"[100, 100]",False

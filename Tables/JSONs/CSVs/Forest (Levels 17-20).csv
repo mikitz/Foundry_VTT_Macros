@@ -1,0 +1,25 @@
+_id,flags,type,text,img,resultId,weight,range,drawn
+0,zBlu963c6hceSlJe,{},0,1 young green dragon,icons/svg/d20-black.svg,,5,"[1, 5]",False
+1,XlIb6NmEO9D6mBwM,{},0,1 treant,icons/svg/d20-black.svg,,5,"[6, 10]",False
+2,stIRNZ8LXXw1uJOu,{},0,1 guardian naga,icons/svg/d20-black.svg,,3,"[11, 13]",False
+3,vQZGHt7pVfjqYsnl,{},0,[[1d10]] revenants,icons/svg/d20-black.svg,,3,"[14, 16]",False
+4,5scbyHJUUokJ5mjP,{},0,[[1d8+1]] unicorns,icons/svg/d20-black.svg,,3,"[17, 19]",False
+5,e5uBL6gZUslSvbkF,{},0,[[1d3]] grick alphas,icons/svg/d20-black.svg,,3,"[20, 22]",False
+6,wm7lMXtS9hRZGNkf,{},0,"For a few hundred feet, wherever the characters step, flowers bloom and emit soft light.",icons/svg/d20-black.svg,,3,"[23, 25]",False
+7,ihVzkWUVDwT7l6F5,{},0,1 young gold dragon,icons/svg/d20-black.svg,,3,"[26, 28]",False
+8,WqzGPcEMsWmyZlv9,{},0,[[1d6+2]] shambling mounds,icons/svg/d20-black.svg,,3,"[29, 31]",False
+9,nQaJg7tnSfouOLqx,{},0,[[2d4]] werebears,icons/svg/d20-black.svg,,3,"[32, 34]",False
+10,IkpkHQga8mvsS2TT,{},0,[[1d4]] oni,icons/svg/d20-black.svg,,3,"[35, 37]",False
+11,KuQw24XdGYukP8hB,{},0,[[4d6+10]] elves living in a small community in the treetop,icons/svg/d20-black.svg,,3,"[38, 40]",False
+12,LTymK2SKIFlgCdrd,{},0,[[1d6+2]] gorgons,icons/svg/d20-black.svg,,3,"[41, 43]",False
+13,QmCsAgcHRCU5hwRI,{},0,[[2d4]] trolls,icons/svg/d20-black.svg,,3,"[44, 46]",False
+14,odNflb5kkY3chwQA,{},0,[[1d4]] giant apes,icons/svg/d20-black.svg,,3,"[47, 49]",False
+15,8eqSRvpQ2y8jooXp,{},0,[[1d3]] yuan-ti abominations,icons/svg/d20-black.svg,,3,"[50, 52]",False
+16,WCY9cd02jTZZML9B,{},0,[[1d3]] young green dragons,icons/svg/d20-black.svg,,10,"[53, 62]",False
+17,fhCo358nMBrJtDJn,{},0,"A 50-foot-tall stone statue of an elf warrior with hand raised, palm out, as if to forbid travelers from coming this way",icons/svg/d20-black.svg,,3,"[63, 65]",False
+18,Uq7l4IF4LnXlNlmr,{},0,[[1d4]] treants,icons/svg/d20-black.svg,,10,"[66, 75]",False
+19,zA6NlEQD8ymfH7PK,{},0,A cairn set atop a low hill,icons/svg/d20-black.svg,,5,"[76, 80]",False
+20,IVyoiJDp1z2Y9V2i,{},0,1 adult gold dragon,icons/svg/d20-black.svg,,10,"[81, 90]",False
+21,5CQFU3O0T9lYbdqX,{},0,1 ancient green dragon,icons/svg/d20-black.svg,,6,"[91, 96]",False
+22,6sH71rZJwLWurkdq,{},0,[[2d4+1]] treants,icons/svg/d20-black.svg,,3,"[97, 99]",False
+23,aYW3y5kKetP0Roji,{},0,1 ancient gold dragon,icons/svg/d20-black.svg,,1,"[100, 100]",False

@@ -1,0 +1,7 @@
+_id,flags,type,text,img,resultId,weight,range,drawn
+0,BtOJ2lQLjg3sgEUw,{},0,An opponent swears to take revenge on you.,icons/svg/d20-black.svg,,1,"[1, 1]",False
+1,IUtR7GQfM6oDQRBr,{},0,A crime boss approaches you and offers to pay you to intentionally lose a few matches.,icons/svg/d20-black.svg,,1,"[2, 2]",False
+2,0GoJSBVQn2nhVdPm,{},0,"You defeat a popular local champion, drawing the crowd's ire.",icons/svg/d20-black.svg,,1,"[3, 3]",False
+3,m8HgX1NrH17nsQ2h,{},0,"You defeat a noble's servant, drawing the wrath of the noble's house.",icons/svg/d20-black.svg,,1,"[4, 4]",False
+4,9ldLkji8dyhZYqnf,{},0,"You are accused of cheating. Whether the allegation is true or not, your reputation is tarnished.",icons/svg/d20-black.svg,,1,"[5, 5]",False
+5,N7YvBLQYMDkKZcgR,{},0,You accidentally deliver a near-fatal wound to a foe.,icons/svg/d20-black.svg,,1,"[6, 6]",False

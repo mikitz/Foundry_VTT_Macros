@@ -1,0 +1,7 @@
+_id,flags,type,text,img,resultId,weight,range,drawn
+0,GMiHRLj1qD3RW0T8,{},0,Archmage,icons/svg/d20-black.svg,,1,"[1, 1]",False
+1,o9ujmg5RhBkommma,{},0,Lich,icons/svg/d20-black.svg,,1,"[2, 2]",False
+2,V4V1a2in91c3Sgvk,{},0,Night hag,icons/svg/d20-black.svg,,1,"[3, 3]",False
+3,lONp00RoRJrQt2tQ,{},0,Noble,icons/svg/d20-black.svg,,1,"[4, 4]",False
+4,cItyKDHnh5YUWEur,{},0,Rakshasa,icons/svg/d20-black.svg,,1,"[5, 5]",False
+5,fNAmGMyqeTS7jRay,{},0,Werebear,icons/svg/d20-black.svg,,1,"[6, 6]",False

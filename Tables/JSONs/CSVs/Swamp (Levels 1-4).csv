@@ -1,0 +1,48 @@
+_id,flags,type,text,img,resultId,weight,range,drawn
+0,ScDRqgwyxROg7J4W,{},0,[[1d4]] poisonous snakes,icons/svg/d20-black.svg,,1,"[1, 1]",False
+1,43uRa1XFi1Hnrbmg,{},0,[[3d6]] rats,icons/svg/d20-black.svg,,4,"[2, 5]",False
+2,HSrB9mdEUNcofLXY,{},0,[[2d8]] ravens,icons/svg/d20-black.svg,,5,"[6, 10]",False
+3,U3sTzGOvUa3vOKYq,{},0,[[3d6]] giant rats,icons/svg/d20-black.svg,,2,"[11, 12]",False
+4,5VIp7DOZcB5RnD52,{},0,[[1d10+5]] tribal warriors,icons/svg/d20-black.svg,,1,"[13, 13]",False
+5,3XSIXs57UbXr0RTx,{},0,[[1d8+1]] giant lizards,icons/svg/d20-black.svg,,2,"[14, 15]",False
+6,jQhyL0VimdSgkJz8,{},0,1 crocodile,icons/svg/d20-black.svg,,2,"[16, 17]",False
+7,lbq8EuU7oJwrMZFJ,{},0,1 swarm of insects,icons/svg/d20-black.svg,,2,"[18, 19]",False
+8,50xK1szeAS8zGNpy,{},0,1 giant spider,icons/svg/d20-black.svg,,1,"[20, 20]",False
+9,GRPLBeLHuD1mnLtO,{},0,[[1d4+1]] mud huts partially sunken in murky water,icons/svg/d20-black.svg,,2,"[21, 22]",False
+10,8WhTsmuacoC3cWnZ,{},0,[[2d8+1]] kobolds,icons/svg/d20-black.svg,,3,"[23, 25]",False
+11,wDXidp0eGcPW5Tx0,{},0,[[2d4]] mud mephits,icons/svg/d20-black.svg,,1,"[26, 26]",False
+12,xtRLpyvPCVicErpQ,{},0,[[1d6+2]] giant poisonous snakes,icons/svg/d20-black.svg,,3,"[27, 29]",False
+13,Q2aNmqypxQ7QfKXF,{},0,[[2d4]] winged kobolds,icons/svg/d20-black.svg,,1,"[30, 30]",False
+14,NRlMd7rErHFKuGkr,{},0,1 scout,icons/svg/d20-black.svg,,2,"[31, 32]",False
+15,7UECHtHK2o4tMYxp,{},0,The corpse of an adventurer tangled in the weeds. Looting the body turns up an explorer's pack and perhaps (50% chance) a random common magic item.,icons/svg/d20-black.svg,,2,"[33, 34]",False
+16,vAjXe3MSM09zpDPj,{},0,1 giant toad,icons/svg/d20-black.svg,,4,"[35, 38]",False
+17,n1nF1LOd5H0mB4mw,{},0,[[1d6+2]] constrictor snakes,icons/svg/d20-black.svg,,3,"[39, 41]",False
+18,vprA38DFr6FeBkDZ,{},0,[[2d4]] giant frogs,icons/svg/d20-black.svg,,3,"[42, 44]",False
+19,fjZMkmRBAqyHz2E4,{},0,[[1d8+1]] swarms of rats or [[1d6+2]] swarms of ravens,icons/svg/d20-black.svg,,1,"[45, 45]",False
+20,VRkTX8EW2sAhxljf,{},0,[[2d10]] stirges,icons/svg/d20-black.svg,,3,"[46, 48]",False
+21,A0Ygear4rgMhA8z8,{},0,[[2d6+3]] bullywugs,icons/svg/d20-black.svg,,4,"[49, 52]",False
+22,7j2a7JENCYGXWPb6,{},0,[[1d8+1]] orcs,icons/svg/d20-black.svg,,2,"[53, 54]",False
+23,oI0zDE2blSj49EXw,{},0,[[1d4]] yuan-ti purebloods,icons/svg/d20-black.svg,,2,"[55, 56]",False
+24,sd8S5PmtTpQQR7eZ,{},0,1 druid,icons/svg/d20-black.svg,,1,"[57, 57]",False
+25,vQa5g7MHnLKAfaYh,{},0,"1 yuan-ti malison: type 1, type 2, type 3",icons/svg/d20-black.svg,,2,"[58, 59]",False
+26,lEd2djWwJWNmWZaq,{},0,1 giant constrictor snake,icons/svg/d20-black.svg,,3,"[60, 62]",False
+27,1n1ONAJIfftlDLtp,{},0,A high-pitched shriek that lasts for [[1d4]] minutes,icons/svg/d20-black.svg,,2,"[63, 64]",False
+28,YrEiGUIHVUop9gg6,{},0,[[2d4]] lizardfolk,icons/svg/d20-black.svg,,3,"[65, 67]",False
+29,TxUAEahz11e4VDBF,{},0,[[1d4]] ghouls,icons/svg/d20-black.svg,,2,"[68, 69]",False
+30,cxO9qgREz1pcYswL,{},0,1 will-o'-wisp,icons/svg/d20-black.svg,,2,"[70, 71]",False
+31,3ddc15MCTBirrjbM,{},0,1 wight,icons/svg/d20-black.svg,,1,"[72, 72]",False
+32,QvwX3NTHFLmX2baA,{},0,1 ghast,icons/svg/d20-black.svg,,1,"[73, 73]",False
+33,tQNXAf7NOV0Qfu5P,{},0,1 swarm of poisonous snakes,icons/svg/d20-black.svg,,2,"[74, 75]",False
+34,WageCrErRLjFJKap,{},0,A foul stench bubbling up from brackish waters,icons/svg/d20-black.svg,,2,"[76, 77]",False
+35,7LqbvERb12up84QI,{},0,[[1d4+2]] ogres,icons/svg/d20-black.svg,,3,"[78, 80]",False
+36,gzBluWzXgqqvtHdm,{},0,1 shambling mound,icons/svg/d20-black.svg,,3,"[81, 83]",False
+37,qpTNuwhvNA14KvEe,{},0,1 lizardfolk shaman with [[1d6]] giant lizards and [[2d10]] lizardfolk,icons/svg/d20-black.svg,,3,"[84, 86]",False
+38,atnnb1BzQnsc7Yag,{},0,1 troll,icons/svg/d20-black.svg,,1,"[87, 87]",False
+39,ZCk6xexfMouuW1UN,{},0,[[1d4]] green hags,icons/svg/d20-black.svg,,2,"[88, 89]",False
+40,N8P8TURVwza0ZSer,{},0,1 revenant,icons/svg/d20-black.svg,,2,"[90, 91]",False
+41,ULUcUYAtOKSSvyOp,{},0,1 giant crocodile,icons/svg/d20-black.svg,,2,"[92, 93]",False
+42,2SnpGob6Pg3AVFGm,{},0,1 orc Eye of Gruumsh with [[1d3]] orogs and [[2d6+3]] orcs,icons/svg/d20-black.svg,,2,"[94, 95]",False
+43,pk9AHL6xs5HoiUdO,{},0,1 young black dragon,icons/svg/d20-black.svg,,2,"[96, 97]",False
+44,MRb6DrcXGFTr7Qd8,{},0,1 yuan-ti abomination,icons/svg/d20-black.svg,,1,"[98, 98]",False
+45,eFcp3UjZLiHSrWh9,{},0,[[1d4]] water elementals,icons/svg/d20-black.svg,,1,"[99, 99]",False
+46,lC2jqaBf9xjJFZUB,{},0,1 hydra,icons/svg/d20-black.svg,,1,"[100, 100]",False

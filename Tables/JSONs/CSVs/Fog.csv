@@ -1,0 +1,4 @@
+_id,flags,type,text,img,collection,resultId,weight,range,drawn
+0,eQOvsVFjt7GtAKXD,{},1,(Fog) Normal,icons/svg/d20-black.svg,RollTable,dEO047xSmMlspoYl,1,"[1, 5]",False
+1,DiPfRGoYkXupe6TX,{},1,(Fog) Eldritch Mist,icons/svg/d20-black.svg,RollTable,gDN8XlvRYw4WtzJD,1,"[6, 6]",False
+2,iPmu5nvUYcuG1rqm,{},1,(Fog) Mist Thickness,icons/svg/d20-black.svg,RollTable,iF3c0n50AAdXmgnN,1,"[6, 6]",False

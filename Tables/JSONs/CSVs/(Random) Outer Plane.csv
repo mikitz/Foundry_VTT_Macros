@@ -1,0 +1,17 @@
+_id,flags,type,text,img,resultId,weight,range,drawn
+0,DZTNFAa0sQ7GbiAM,{},0,<p><b>Destination:</b> Mechanus</p>,icons/svg/d20-black.svg,,1,"[1, 1]",False
+1,qal2Ta2fRkPj0QkM,{},0,<p><b>Destination:</b> Arcadia</p>,icons/svg/d20-black.svg,,1,"[2, 2]",False
+2,toVaBzFjXUhlYcfi,{},0,<p><b>Destination:</b> Mount Celestia</p>,icons/svg/d20-black.svg,,1,"[3, 3]",False
+3,5DvZbrlHvrPjALWr,{},0,<p><b>Destination:</b> Bytopia</p>,icons/svg/d20-black.svg,,1,"[4, 4]",False
+4,JXAVDj5O8mPuMerV,{},0,<p><b>Destination:</b> Elysium</p>,icons/svg/d20-black.svg,,1,"[5, 5]",False
+5,rOeEnenTO7fj5MA2,{},0,<p><b>Destination:</b> The Beastlands</p>,icons/svg/d20-black.svg,,1,"[6, 6]",False
+6,5IN2DhGabYeBJUiA,{},0,<p><b>Destination:</b> Arborea</p>,icons/svg/d20-black.svg,,1,"[7, 7]",False
+7,Abv6Q7CnCakHlSj1,{},0,<p><b>Destination:</b> Ysgard</p>,icons/svg/d20-black.svg,,1,"[8, 8]",False
+8,blNHeQ8qPwYi8Yrl,{},0,<p><b>Destination:</b> Limbo</p>,icons/svg/d20-black.svg,,1,"[9, 9]",False
+9,f2z2MINZz3fEJjiw,{},0,<p><b>Destination:</b> Pandemonium</p>,icons/svg/d20-black.svg,,1,"[10, 10]",False
+10,BirYFv2iqIRm351I,{},0,<p><b>Destination:</b> The Abyss</p>,icons/svg/d20-black.svg,,1,"[11, 11]",False
+11,Uthie1RTCoC3KX3E,{},0,<p><b>Destination:</b> Carceri</p>,icons/svg/d20-black.svg,,1,"[12, 12]",False
+12,4uQGObBeCrWsGESZ,{},0,<p><b>Destination:</b> Hades</p>,icons/svg/d20-black.svg,,1,"[13, 13]",False
+13,mY24A9PfDQGIxhuB,{},0,<p><b>Destination:</b> Gehenna</p>,icons/svg/d20-black.svg,,1,"[14, 14]",False
+14,9yAfnsyczIl6LhFl,{},0,<p><b>Destination:</b> The Nine Hells</p>,icons/svg/d20-black.svg,,1,"[15, 15]",False
+15,mKVQsUQW3wCe1Rbu,{},0,<p><b>Destination:</b> Acheron</p>,icons/svg/d20-black.svg,,1,"[16, 16]",False

@@ -1,0 +1,7 @@
+_id,flags,type,text,img,resultId,weight,range,drawn
+0,7DLP4z0TmAAJlzAk,{},0,A waterfall flows up a mountainside.,icons/svg/d20-black.svg,,1,"[1, 1]",False
+1,geAksoUKqKuKibDu,{},0,The island slowly rotates clockwise.,icons/svg/d20-black.svg,,1,"[2, 2]",False
+2,4OKmkXq4B8sKsveM,{},0,Geysers shoot bright light into the sky at night.,icons/svg/d20-black.svg,,1,"[3, 3]",False
+3,D7gjLrfrNPlSzzD4,{},0,"Razorvine (see ""Wilderness Hazards"" in chapter 5, ""Adventure Environments,"" of the Dungeon Master's Guide) grows in 10-foot-tall hedges shaped like animals.",icons/svg/d20-black.svg,,1,"[4, 4]",False
+4,4N2PAYPmgc7FcCG1,{},0,Rain on the island creates a beautiful melody.,icons/svg/d20-black.svg,,1,"[5, 5]",False
+5,J2lc2MGuvqhqOxE9,{},0,All beasts on the island have truesight out to a range of 120 ft.,icons/svg/d20-black.svg,,1,"[6, 6]",False

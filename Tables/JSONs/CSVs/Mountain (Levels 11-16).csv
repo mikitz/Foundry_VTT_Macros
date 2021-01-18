@@ -1,0 +1,26 @@
+_id,flags,type,text,img,resultId,weight,range,drawn
+0,YiW0xFdXVXDljuyy,{},0,[[1d8+1]] basilisks,icons/svg/d20-black.svg,,2,"[1, 2]",False
+1,XphHBtu7Sj2xPTup,{},0,[[2d4]] hell hounds,icons/svg/d20-black.svg,,2,"[3, 4]",False
+2,91iQS34RGLu2MX0d,{},0,[[1d3]] chimeras,icons/svg/d20-black.svg,,2,"[5, 6]",False
+3,4PlR805hneqSALix,{},0,1 galeb duhr,icons/svg/d20-black.svg,,2,"[7, 8]",False
+4,KnkcCZczfHc2UiCT,{},0,[[2d6]] veterans,icons/svg/d20-black.svg,,2,"[9, 10]",False
+5,um0mIyPiRtg0LVHL,{},0,1 young silver dragon,icons/svg/d20-black.svg,,5,"[11, 15]",False
+6,TaOpOSWBRSfs0tVV,{},0,[[2d4]] trolls,icons/svg/d20-black.svg,,5,"[16, 20]",False
+7,oLnKUHAxNEoqWHYt,{},0,1 red dragon gliding through the sky above the highest mountaintops,icons/svg/d20-black.svg,,5,"[21, 25]",False
+8,ldofQCOS05ZGcbLq,{},0,[[1d8+1]] manticores,icons/svg/d20-black.svg,,5,"[26, 30]",False
+9,aveKM3ueRwX3k1o0,{},0,[[1d4]] cyclopes,icons/svg/d20-black.svg,,5,"[31, 35]",False
+10,eg9482y1bQw3SDEX,{},0,Heavy snowfall that lasts for [[1d6]] hours,icons/svg/d20-black.svg,,5,"[36, 40]",False
+11,nIiSioXiJyTX461Y,{},0,[[1d10]] air elementals,icons/svg/d20-black.svg,,5,"[41, 45]",False
+12,72cEdQ2MUxghSOYA,{},0,[[1d6+2]] bulettes,icons/svg/d20-black.svg,,5,"[46, 50]",False
+13,mkj6C7OFw88jwRId,{},0,[[1d4]] stone giants,icons/svg/d20-black.svg,,5,"[51, 55]",False
+14,u5WhTIZq2uJBIUMK,{},0,1 fire giant,icons/svg/d20-black.svg,,5,"[56, 60]",False
+15,KRh8Avyqe9UdU4cm,{},0,2 stone giants playing catch with a boulder a few hundred feet away,icons/svg/d20-black.svg,,5,"[61, 65]",False
+16,210xOI7y6ul4Sh8Y,{},0,[[1d8+1]] ettins,icons/svg/d20-black.svg,,5,"[66, 70]",False
+17,lKSj0pJLgtKpWEod,{},0,[[1d3]] frost giants,icons/svg/d20-black.svg,,5,"[71, 75]",False
+18,8qpSIAz4WozurwoS,{},0,"A wide crevasse, its depths shrouded in mist",icons/svg/d20-black.svg,,5,"[76, 80]",False
+19,Zal9jtTQfrbBJWlm,{},0,[[1d4]] cloud giants,icons/svg/d20-black.svg,,5,"[81, 85]",False
+20,0RmkC8iPNEVrxWuW,{},0,1 adult silver dragon,icons/svg/d20-black.svg,,5,"[86, 90]",False
+21,dVm4YnpD43dUzUZJ,{},0,1 adult red dragon,icons/svg/d20-black.svg,,6,"[91, 96]",False
+22,upDcdAfLh0146jS3,{},0,[[1d4]] rocs,icons/svg/d20-black.svg,,2,"[97, 98]",False
+23,ie38YPGVaXpfedwD,{},0,1 ancient silver dragon,icons/svg/d20-black.svg,,1,"[99, 99]",False
+24,5fo7L8vXA6U9x1Ny,{},0,1 ancient red dragon,icons/svg/d20-black.svg,,1,"[100, 100]",False

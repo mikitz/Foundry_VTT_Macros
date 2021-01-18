@@ -1,0 +1,3 @@
+_id,flags,type,text,img,resultId,weight,range,drawn
+HX0gBMbY0QHB8Zei,{},0,No Hazard,icons/svg/d20-black.svg,,1,"[1, 15]",False
+D7l8MrgDTbyhFLig,{},1,Hazard Type,icons/svg/d20-black.svg,RollTable,Gl23N5rHjc9cwShw,1,"[16, 20]",False

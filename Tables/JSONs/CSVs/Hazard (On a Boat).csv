@@ -1,0 +1,11 @@
+_id,flags,type,text,img,collection,resultId,weight,range,drawn
+0,OsMw57tjzTia8KQQ,{},1,Crew Conflict,icons/svg/d20-black.svg,RollTable,iL1EdN9Ych68Lb9X,15,"[1, 15]",False
+1,Nvce1h342YDeEtNi,{},1,Fire,icons/svg/d20-black.svg,RollTable,Lxh2AKaPRw6xW9MS,15,"[16, 30]",False
+2,jmFxfrGdRAYyYHNU,{},1,Fog,icons/svg/dice-target.svg,Macro,XSA3aodapALezSnZ,15,"[31, 45]",False
+3,THbSiyAxKkUGENEj,{},1,Infestation,icons/svg/d20-black.svg,RollTable,LUqecrtP4zMMRNFm,15,"[46, 60]",False
+4,FDR4lEUYmBAUDMhC,{},1,Storm,icons/svg/d20-black.svg,RollTable,2l3HNExxwJIYIPu5,40,"[61, 100]",False
+5,YUkX9Qq70D14q3F0,{},1,(Blue Hole) Contents,icons/svg/d20-black.svg,RollTable,NtITD6EwObhS7Hkj,5,"[101, 105]",False
+6,jyMuvyCIFAs5W5AF,{},1,(Sandbar) Difficulty Class,icons/svg/d20-black.svg,RollTable,4QJVfPodSQi2NZoT,5,"[106, 110]",False
+7,OA2nCAGklfGvvRKF,{},1,(Shipwreck) Contents,icons/svg/d20-black.svg,RollTable,u0e7BkVtDFPoooAy,5,"[111, 115]",False
+8,GYlk1zt8Ntd47ZH1,{},1,Whirlpool,icons/svg/daze.svg,Macro,61FUIw9pfM2KPXQb,5,"[116, 120]",False
+9,bhXfLTe6thQzAEkW,{},1,Mysterious Island,icons/svg/dice-target.svg,Macro,X8Jvn74KIMtD0Ogq,5,"[121, 125]",False

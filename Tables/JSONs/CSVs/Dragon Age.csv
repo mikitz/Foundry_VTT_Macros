@@ -1,0 +1,4 @@
+_id,flags,type,text,img,resultId,weight,range,drawn
+0,mVf9WRwWyhC2gXxS,{},0,Young,icons/svg/d20-black.svg,,1,"[1, 1]",False
+1,4a0URtSntejJf14r,{},0,Adult,icons/svg/d20-black.svg,,1,"[2, 2]",False
+2,deEbBN7xJVLSPN9R,{},0,Ancient,icons/svg/d20-black.svg,,1,"[3, 3]",False

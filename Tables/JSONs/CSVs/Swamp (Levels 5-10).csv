@@ -1,0 +1,38 @@
+_id,flags,type,text,img,resultId,weight,range,drawn
+0,wnrRtjrv0sEA3O1J,{},0,1 green hag,icons/svg/d20-black.svg,,1,"[1, 1]",False
+1,OeiaJCgEUNllBJOr,{},0,[[2d4]] giant lizards or [[2d4]] giant poisonous snakes,icons/svg/d20-black.svg,,2,"[2, 3]",False
+2,xaz4HdvJU91K1lZ0,{},0,[[2d8]] winged kobolds,icons/svg/d20-black.svg,,2,"[4, 5]",False
+3,hNoBRbNPjQzJRVYO,{},0,[[1d10+1]] bullywugs with [[1d8+1]] giant frogs,icons/svg/d20-black.svg,,2,"[6, 7]",False
+4,MSFcGc752pmcKA0R,{},0,1 druid,icons/svg/d20-black.svg,,2,"[8, 9]",False
+5,3KruYJe1fskluMqE,{},0,[[1d8+1]] swarms of insects,icons/svg/d20-black.svg,,1,"[10, 10]",False
+6,mFaYymu2PBlj3qOQ,{},0,[[1d12]] ghouls,icons/svg/d20-black.svg,,3,"[11, 13]",False
+7,9SN6LsuTmgUeTdo0,{},0,[[2d8]] scouts,icons/svg/d20-black.svg,,3,"[14, 16]",False
+8,2i2aGVMCgNWQE5qt,{},0,[[2d10]] orcs,icons/svg/d20-black.svg,,3,"[17, 19]",False
+9,mxclDR9ZtXQOeq4W,{},0,[[2d4]] giant spiders,icons/svg/d20-black.svg,,3,"[20, 22]",False
+10,RfInDe095kvMiZoq,{},0,"Tainted water that exposes creatures that move through it to sight rot (see ""Diseases"" in chapter 8 of the Dungeon Master's Guide)",icons/svg/d20-black.svg,,2,"[23, 24]",False
+11,Q0AI5Y7NK6dr8B5i,{},0,[[1d6+2]] giant toads,icons/svg/d20-black.svg,,3,"[25, 27]",False
+12,z8Ye61OY4kknDdTa,{},0,[[3d6]] lizardfolk,icons/svg/d20-black.svg,,3,"[28, 30]",False
+13,BVKUFM4nTvD6aLH4,{},0,[[1d8+1]] yuan-ti purebloods,icons/svg/d20-black.svg,,3,"[31, 33]",False
+14,Y0x08QGAofuLetX4,{},0,[[1d4+1]] swarms of poisonous snakes,icons/svg/d20-black.svg,,3,"[34, 36]",False
+15,uBgYPrLgroahkns0,{},0,A bloated humanoid corpse floating facedown in the water,icons/svg/d20-black.svg,,2,"[37, 38]",False
+16,ecfW24Rm5bGGt6By,{},0,1 shambling mound,icons/svg/d20-black.svg,,3,"[39, 41]",False
+17,GbeH4NvfoGNKYAWK,{},0,[[1d4+1]] will-o'-wisps,icons/svg/d20-black.svg,,3,"[42, 44]",False
+18,zINhK7gro2Vfed1r,{},0,[[2d6]] crocodiles,icons/svg/d20-black.svg,,3,"[45, 47]",False
+19,B7CW9n2pfIDPxpqO,{},0,[[1d4+1]] giant constrictor snakes,icons/svg/d20-black.svg,,3,"[48, 50]",False
+20,9OOESKq8GerVrcvu,{},0,1 lizardfolk shaman with [[1d3]] swarms of poisonous snakes and [[1d8+2]] lizardfolk,icons/svg/d20-black.svg,,4,"[51, 54]",False
+21,lZWEL1dnZMPui6wV,{},0,[[1d8+1]] ogres,icons/svg/d20-black.svg,,4,"[55, 58]",False
+22,rh5K3ONfu7l1b4Ip,{},0,[[2d4]] ghasts,icons/svg/d20-black.svg,,4,"[59, 62]",False
+23,ACtGI0P4P9atBEe7,{},0,"An altar partially sunk into the mud, devoted to a god that is part human and part frog",icons/svg/d20-black.svg,,3,"[63, 65]",False
+24,bdFLa9HKECtD9F68,{},0,1 giant crocodile,icons/svg/d20-black.svg,,4,"[66, 69]",False
+25,4NA9hjTjaYnMViqV,{},0,1 shambling mound,icons/svg/d20-black.svg,,4,"[70, 73]",False
+26,rJpFvcHmobCXlEg4,{},0,1 orc Eye of Gruumsh with [[1d3]] ogres and [[2d10+5]] orcs,icons/svg/d20-black.svg,,4,"[74, 77]",False
+27,baWOHx2HBPLPBuy3,{},0,A torrential rain that lasts [[1d6]] minutes and puts out all unprotected flames within 1 mile,icons/svg/d20-black.svg,,3,"[78, 80]",False
+28,LeDGpUciNMCKz58x,{},0,1 young black dragon,icons/svg/d20-black.svg,,2,"[81, 82]",False
+29,pBp9qYwn17Sf6PV1,{},0,[[1d4]] green hags with [[1d6+1]] ogres,icons/svg/d20-black.svg,,2,"[83, 84]",False
+30,jdTs5ro66EZmaGMP,{},0,1 yuan-ti abomination,icons/svg/d20-black.svg,,2,"[85, 86]",False
+31,hQODjl4rxWBFdtzF,{},0,[[1d4+1]] wights,icons/svg/d20-black.svg,,2,"[87, 88]",False
+32,oTmOLwJlJurehRAc,{},0,"[[1d6+1]] yuan-ti malisons: type 1, type 2, type 3",icons/svg/d20-black.svg,,2,"[89, 90]",False
+33,AmQuxi8Xoadc5vcr,{},0,[[1d4+1]] trolls,icons/svg/d20-black.svg,,3,"[91, 93]",False
+34,6GaCYRNWu8VKvFqC,{},0,[[1d10]] revenants,icons/svg/d20-black.svg,,3,"[94, 96]",False
+35,GS063QejKI48t07K,{},0,[[1d8+1]] water elementals,icons/svg/d20-black.svg,,3,"[97, 99]",False
+36,iIWBHc6UgFFzoPWv,{},0,[[1d3]] hydras,icons/svg/d20-black.svg,,1,"[100, 100]",False

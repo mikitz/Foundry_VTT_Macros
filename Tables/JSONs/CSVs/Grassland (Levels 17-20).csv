@@ -1,0 +1,15 @@
+_id,flags,type,text,img,resultId,weight,range,drawn
+0,tOBODoubFaHGmdGs,{},0,[[2d6]] triceratopses,icons/svg/d20-black.svg,,10,"[1, 10]",False
+1,08lDMyLnS5srR8EQ,{},0,[[1d10]] gorgons,icons/svg/d20-black.svg,,10,"[11, 20]",False
+2,O56uGIXZPvEAeDQE,{},0,[[2d6]] hyenas feeding on the carcass of a dead dinosaur,icons/svg/d20-black.svg,,5,"[21, 25]",False
+3,L8aUyQ7ygUVFs56y,{},0,[[3d6]] bulettes,icons/svg/d20-black.svg,,10,"[26, 35]",False
+4,3aUw8DLFn228v8LF,{},0,A fiery chariot that races across the sky,icons/svg/d20-black.svg,,5,"[36, 40]",False
+5,v1jqwx8zzP8taeMw,{},0,[[1d3]] young gold dragons,icons/svg/d20-black.svg,,10,"[41, 50]",False
+6,uqLRdOE2fcNMVEJ1,{},0,[[2d4]] cyclopes,icons/svg/d20-black.svg,,10,"[51, 60]",False
+7,fGnwaxIHEYWdGpOT,{},0,"A valley where all the grass has died and the ground is littered with stumps and fallen tree trunks, all petrified",icons/svg/d20-black.svg,,5,"[61, 65]",False
+8,D2qoR9YjHSmIFi0f,{},0,[[2d10]] wolves,icons/svg/d20-black.svg,,10,"[66, 75]",False
+9,fMPPJWm2JCdp0Sta,{},0,"A friendly adventuring party of [[1d6+1]] characters of varying races, classes, and levels (average level [[1d6+2]]). They share information about their recent travels.",icons/svg/d20-black.svg,,5,"[76, 80]",False
+10,6ruWghpiHZgW0Xkd,{},0,[[1d12]] chimeras,icons/svg/d20-black.svg,,10,"[81, 90]",False
+11,P9nLQCjUkL3KRvlZ,{},0,[[1d6+2]] tyrannosaurus rexes,icons/svg/d20-black.svg,,6,"[91, 96]",False
+12,tWdwN3ikzkeWEAmR,{},0,1 adult gold dragon,icons/svg/d20-black.svg,,3,"[97, 99]",False
+13,r72RLTsYa7WyeSgt,{},0,1 ancient gold dragon,icons/svg/d20-black.svg,,1,"[100, 100]",False

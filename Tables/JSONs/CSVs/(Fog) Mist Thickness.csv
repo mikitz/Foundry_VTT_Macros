@@ -1,0 +1,5 @@
+_id,flags,type,text,img,resultId,weight,range,drawn
+0,cZAefD3CocPKerC4,{},0,<p><b>THICKENSS</b></p> <p><b>Type: </b>Light Mist</p> <p><b>Effect: </b>Heavily obscured at 30 ft.</p>,icons/svg/d20-black.svg,,3,"[1, 3]",False
+1,oqvPvOzpbsRMEktX,{},0,<p><b>THICKENSS</b></p> <p><b>Type: </b>Moderate mist</p> <p><b>Effect: </b>Heavily obscured at 20 ft.</p>,icons/svg/d20-black.svg,,4,"[4, 7]",False
+2,BQpMWs3ln5au2r4D,{},0,<p><b>THICKENSS</b></p> <p><b>Type: </b>Heavy mist</p> <p><b>Effect: </b>Heavily obscured at 10 ft.</p>,icons/svg/d20-black.svg,,2,"[8, 9]",False
+3,1N4vyBw3cEPZVR9P,{},0,<p><b>THICKENSS</b></p> <p><b>Type: </b>Very Heavy</p> <p><b>Effect: </b>Heavily obscured at 5 ft.</p>,icons/svg/d20-black.svg,,1,"[10, 10]",False

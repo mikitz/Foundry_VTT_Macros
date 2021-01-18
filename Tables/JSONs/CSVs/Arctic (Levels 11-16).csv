@@ -1,0 +1,17 @@
+_id,flags,type,text,weight,range,drawn
+0,UNiqV5u7hy5pB64I,{},0,1 abominable yeti,1,"[1, 1]",False
+1,767MGQkraab7EzBA,{},0,[[1d6]] revenants,3,"[2, 4]",False
+2,5SffqXW4dvcthUzH,{},0,[[1d4+1]] werebears,6,"[5, 10]",False
+3,3DDcQ6NjKZ7VFeK1,{},0,[[1d3]] young white dragons,10,"[11, 20]",False
+4,b3Pc15UvdmF9WfbM,{},0,A blizzard that reduces visibility to 5 feet for 1d6 hours,5,"[21, 25]",False
+5,ert75bDqaDYTYsOY,{},0,1 roc,10,"[26, 35]",False
+6,3k28zb5g91IQ2v8k,{},0,A herd of 3d20+60 caribou (deer) moving through the snow,5,"[36, 40]",False
+7,uXlDphWc0Y6nIruz,{},0,[[1d4]] mammoths,10,"[41, 50]",False
+8,FOSSeMDHtlwk8ISC,{},0,[[1d8+1]] trolls,10,"[51, 60]",False
+9,0b3CvRE47gVhhtMQ,{},0,A mile-wide frozen lake in which preserved corpses of strange creatures can be seen,5,"[61, 65]",False
+10,Nu1D7ExRzNR5o7dG,{},0,[[2d4]] young remorhazes,10,"[66, 75]",False
+11,n5AJ49EowylNRGch,{},0,A crumbling ice castle littered with the frozen bodies of blue-skinned humanoids,5,"[76, 80]",False
+12,qK4fWmL7j6wgRr1x,{},0,1 adult white dragon,10,"[81, 90]",False
+13,29qJ8KKaQonzQPq2,{},0,[[1d8+1]] frost giants,6,"[91, 96]",False
+14,WSwyNEGbJ4cPmwSi,{},0,[[1d4]] young remorhazes,3,"[97, 99]",False
+15,h7m4Z3t7LXIdbid8,{},0,1 ancient white dragon,1,"[100, 100]",False

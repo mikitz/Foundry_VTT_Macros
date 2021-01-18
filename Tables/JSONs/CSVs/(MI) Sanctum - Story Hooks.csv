@@ -1,0 +1,5 @@
+_id,flags,type,text,img,resultId,weight,range,drawn
+0,kTf476GxYMrqYYlO,{},0,A spy among the inhabitants needs extraction from the island.,icons/svg/d20-black.svg,,1,"[1, 1]",False
+1,tQeHl9PhCYq9QHGj,{},0,The island's leader misses an item (such as a flower or a particular food) that can't be found on the island and offers a reward for the item.,icons/svg/d20-black.svg,,1,"[2, 2]",False
+2,mrsyzyhB6uIDS0aH,{},0,The island asks for aid against an adult green dragon that regularly raids it.,icons/svg/d20-black.svg,,1,"[3, 3]",False
+3,m915lYwdJkHnZO7V,{},0,The island has an armory full of legendary adamantine and silvered weapons.,icons/svg/d20-black.svg,,1,"[4, 4]",False

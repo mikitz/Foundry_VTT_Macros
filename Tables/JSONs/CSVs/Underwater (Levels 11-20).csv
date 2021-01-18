@@ -1,0 +1,12 @@
+_id,flags,type,text,weight,range,drawn
+0,FrHnOZ6oGubWpZPl,{},0,1 sahuagin baron with 1d4 sahuagin priestesses and [[2d10]] sahuagin,10,"[1, 10]",False
+1,4hEWVGyR7jclAeao,{},0,[[1d10]] killer whales,25,"[11, 35]",False
+2,E8OrJgLYxQdDBzSW,{},0,"A ghost ship passing overhead, containing [[2d6+10]] ghosts",5,"[36, 40]",False
+3,hAou3vO5gzGw8wPo,{},0,[[1d6]] giant sharks,20,"[41, 60]",False
+4,qQ0usZ6XaRWP3cSp,{},0,A 1-mile-radius sphere of effervescent water that allows air-breathing creatures to breathe water while in the sphere,5,"[61, 65]",False
+5,k7th87DjoPURLgmR,{},0,[[1d10]] water elementals,10,"[66, 75]",False
+6,uMp7oHAME4p2K6IY,{},0,"A shimmering, blue-green portal to the Elemental Plane of Water",5,"[76, 80]",False
+7,Cu8wA5lk8GWRD7ls,{},0,[[1d4]] marids,10,"[81, 90]",False
+8,rP3FhrsD58MPoTJN,{},0,[[1d3]] storm giants,6,"[91, 96]",False
+9,5ahjuF8D12uM1z7V,{},0,1 dragon turtle,3,"[97, 99]",False
+10,qtPlPwm68GegUWSa,{},0,1 kraken,1,"[100, 100]",False
