@@ -6,7 +6,7 @@ TO-DO
 * Spell Discovery Experiments
 * Kibble's Crafting
 * Tavern Games
-* Beer Brewing
-   * Outputs quality of barrel
+* [x] Beer Brewing
+   * [x] Outputs quality of barrel
 * [x] Recreational Drugs
     * [x] Finish up the bestiary type drugs
