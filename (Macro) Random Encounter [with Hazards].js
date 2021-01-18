@@ -273,10 +273,10 @@ if(seconds >= 64800 || seconds <= 18000) {
     let die = new Roll("1d20", {}).roll().total;
     // log the roll to the console to make sure it's working
     console.log("Encounter Roll: " + die);
-    if (die >= 18){
+    if (die >= 17){
         message += "during the <b>night</b> ";
         dBiome.render(true);
-    } else if(die == 17) {
+    } else if(die == 16) {
         message += "during the <b>night</b> ";
         dNonCombat.render(true);
     } else {
@@ -288,10 +288,10 @@ if(seconds >= 64800 || seconds <= 18000) {
     let die = new Roll("1d20", {}).roll().total;
     // log the roll to the console to make sure it's working
     console.log("Encounter Roll: " + die);
-    if (die >= 20){
+    if (die >= 19){
         message += "during the <b>day</b> ";
         dBiome.render(true);
-    } else if(die >= 18 && die <= 19) {
+    } else if(die >= 17 && die <= 18) {
         message += "during the <b>day</b> ";
         dNonCombat.render(true);
     } else {
