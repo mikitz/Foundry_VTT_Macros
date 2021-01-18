@@ -10,5 +10,4 @@ TO-DO
    * [x] Outputs quality of barrel
 * [x] Recreational Drugs
     * [x] Finish up the bestiary type drugs
-* Random Encounters
-   * Convert Foundry Roll Tables to JavaScript Object Arrays
+* Convert Foundry Roll Tables to JavaScript Object Arrays
