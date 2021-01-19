@@ -2,9 +2,19 @@
 All the macros that I use in FoundryVTT
 
 **TO-DO LIST**
-* Stronghold & Followers
-* Spell Discovery Experiments
+* Strongholds & Followers
+* Magical Experiments (Alternative to Getting Spells Every Level)
+    * Complete descriptions for all spells and their respective outcomes
+    * Generate Class lists
+    * ...
 * Kibble's Crafting
+    * Gathering Materials
+        * [x] Butchering
+        * [x] Foraging
+        * Salvaging
+        * Mining
+    * Crafting
+        * ...
 * Tavern Games
 * [x] Beer Brewing
    * [x] Outputs quality of barrel
