@@ -17,8 +17,7 @@ All the macros that I use in FoundryVTT
         * ...
 * Cargo Transportation Fee Calculator
     * ...
-* Sailing Travel Time Calculator
-    * ...
+* [x] Sailing Travel Time Calculator
 * Tavern Games
 * [x] Beer Brewing
    * [x] Outputs quality of barrel
