@@ -121,7 +121,8 @@ let dInitial = new Dialog ({
                             Days to Destination: ${vDistance / vMilesPerDay}`)
                 // Build the message
                 vMessage += `While sailing for <I>${vHours} hours</I> per day at a speed of <I>${vSpeed} MPH</I>, 
-                            you will cover a distance of <I>${vDistance} miles</I> in <B>${vDaysToDestination} days and ${vRemaining} hours</B>.`
+                            you will cover a distance of <I>${vDistance} miles</I> in about <B>${vDaysToDestination} days and ${vRemaining} hours</B>. 
+                            Please note that this assumes nothing will go wrong.`
                 // Print the message
                 fPrintMessage(vMessage)
             }
