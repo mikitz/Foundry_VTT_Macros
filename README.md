@@ -25,3 +25,6 @@ All the macros that I use in FoundryVTT
 
 **LONG-TERM TO-DO LIST**
 * Convert Foundry Roll Tables to JavaScript Object Arrays (For Website)
+  * [x]Export FoundryVTT roll tables
+  * [x] Convert roll tables to JSON
+  * [x] Convert JSONs to CSV
