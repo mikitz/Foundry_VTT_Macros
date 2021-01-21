@@ -24,10 +24,11 @@ let vModifier = ''
 let vDieBonus = 0
 // Define the quality object array
 let oaQuality = [
-    {quality: "Low", price: "3 gp"},
-    {quality: "Medium", price: "5 gp"},
-    {quality: "High", price: "8 gp"},
-    {quality: "Very-high", price: "10 gp"}
+    {quality: "low", price: "3 gp"},
+    {quality: "medium", price: "5 gp"},
+    {quality: "high", price: "8 gp"},
+    {quality: "very-high", price: "10 gp"},
+    {quality: "undrinkable", price: "0 gp"}
 ]
 // Define the modifier object array
 let oaModifier = [
@@ -81,29 +82,34 @@ let dInitial = new Dialog ({
                 let v1d20 = new Roll(`1d20${vModifier}`).roll().total
                 let vBrewingCheck = new Roll(`${vDieBonus} + ${v1d20} + ${token.actor.data.data.attributes.prof}`).roll().total
                 // Determine the variables based on the roll
-                if (v1d20 == 20) {
+                if (v1d20 == 1) {
                     // Set the quality of the beer
-                    vQuality = 'Very-high'
+                    vQuality = 'undrinkable'
+                    // Pull the price from the Quality object array
+                    vPrice = oaQuality.find(i => i.quality == vQuality).price
+                } else if (v1d20 == 20) {
+                    // Set the quality of the beer
+                    vQuality = 'very-high'
                     // Pull the price from the Quality object array
                     vPrice = oaQuality.find(i => i.quality == vQuality).price
                 } else if (vBrewingCheck <= 14) {
                     // Set the quality of the beer
-                    vQuality = 'Low'
+                    vQuality = 'low'
                     // Pull the price from the Quality object array
                     vPrice = oaQuality.find(i => i.quality == vQuality).price
                 } else if (vBrewingCheck >= 15 && vBrewingCheck <= 19) {
                     // Set the quality of the beer
-                    vQuality = 'Medium'
+                    vQuality = 'medium'
                     // Pull the price from the Quality object array
                     vPrice = oaQuality.find(i => i.quality == vQuality).price
                 } else if (vBrewingCheck >= 20 && vBrewingCheck <= 24) {
                     // Set the quality of the beer
-                    vQuality = 'High'
+                    vQuality = 'high'
                     // Pull the price from the Quality object array
                     vPrice = oaQuality.find(i => i.quality == vQuality).price
                 } else if (vBrewingCheck >= 25) {
                     // Set the quality of the beer
-                    vQuality = 'Very-high'
+                    vQuality = 'very-high'
                     // Pull the price from the Quality object array
                     vPrice = oaQuality.find(i => i.quality == vQuality).price
                 }
