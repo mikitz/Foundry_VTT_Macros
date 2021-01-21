@@ -16,7 +16,7 @@ function fPrintMessage(message){
 	ChatMessage.create(chatData,{})
 }
 // Define objects to be used later
-const tBookSubject = game.tables.entities.find(t => t.name === "TABLE NAME")..roll().results[0].text
+const tBookSubject = game.tables.entities.find(t => t.name === "TABLE NAME").roll().results[0].text
     /*  It's important that the results within this table are exactly as 
         they are in the reddit post you provided. The results in this table must be
         the table names of the subject details. 
@@ -24,10 +24,10 @@ const tBookSubject = game.tables.entities.find(t => t.name === "TABLE NAME")..ro
             the name of the d6 table for alchemy and potions must also be 'Alchemy 
             and potions'. 
     */
-const tBookCondition = game.tables.entities.find(t => t.name === "TABLE NAME")..roll().results[0].text
-const tBookCover = game.tables.entities.find(t => t.name === "TABLE NAME")..roll().results[0].text
-const tBookVolume = game.tables.entities.find(t => t.name === "TABLE NAME")..roll().results[0].text
-const tBookSubjectDetail = game.tables.entities.find(t => t.name === tBookSubject)..roll().results[0].text
+const tBookCondition = game.tables.entities.find(t => t.name === "TABLE NAME").roll().results[0].text
+const tBookCover = game.tables.entities.find(t => t.name === "TABLE NAME").roll().results[0].text
+const tBookVolume = game.tables.entities.find(t => t.name === "TABLE NAME").roll().results[0].text
+const tBookSubjectDetail = game.tables.entities.find(t => t.name === tBookSubject).roll().results[0].text
 
 // Log the variables to the console for debugging purposes
 console.log(`VARIABLES
