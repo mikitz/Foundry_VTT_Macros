@@ -20,9 +20,43 @@ All the macros that I use in FoundryVTT
         * Salvaging
         * Mining
     * Crafting
+        * Tinkering
         * ...
 * Tavern Games
-
+* Downtime Activities
+    * Buy a Magic Item
+        * How much money spent searching
+        * How long searching for a quality seller
+    * [x] Carousing
+        * *Handle Advantage/Disadvantage*
+    * Craft an Item
+        * ...
+        * *Handle Advantage/Disadvantage*
+    * [x] Crime
+        * *Handle Advantage/Disadvantage*
+    * Gambling
+        * **I think the Complicaiton always fires**
+        * *Handle Advantage/Disadvantage*
+    * [x] Pit Fighting
+        * *Handle Advantage/Disadvantage*
+    * Rest & Relaxation
+        * ...
+        * *Handle Advantage/Disadvantage*
+    * [x] Religious Service
+        * *Handle Advantage/Disadvantage*
+    * [x] Research
+        * *Handle Advantage/Disadvantage*
+    * Scribe a Spell Scroll
+        * ...
+        * *Handle Advantage/Disadvantage*
+    * Sell a Magic Item
+        * ...
+        * *Handle Advantage/Disadvantage*
+    * Training
+        * ...
+        * *Handle Advantage/Disadvantage*
+    * [x] Work
+        * *Handle Advantage/Disadvantage*
 **LONG-TERM TO-DO LIST**
 * Convert Foundry Roll Tables to JavaScript Object Arrays (For Website)
   * [x] Export FoundryVTT roll tables

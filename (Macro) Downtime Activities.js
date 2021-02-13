@@ -12,7 +12,11 @@ let activity = "";
 let DTmessage = "";
 let resultMessage = "";
 let complication = "";
-
+let result = ""
+let rollType = ""
+let check = 0
+let checkA = 0
+let checkB = 0
 // Text Input
 let content = `
         <p>Please input the number of hours you wish to train.</p>
@@ -46,7 +50,43 @@ let dropdown = `<form action="/action_page.php">
                     <br><br>
                     <input type="submit" value="Submit">
                 </form>`
-
+let dropdownAdvDis = `<form action="/action_page.php">
+                        <label for="advdis">Advantage/Disadvantage?:</label>
+                        <select name="advdis" id="advdis">
+                            <option value="normal">Normal</option>
+                            <option value="advantage">Advantage</option>
+                            <option value="disadvantage">Disadvantage</option>
+                        </select>
+                    </form>`
+// Define a function to handle advantage and disadvantage
+function fRollType(html, modifier) {
+    // Get the roll type from the dropdown
+    rollType = html.find("#advdis").val()
+    // Determine the check
+    if (rollType == "normal") {
+        check = new Roll(`1d20 + ${modifier}`).roll().total;
+    } else if (rollType == 'advantage') {
+        checkA = new Roll(`1d20 + ${modifier}`).roll().total;
+        checkB = new Roll(`1d20 + ${modifier}`).roll().total;
+        if (checkA > checkB) {
+            check = checkA
+        } else {
+            check = checkB
+        }
+    } else {
+        checkA = new Roll(`1d20 + ${modifier}`).roll().total;
+        checkB = new Roll(`1d20 + ${modifier}`).roll().total;
+        if (checkA < checkB) {
+            check = checkA
+        } else {
+            check = checkB
+        }
+    }
+    console.log(`Roll Type: ${rollType}
+                Check A: ${checkA}
+                Check B: ${checkB}`)
+    return check
+}
 // DEFINE SOME DICE
 function getRndInteger(min, max) {
     return Math.floor(Math.random() * (max - min + 1) ) + min;
@@ -511,19 +551,44 @@ var dictResearch = {
     5: "Your actions cause you to be banned from a library until you make reparations.*",
     6: "You uncovered useful lore, but only by promising to complete a dangerous task in return.",
 };
-
+let dropdownResearch = `<form action="/action_page.php">
+                <label for="gold">Additional Gold:</label>
+                <select name="gold" id="gold">
+                    <option value="50">50 gp</option>
+                    <option value="100">100 gp</option>
+                    <option value="150">150 gp</option>
+                    <option value="200">200 gp</option>
+                    <option value="250">250 gp</option>
+                    <option value="300">300 gp</option>
+                </select>
+            </form>`
 let dResearch = new Dialog ({
     title: `Research`,
-    content: "",
+    content: `<H2>Resources</H2>
+    Typically, a character needs access to a library or a sage to conduct research. 
+    Assuming such access is available, conducting research requires one workweek of effort 
+    and at least 50 gp spent on materials, bribes, gifts, and other expenses.
+    <H2>Resolution</H2>
+    The character declares the focus of the research—a specific person, place, or thing. 
+    After one workweek, the character makes an Intelligence check with a +1 bonus per 50 gp spent beyond the initial 50 gp, to a maximum of +6. 
+    In addition, a character who has access to a particularly well-stocked library or knowledgeable sages gains advantage on this check. 
+    Determine how much lore a character learns using the Research Outcomes table.
+    ${dropdownResearch}
+    ${dropdownAdvDis}`,
     buttons: {
         ok: {
             id: "1",
             label: "OK",
             callback (html) {
-                let check = new Roll(`1d20 + ${token.actor.data.data.abilities.int.mod}`).roll().total;
+                let check1 = 0
+                // Normal, Advantage, Disadvantage
+                check1 = fRollType(html, token.actor.data.data.abilities.int.mod)
+                // Other variables
+                let gold = Number(html.find("#gold").val())
+                let bonus = gold / 50
                 let d100 = new Roll(`1d100`).roll().total;
                 let loreQuantity = "";
-                check = Math.ceil(check / 5);
+                let check = Math.ceil(check1 / 5) + bonus
                 // Determine if a complication happens
                 if (d100 <= 25) {
                     result = randomProperty(dictResearch);
@@ -541,7 +606,15 @@ let dResearch = new Dialog ({
                 } else if (check >= 4) {
                     loreQuantity = "three";
                 }
-                let resultMessage = `${name} learns ${loreQuantity} piece(s) of lore.`
+                // Log to console for debugging purposes
+                console.log(`WORK LOG
+                            Check1: ${check1}
+                            Check: ${check}
+                            d100: ${d100}
+                            Lore: ${loreQuantity}
+                            Gold: ${gold}
+                            Bonus: ${bonus}`)
+                let resultMessage = `${name} spends ${gold + 50} gp researching and learns ${loreQuantity} piece(s) of lore.`
                 printMessage(`${DTmessage} ${resultMessage} <BR> ${messageComp}`)
             }
         }
@@ -587,15 +660,16 @@ let dWork = new Dialog ({
             id: "1",
             label: "OK",
             callback (html) {
-                let d100 = new Roll(`1d00`).roll().total;
-                let skillLevel = eval($('input[name="skill-level"]:checked').val());
-                ath = token.actor.data.data.skills.ath.mod;
-                acr = token.actor.data.data.skills.acr.mod;
-                tool = token.actor.data.data.abilities.int.mod;
-                per = token.actor.data.data.skills.prf.mod;
-                instrument = token.actor.data.data.abilities.cha.mod;
-                let skill = html.find("#check").val();
-                let bonus = "";
+                DTmessage += `You have earned `
+                let d100 = new Roll(`1d100`).roll().total;
+                let skillLevel = $('input[name="skill-level"]:checked').val()
+                let ath = token.actor.data.data.skills.ath.mod
+                let acr = token.actor.data.data.skills.acr.mod
+                let tool = token.actor.data.data.abilities.int.mod
+                let per = token.actor.data.data.skills.prf.mod
+                let instrument = token.actor.data.data.abilities.cha.mod
+                let skill = eval(html.find("#check").val())
+                let bonus = 0
                 // Check for proficiency or expertise
                 if (skillLevel == "prof") {
                     bonus = token.actor.data.data.attributes.prof;
@@ -604,15 +678,33 @@ let dWork = new Dialog ({
                 }
                 // Check for a complication
                 if (d100 <= 20) {
-                    complication = randomProperty(dictWork);
+                    messageComp += randomProperty(dictWork);
+                } else {
+                    messageComp += `No Complication`
                 }
                 // Determine the outcome
                 let roll = new Roll(`1d20 + ${bonus}`).roll().total;
                 let total = roll + skill;
-                console.log(`Total: ${total}`);
+                // Get outcome
+                if (total <= 9) {
+                    resultMessage = `20 sp`
+                } else if (total <= 14) {
+                    resultMessage = `10 gp`
+                } else if (total <= 20) {
+                    resultMessage = `20 gp`
+                } else {
+                    resultMessage = `45 gp`
+                }
+                console.log(`WORK LOG
+                            Skill Level: ${skillLevel}
+                            d100: ${d100}
+                            Roll: ${roll}
+                            Skill: ${skill}
+                            Bonus: ${bonus}
+                            Total: ${total}`)
                 // Print the end result to chat
                 // let resultMessage = `${name} works and earns ${wage} ${currency}.`
-                printMessage(`${DTmessage} ${resultMessage} <BR> ${messageComp}`)
+                printMessage(`${DTmessage} <B>${resultMessage}</B> <BR> ${messageComp}`)
             }
         }
     }
