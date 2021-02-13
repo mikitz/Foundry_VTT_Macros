@@ -45,7 +45,6 @@ All the macros that I use in FoundryVTT
     * [x] Religious Service
         * *Handle Advantage/Disadvantage*
     * [x] Research
-        * *Handle Advantage/Disadvantage*
     * Scribe a Spell Scroll
         * ...
         * *Handle Advantage/Disadvantage*
@@ -55,7 +54,7 @@ All the macros that I use in FoundryVTT
     * Training
         * ...
         * *Handle Advantage/Disadvantage*
-    * [x] Work
+    * Work
         * *Handle Advantage/Disadvantage*
 **LONG-TERM TO-DO LIST**
 * Convert Foundry Roll Tables to JavaScript Object Arrays (For Website)
