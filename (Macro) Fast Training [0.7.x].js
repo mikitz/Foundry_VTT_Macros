@@ -84,8 +84,10 @@ function printButtonSkill(id, label, abbr) {
         let hours = Number(html.find("#hours")[0].value);
         let rb = $('input[name="level"]:checked').val();
         let roll = new Roll(`${hours}d20`).roll();
-        let vTwenties = roll.dice.reduce((a,v)=> v.results.reduce((a,v)=> v.result === 20 ? 1 : 0 + a, 0) + a, 0);
-        let vOnes = roll.dice.reduce((a,v)=> v.results.reduce((a,v)=> v.result === 1 ? 1 : 0 + a, 0) + a, 0);
+        // Log to console roll
+        console.log(roll)
+        let vTwenties = roll.dice.reduce((a,v)=> v.results.filter(r=> r.result === 20).length + a, 0);
+        let vOnes = roll.dice.reduce((a,v)=> v.results.filter(r=> r.result === 1).length + a, 0);
         let type = ""
         if (rb == "prof") {
             type = "Proficiency"
@@ -120,8 +122,10 @@ function printButtonWeapon(id, label) {
         let hours = Number(html.find("#hours")[0].value);
         let rb = $('input[name="level"]:checked').val();
         let roll = new Roll(`${hours}d20`).roll()
-        let vTwenties = roll.dice.reduce((a,v)=> v.results.reduce((a,v)=> v.result === 20 ? 1 : 0 + a, 0) + a, 0);
-        let vOnes = roll.dice.reduce((a,v)=> v.results.reduce((a,v)=> v.result === 1 ? 1 : 0 + a, 0) + a, 0);
+        // Log to console roll
+        console.log(roll)
+        let vTwenties = roll.dice.reduce((a,v)=> v.results.filter(r=> r.result === 20).length + a, 0);
+        let vOnes = roll.dice.reduce((a,v)=> v.results.filter(r=> r.result === 1).length + a, 0);
         let type = ""
         if (rb == "prof") {
             type = "Proficiency"
@@ -189,8 +193,10 @@ function printButtonArmor(id, label) {
     this.callback = function (html) {
         let hours = Number(html.find("#hours")[0].value);
         let roll = new Roll(`${hours}d20`).roll()
-        let vTwenties = roll.dice.reduce((a,v)=> v.results.reduce((a,v)=> v.result === 20 ? 1 : 0 + a, 0) + a, 0);
-        let vOnes = roll.dice.reduce((a,v)=> v.results.reduce((a,v)=> v.result === 1 ? 1 : 0 + a, 0) + a, 0);
+        // Log to console roll
+        console.log(roll)
+        let vTwenties = roll.dice.reduce((a,v)=> v.results.filter(r=> r.result === 20).length + a, 0);
+        let vOnes = roll.dice.reduce((a,v)=> v.results.filter(r=> r.result === 1).length + a, 0);
         let type = ""
         if (hours == 0) {
             ui.notifications.warn("Please input a number of hours greater than zero(0).");
@@ -228,8 +234,10 @@ function printButtonLanguage(id, label) {
             this.render(true);
         } else {
             let roll = new Roll(`${hours}d20`).roll()
-            let vTwenties = roll.dice.reduce((a,v)=> v.results.reduce((a,v)=> v.result === 20 ? 1 : 0 + a, 0) + a, 0);
-            let vOnes = roll.dice.reduce((a,v)=> v.results.reduce((a,v)=> v.result === 1 ? 1 : 0 + a, 0) + a, 0);
+            // Log to console roll
+            console.log(roll)
+            let vTwenties = roll.dice.reduce((a,v)=> v.results.filter(r=> r.result === 20).length + a, 0);
+            let vOnes = roll.dice.reduce((a,v)=> v.results.filter(r=> r.result === 1).length + a, 0);
             let vSuccess = roll.dice.reduce((a,v)=> v.results.filter(r=> r.result >= 15 - token.actor.data.data.abilities.int.mod).length + a, 0);
             let vTotal = (vTwenties + vSuccess) - vOnes;
             let vFailures = hours - vSuccess;
@@ -255,8 +263,10 @@ function printButtonTool(id, label) {
             this.render(true);
         } else if (rb == "prof") {
             let roll = new Roll(`${hours}d20`).roll()
-            let vTwenties = roll.dice.reduce((a,v)=> v.results.reduce((a,v)=> v.result === 20 ? 1 : 0 + a, 0) + a, 0);
-            let vOnes = roll.dice.reduce((a,v)=> v.results.reduce((a,v)=> v.result === 1 ? 1 : 0 + a, 0) + a, 0);
+            // Log to console roll
+            console.log(roll)
+            let vTwenties = roll.dice.reduce((a,v)=> v.results.filter(r=> r.result === 20).length + a, 0);
+            let vOnes = roll.dice.reduce((a,v)=> v.results.filter(r=> r.result === 1).length + a, 0);
             let vSuccess = roll.dice.reduce((a,v)=> v.results.filter(r=> r.result >= 15 - token.actor.data.data.abilities.int.mod).length + a, 0);
             let vTotal = (vTwenties + vSuccess) - vOnes;
             let vFailures = hours - vSuccess;
@@ -264,8 +274,10 @@ function printButtonTool(id, label) {
             printMessage(message);
         } else {
             let roll = new Roll(`${hours}d20`).roll()
-            let vTwenties = roll.dice.reduce((a,v)=> v.results.reduce((a,v)=> v.result === 20 ? 1 : 0 + a, 0) + a, 0);
-            let vOnes = roll.dice.reduce((a,v)=> v.results.reduce((a,v)=> v.result === 1 ? 1 : 0 + a, 0) + a, 0);
+            // Log to console roll
+            console.log(roll)
+            let vTwenties = roll.dice.reduce((a,v)=> v.results.filter(r=> r.result === 20).length + a, 0);
+            let vOnes = roll.dice.reduce((a,v)=> v.results.filter(r=> r.result === 1).length + a, 0);
             let vSuccess = roll.dice.reduce((a,v)=> v.results.filter(r=> r.result >= 20 - token.actor.data.data.abilities.int.mod).length + a, 0);
             let vTotal = (vTwenties + vSuccess) - vOnes;
             let vFailures = hours - vSuccess;
