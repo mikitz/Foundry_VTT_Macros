@@ -9,6 +9,14 @@ function printMessage(message){
 	ChatMessage.create(chatData,{});
 }
 
+function fRound5(x) { 
+    return Math.ceil(x / 5) * 5
+} 
+
+function fRound10(x) { 
+    return Math.ceil(x / 10) * 10 
+} 
+
 targets.forEach(target => {
     let type = target.actor.data.data.details.type?.toLocaleLowerCase();
     let name = target.actor.data.name?.toLocaleLowerCase();
@@ -17,16 +25,14 @@ targets.forEach(target => {
     let health_percent = health_current / health_max;
     let die = new Roll(`1d20`, {}).roll().total;
     let roll = die + medSkill;
-
-    console.log(
-        `Health Percent: ${health_percent}
-        Medicine Check: ${roll}`);
+    var hp = null
+    var hp_low = null
 
     if (die == 1) {
         printMessage(`${actor.name} examines the ${name} from a distance and determines it hasn't been hit at all...`);
         // No idea LOL
     } else if (die == 20) {
-        var hp = health_percent.toFixed(1);
+        hp = health_percent.toFixed(1);
         printMessage(`${actor.name} examines the ${name} from a distance and determines its health is at ${parseFloat(hp*100)+"%"}!`);
         // Exact percentage
     } else if (roll <= 4) {
@@ -52,17 +58,31 @@ targets.forEach(target => {
         }
     } else if (roll >= 15 && roll <= 19) { 
         // 10% range
-        var hp = health_percent.toFixed(1);
-        var hp_low = hp - 0.1
-        printMessage(`${actor.name} examines the ${name} from a distance and determines its health is between ${parseFloat(hp_low*100)+"%"} and ${parseFloat(hp*100)+"%"}!`);
+        hp = fRound10(health_percent*100)
+        if (hp <= 10) {
+            hp_low = 0
+        } else {
+            hp_low = hp - 10
+        }
+        printMessage(`${actor.name} examines the ${name} from a distance and determines its health is between ${parseFloat(hp_low)+"%"} and ${parseFloat(hp)+"%"}!`);
     } else if (roll >= 20 && roll <= 24) {
         // 5% range
-        var hp = health_percent.toFixed(2);
-        var hp_low = hp - 0.05
-        printMessage(`${actor.name} examines the ${name} from a distance and determines its health is between ${parseFloat(hp_low*100)+"%"} and ${parseFloat(hp*100)+"%"}!`);
+        hp = fRound5(health_percent*100)
+        if (hp <= 10) {
+            hp_low = 0
+        } else {
+            hp_low = hp - 5
+        }
+        printMessage(`${actor.name} examines the ${name} from a distance and determines its health is between ${parseFloat(hp_low)+"%"} and ${parseFloat(hp)+"%"}!`);
     } else if (roll >= 25) {
-        var hp = health_percent.toFixed(1);
+        hp = health_percent.toFixed(1);
         printMessage(`${actor.name} examines the ${name} from a distance and determines its health is at ${parseFloat(hp*100)+"%"}!`);
         // Exact percentage
     }
+    console.log(`MEDICINE CHECK LOG
+                HP: ${hp}
+                HP Low: ${hp_low}
+                Health Percent: ${health_percent}
+                Check: ${die}
+                Medicine Check: ${roll}`);
 })
