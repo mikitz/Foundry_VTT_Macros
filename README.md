@@ -24,7 +24,9 @@ All the macros that I use in FoundryVTT
         * ...
 * Tavern Games (https://docs.google.com/document/d/1Ni13TFBxyANRbVXLNEbmKod4riVXHkD63Yad49BewFs/edit)
     * Crown & Anchor
+        * Implement FOR LOOP to loop through quantities and currencies to see if the rolls match
     * Goblin's Eye
+        * 
     * Dragon's Breath
     * Tymora's Spinner
     * Twenty-one

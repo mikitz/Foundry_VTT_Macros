@@ -93,6 +93,8 @@ let dropdownInitial = `<form action="/action_page.php">
                     <option value="dead-eyedice">Dead-eye Dice</option>
                 </select>
             </form>`
+// Retreiving the input
+let game = html.find('#game').val()
 
 // TEXT INPUT
 let contentGambling = `
@@ -104,6 +106,8 @@ let contentGambling = `
                 <input id="quan" name="quan" type="number" min="0"></input>
             </div>
         </form>`;
+// Retreiving the input
+let quantity = Number(html.find("#quan")[0].value)
 
 // RADIO GROUP
 let radiosGambling = `<p>Please select either "Proficiency" or "Expertise".</p>
@@ -121,3 +125,5 @@ let radiosGambling = `<p>Please select either "Proficiency" or "Expertise".</p>
                     <input id="copp" value="copp" name="currency" type="radio"></input>
                 </div>
             </form>`;
+// Retreiving the input
+let currency = $('input[name="currency"]:checked').val()
