@@ -213,7 +213,30 @@ let radiosGambling = `<p>Please select either "Proficiency" or "Expertise".</p>
                     <input id="copp" value="copp" name="currency" type="radio"></input>
                 </div>
             </form>`;
-
+let tGamble = `<style type="text/css">
+                table.tableizer-table {
+                    font-size: 12px;
+                    border: 1px solid #CCC; 
+                    font-family: Arial, Helvetica, sans-serif;
+                } 
+                .tableizer-table td {
+                    padding: 4px;
+                    margin: 3px;
+                    border: 1px solid #CCC;
+                }
+                .tableizer-table th {
+                    background-color: #104E8B; 
+                    color: #FFF;
+                    font-weight: bold;
+                }
+                </style>
+                <table class="tableizer-table">
+                <thead><tr class="tableizer-firstrow"><th>Result</th><th>Value</th></tr></thead><tbody>
+                    <tr><td>0 successes</td><td>Lose all the money you bet, and accrue a debt equal to that amount.</td></tr>
+                    <tr><td>1 success</td><td>Lose half the money you bet.</td></tr>
+                    <tr><td>2 successes</td><td>Gain the amount you bet plus half again more.</td></tr>
+                    <tr><td>3 successes</td><td>Gain double the amount you bet.</td></tr>
+                </tbody></table>`
 function fGambleButton(id, label) {
     this.id = id;
     this.label = label;
@@ -283,6 +306,8 @@ let dGambling = new Dialog ({
         The character makes three checks: Wisdom (Insight), Charisma (Deception), and Charisma (Intimidation). 
         If the character has proficiency with an appropriate gaming set, that tool proficiency can replace the relevant skill in any of the checks. 
         The DC for each of the checks is 5 + 2d10; generate a separate DC for each one. Consult the Gambling Results table to see how the character did.
+    <H2>Tables</H2>
+        ${tGamble}
     <H2>User Inputs</H2>
         ${contentGambling} 
         ${radiosGambling}
@@ -293,6 +318,31 @@ let dGambling = new Dialog ({
 })
 
 // Pit Fighting: Variables and Functions and Dialogs
+let tPitFighting = `<style type="text/css">
+                    table.tableizer-table {
+                        font-size: 12px;
+                        border: 1px solid #CCC; 
+                        font-family: Arial, Helvetica, sans-serif;
+                    } 
+                    .tableizer-table td {
+                        padding: 4px;
+                        margin: 3px;
+                        border: 1px solid #CCC;
+                    }
+                    .tableizer-table th {
+                        background-color: #104E8B; 
+                        color: #FFF;
+                        font-weight: bold;
+                    }
+                    </style>
+                    <table class="tableizer-table">
+                    <thead><tr class="tableizer-firstrow"><th>Result</th><th>Value</th></tr></thead><tbody>
+                        <tr><td>0 successes</td><td>Lose your bouts, earning nothing.</td></tr>
+                        <tr><td>1 success</td><td>Win 50 gp.</td></tr>
+                        <tr><td>2 successes</td><td>Win 100 gp.</td></tr>
+                        <tr><td>3 successes</td><td>Win 200 gp.</td></tr>
+                    </tbody></table>`
+
 let dPitFighting = new Dialog ({
     title: "Pit Fighting",
     content: `
@@ -305,6 +355,8 @@ let dPitFighting = new Dialog ({
         and a special Constitution check that has a bonus equal to a roll of the character's largest Hit Die (this roll doesn't spend that die). 
         If desired, the character can replace one of these skill checks with an attack roll using one of the character's weapons. 
         The DC for each of the checks is 5 + 2d10; generate a separate DC for each one. Consult the Pit Fighting Results table to see how the character did.
+    <H2>Tables</H2>
+        ${tPitFighting}
     <H2>User Inputs</H2>
         ${dropdownAdvDis}`,
     buttons: {
@@ -393,6 +445,31 @@ var dictUpper = {
     7: "You have become the target of a variety of embarrassing rumors.*",
     8: "You spent an additional 500 gp trying to impress people."
 }
+let tCarousing = `<style type="text/css">
+                        table.tableizer-table {
+                            font-size: 12px;
+                            border: 1px solid #CCC; 
+                            font-family: Arial, Helvetica, sans-serif;
+                        } 
+                        .tableizer-table td {
+                            padding: 4px;
+                            margin: 3px;
+                            border: 1px solid #CCC;
+                        }
+                        .tableizer-table th {
+                            background-color: #104E8B; 
+                            color: #FFF;
+                            font-weight: bold;
+                        }
+                        </style>
+                        <table class="tableizer-table">
+                        <thead><tr class="tableizer-firstrow"><th>Check Total</th><th>Result</th></tr></thead><tbody>
+                            <tr><td>1—5</td><td>Character has made a hostile contact.</td></tr>
+                            <tr><td>6—10</td><td>Character has made no new contacts.</td></tr>
+                            <tr><td>11—15</td><td>Character has made an allied contact.</td></tr>
+                            <tr><td>16—20</td><td>Character has made two allied contacts.</td></tr>
+                            <tr><td>21+</td><td>Character has made three allied contacts.</td></tr>
+                        </tbody></table>`
 let dCarousing = new Dialog ({
     title: "Carousing Time, Baby!",
     content: `
@@ -410,6 +487,8 @@ let dCarousing = new Dialog ({
     <I>Lower-class</I> contacts include criminals, laborers, mercenaries, the town guard, and any other folk who normally frequent the cheapest taverns in town.
     <I>Middle-class</I> contacts include guild members, spellcasters, town officials, and other folk who frequent well-kept establishments.
     <I>Upper-class</I> contacts are nobles and their personal servants. Carousing with such folk covers formal banquets, state dinners, and the like.
+    <H2>Tables</H2>
+        ${tCarousing}
     <H2>User Inputs</H2>
         ${dropdownCarousing}
         ${dropdownAdvDis}`,
@@ -504,7 +583,30 @@ var dictCrime = {
     7: "Your victim calls in a favor from a guard, doubling the efforts to solve the case.",
     8: "Your victim asks one of your adventuring companions to solve the crime.",
 }
-
+let tCrime = `<style type="text/css">
+                table.tableizer-table {
+                    font-size: 12px;
+                    border: 1px solid #CCC; 
+                    font-family: Arial, Helvetica, sans-serif;
+                } 
+                .tableizer-table td {
+                    padding: 4px;
+                    margin: 3px;
+                    border: 1px solid #CCC;
+                }
+                .tableizer-table th {
+                    background-color: #104E8B; 
+                    color: #FFF;
+                    font-weight: bold;
+                }
+                </style>
+                <table class="tableizer-table">
+                <thead><tr class="tableizer-firstrow"><th>DC</th><th>Value</th></tr></thead><tbody>
+                    <tr><td>10</td><td>50 gp, robbery of a struggling merchant</td></tr>
+                    <tr><td>15</td><td>100 gp, robbery of a prosperous merchant</td></tr>
+                    <tr><td>20</td><td>200 gp, robbery of a noble</td></tr>
+                    <tr><td>25</td><td>1,000 gp, robbery of one of the richest figures in town</td></tr>
+                </tbody></table>`
 let dCrime = new Dialog ({
     title: "You wanna be a criminal, eh?",
     content: `
@@ -520,6 +622,8 @@ let dCrime = new Dialog ({
         If only one check is successful, the heist fails but the character escapes.
         If two checks are successful, the heist is a partial success, netting the character half the payout.
         If all three checks are successful, the character earns the full value of the loot.
+    <H2>Tables</H2>
+        ${tCrime}
     <H2>User Inputs</H2>
         ${dropdownCrime1} 
         ${dropdownCrime2}
@@ -605,6 +709,29 @@ var dictReligiousService = {
     5: "The temple elders implore you to take up a holy quest.",
     6: "You accidentally discover that an important person in the temple is a fiend worshiper.",
 };
+let tReligiousService = `<style type="text/css">
+                        table.tableizer-table {
+                            font-size: 12px;
+                            border: 1px solid #CCC; 
+                            font-family: Arial, Helvetica, sans-serif;
+                        } 
+                        .tableizer-table td {
+                            padding: 4px;
+                            margin: 3px;
+                            border: 1px solid #CCC;
+                        }
+                        .tableizer-table th {
+                            background-color: #104E8B; 
+                            color: #FFF;
+                            font-weight: bold;
+                        }
+                        </style>
+                        <table class="tableizer-table">
+                        <thead><tr class="tableizer-firstrow"><th>Check Total</th><th>Result</th></tr></thead><tbody>
+                            <tr><td>1—10</td><td>No effect. Your efforts fail to make a lasting impression.</td></tr>
+                            <tr><td>11—20</td><td>You earn one favor.</td></tr>
+                            <tr><td>21+</td><td>You earn two favors.</td></tr>
+                        </tbody></table>`
 let dReligiousService = new Dialog ({
     title: `Religious Service`,
     content: `
@@ -620,6 +747,8 @@ let dReligiousService = new Dialog ({
             A favor could also take the form of a deity's intervention, such as an omen, a vision, or a minor miracle provided at a key moment. This latter sort of favor is expended by the DM, who also determines its nature.
             Favors earned need not be expended immediately, but only a certain number can be stored up. 
             A character can have a maximum number of unused favors equal to 1 + the character's Charisma modifier (minimum of one unused favor).
+    <H2>Tables</H2>
+        ${tReligiousService}
     <H2>User Inputs</H2>
         ${dropdownReligion}
         ${dropdownAdvDis}`,
@@ -675,6 +804,30 @@ let dropdownResearch = `<form action="/action_page.php">
                     <option value="300">300 gp</option>
                 </select>
             </form>`
+let tResearch = `<style type="text/css">
+                table.tableizer-table {
+                    font-size: 12px;
+                    border: 1px solid #CCC; 
+                    font-family: Arial, Helvetica, sans-serif;
+                } 
+                .tableizer-table td {
+                    padding: 4px;
+                    margin: 3px;
+                    border: 1px solid #CCC;
+                }
+                .tableizer-table th {
+                    background-color: #104E8B; 
+                    color: #FFF;
+                    font-weight: bold;
+                }
+                </style>
+                <table class="tableizer-table">
+                <thead><tr class="tableizer-firstrow"><th>Check Total</th><th>Outcome</th></tr></thead><tbody>
+                    <tr><td>1—5</td><td>No effect.</td></tr>
+                    <tr><td>6—10</td><td>You learn one piece of lore.</td></tr>
+                    <tr><td>11—20</td><td>You learn two pieces of lore.</td></tr>
+                    <tr><td>21+</td><td>You learn three pieces of lore.</td></tr>
+                </tbody></table>`
 let dResearch = new Dialog ({
     title: `Research`,
     content: `
@@ -687,6 +840,8 @@ let dResearch = new Dialog ({
         After one workweek, the character makes an Intelligence check with a +1 bonus per 50 gp spent beyond the initial 50 gp, to a maximum of +6. 
         In addition, a character who has access to a particularly well-stocked library or knowledgeable sages gains advantage on this check. 
         Determine how much lore a character learns using the Research Outcomes table.
+    <H2>Tables</H2>
+        ${tResearch}
     <H2>User Inputs</H2>
         ${dropdownResearch}
         ${dropdownAdvDis}`,
@@ -766,6 +921,30 @@ let radiosWork = `<p>Please select either "Not Skilled", "Proficiency" or "Exper
                     <input id="exp" value="exp" name="skill-level" type="radio"></input>
                 </div>
             </form>`;
+let tWork = `<style type="text/css">
+            table.tableizer-table {
+                font-size: 12px;
+                border: 1px solid #CCC; 
+                font-family: Arial, Helvetica, sans-serif;
+            } 
+            .tableizer-table td {
+                padding: 4px;
+                margin: 3px;
+                border: 1px solid #CCC;
+            }
+            .tableizer-table th {
+                background-color: #104E8B; 
+                color: #FFF;
+                font-weight: bold;
+            }
+            </style>
+            <table class="tableizer-table">
+            <thead><tr class="tableizer-firstrow"><th>Check Total</th><th>Earnings</th></tr></thead><tbody>
+                <tr><td>9 or lower</td><td>Poor lifestyle for the week</td></tr>
+                <tr><td>10—14</td><td>Modest lifestyle for the week</td></tr>
+                <tr><td>15—20</td><td>Comfortable lifestyle for the week</td></tr>
+                <tr><td>21+</td><td>Comfortable lifestyle for the week + 25 gp</td></tr>
+            </tbody></table>`
 let dWork = new Dialog ({
     title: "Work",
     content: `
@@ -775,6 +954,8 @@ let dWork = new Dialog ({
                 To determine how much money a character earns, the character makes an ability check: 
                 Strength (Athletics), Dexterity (Acrobatics), Intelligence using a set of tools, Charisma (Performance), or Charisma using a musical instrument. 
                 Consult the Wages table to see how much money is generated according to the total of the check.
+            <H2>Tables</H2>
+                ${tWork}
             <H2>User Inputs</H2>
                 ${dropdownWork} 
                 ${radiosWork}
