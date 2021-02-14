@@ -25,37 +25,56 @@ All the macros that I use in FoundryVTT
 * Tavern Games
 * Downtime Activities
     * Buy a Magic Item
-        * How much money spent searching
-        * How long searching for a quality seller
+        * Description
+        * User Inputs
+            * How much money spent searching
+            * How long searching for a quality seller
+            * Handle Advantage/Disadvantage
     * [x] Carousing
-        * *Handle Advantage/Disadvantage*
+        * [x] Description
+        * [x] User Inputs
+            * [x] Handle Advantage/Disadvantage
     * Craft an Item
-        * ...
-        * *Handle Advantage/Disadvantage*
+        * Description
+        * User Inputs
+            * Handle Advantage/Disadvantage
     * [x] Crime
-        * *Handle Advantage/Disadvantage*
-    * Gambling
-        * **I think the Complicaiton always fires**
-        * *Handle Advantage/Disadvantage*
+        * [x] Description
+        * [x] User Inputs
+            * [x] Handle Advantage/Disadvantage
+    * [x] Gambling
+        * [x] Description
+        * [x] User Inputs
+            * [x] Handle Advantage/Disadvantage
     * [x] Pit Fighting
-        * *Handle Advantage/Disadvantage*
+        * [x] Description
+        * [x] User Inputs
+            * [x] Handle Advantage/Disadvantage
     * Rest & Relaxation
-        * ...
-        * *Handle Advantage/Disadvantage*
+        * Description
+        * User Inputs
+            * Handle Advantage/Disadvantage
     * [x] Religious Service
-        * *Handle Advantage/Disadvantage*
+        * [x] Description
+        * [x] User Inputs
+            * [x] Handle Advantage/Disadvantage
     * [x] Research
-    * Scribe a Spell Scroll
-        * ...
-        * *Handle Advantage/Disadvantage*
+        * [x] Description
+        * [x] User Inputs
+            * [x] Handle Advantage/Disadvantage
+    * [x] Scribe a Spell Scroll
+        * [x] Description
+        * [x] User Inputs
     * Sell a Magic Item
-        * ...
-        * *Handle Advantage/Disadvantage*
-    * Training
-        * ...
-        * *Handle Advantage/Disadvantage*
-    * Work
-        * *Handle Advantage/Disadvantage*
+        * Description
+        * User Inputs
+            * Handle Advantage/Disadvantage
+    * [x] Training
+        * [x] Run *Fast_Training* macro
+    * [x] Work
+        * [x] Description
+        * [x] User Inputs
+            * [x] Handle Advantage/Disadvantage
 **LONG-TERM TO-DO LIST**
 * Convert Foundry Roll Tables to JavaScript Object Arrays (For Website)
   * [x] Export FoundryVTT roll tables

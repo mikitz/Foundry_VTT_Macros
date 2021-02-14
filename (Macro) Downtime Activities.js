@@ -17,6 +17,7 @@ let rollType = ""
 let check = 0
 let checkA = 0
 let checkB = 0
+let check1 = 0
 // Text Input
 let content = `
         <p>Please input the number of hours you wish to train.</p>
@@ -51,13 +52,21 @@ let dropdown = `<form action="/action_page.php">
                     <input type="submit" value="Submit">
                 </form>`
 let dropdownAdvDis = `<form action="/action_page.php">
-                        <label for="advdis">Advantage/Disadvantage?:</label>
+                        <label for="advdis">Roll Type:</label>
                         <select name="advdis" id="advdis">
                             <option value="normal">Normal</option>
                             <option value="advantage">Advantage</option>
                             <option value="disadvantage">Disadvantage</option>
                         </select>
                     </form>`
+// Define a function to get the label from a selection
+function fGetLabel(elementName) {
+    // Get the label for the selected element from the dropdown
+    let sel = document.getElementById(elementName)
+    let label = sel.options[sel.selectedIndex].text
+    return label
+}
+
 // Define a function to handle advantage and disadvantage
 function fRollType(html, modifier) {
     // Get the roll type from the dropdown
@@ -170,6 +179,15 @@ let dBuyMagicItem = new Dialog ({
 })
 
 // Gambling: Variables and Functions and Dialogs
+let dictGamble = {
+    1: "You are accused of cheating. You decide whether you actually did cheat or were framed.*",
+    2: "The town guards raid the gambling hall and throw you in jail.*",
+    3: "A noble in town loses badly to you and loudly vows to get revenge.*",
+    4: "You won a sum from a low-ranking member of a thieves' guild, and the guild wants its money back.",
+    5: "A local crime boss insists you start frequenting the boss's gambling parlor and no others.",
+    6: "A high-stakes gambler comes to town and insists that you take part in a game."
+}
+
 let contentGambling = `
         <p>Please input the amount of your selected currency you wish to wager.</p>
         <p><i>Note: You will lose whatever you put into this box</i></p>
@@ -200,26 +218,34 @@ function fGambleButton(id, label) {
     this.id = id;
     this.label = label;
     this.callback = function (html) {
+        let d100 = new Roll(`1d100`).roll().total
         let ins = token.actor.data.data.skills.ins.mod;
         let dec = token.actor.data.data.skills.dec.mod;
         let itm = token.actor.data.data.skills.itm.mod;
-        let comp = game.tables.getName("Gambling Complications").roll().results[0].text;
+        // Complication?
+        let comp = ""
+        if (d100 <= 20) {
+            comp = randomProperty(dictGamble)
+        } else {
+            comp = `No complication`
+        }
 
         let DC1 = new Roll("2d10 + 5", {}).roll().total;
         let DC2 = new Roll("2d10 + 5", {}).roll().total;
         let DC3 = new Roll("2d10 + 5", {}).roll().total;
 
-        let insR = new Roll(`1d20 + ${ins}`, {}).roll().total;
-        let decR = new Roll(`1d20 + ${dec}`, {}).roll().total;
-        let itmR = new Roll(`1d20 + ${itm}`, {}).roll().total;
+        let insR = fRollType(html, ins)
+        let decR = fRollType(html, dec)
+        let itmR = fRollType(html, itm)
 
         console.log(`ROLL LOG
-        DC1: ${DC1}
-        DC2: ${DC2}
-        DC3: ${DC3}
-        Insight: ${insR}
-        Deception: ${decR}
-        Intimidation: ${itmR}`)
+                DC1: ${DC1}
+                DC2: ${DC2}
+                DC3: ${DC3}
+                Insight: ${insR}
+                Deception: ${decR}
+                Intimidation: ${itmR}
+                d100: ${d100}`)
 
         let currency = $('input[name="currency"]:checked').val();
         let quantity = Number(html.find("#quan")[0].value);
@@ -247,8 +273,20 @@ function fGambleButton(id, label) {
 }    
 
 let dGambling = new Dialog ({
-    title: "Wager",
-    content: contentGambling + radiosGambling,
+    title: "Gambling time, yo!",
+    content: `
+    <H2>Resources</H2>
+        This activity requires one workweek of effort plus a stake of at least 10 gp, to a maximum of 1,000 gp or more, as you see fit.
+    <H2>Resolution</H2>
+        The character must make a series of checks, with a DC determined at random based on the quality of the competition that the character runs into. 
+        Part of the risk of gambling is that one never knows who might end up sitting across the table.
+        The character makes three checks: Wisdom (Insight), Charisma (Deception), and Charisma (Intimidation). 
+        If the character has proficiency with an appropriate gaming set, that tool proficiency can replace the relevant skill in any of the checks. 
+        The DC for each of the checks is 5 + 2d10; generate a separate DC for each one. Consult the Gambling Results table to see how the character did.
+    <H2>User Inputs</H2>
+        ${contentGambling} 
+        ${radiosGambling}
+        ${dropdownAdvDis}`,
     buttons: {
         gamble: new fGambleButton(1, "Gamble!")
     }
@@ -257,12 +295,23 @@ let dGambling = new Dialog ({
 // Pit Fighting: Variables and Functions and Dialogs
 let dPitFighting = new Dialog ({
     title: "Pit Fighting",
-    content: "It's Pit Fighting Time!",
+    content: `
+    <H2>Resources</H2>
+        Engaging in this activity requires one workweek of effort from a character.
+    <H2>Resolution</H2>
+        The character must make a series of checks, with a DC determined at random based on the quality of the opposition that the character runs into. 
+        A big part of the challenge in pit fighting lies in the unknown nature of a character's opponents.
+        The character makes three checks: Strength (Athletics), Dexterity (Acrobatics), 
+        and a special Constitution check that has a bonus equal to a roll of the character's largest Hit Die (this roll doesn't spend that die). 
+        If desired, the character can replace one of these skill checks with an attack roll using one of the character's weapons. 
+        The DC for each of the checks is 5 + 2d10; generate a separate DC for each one. Consult the Pit Fighting Results table to see how the character did.
+    <H2>User Inputs</H2>
+        ${dropdownAdvDis}`,
     buttons: {
         gamble: {
             id: "1",
             label: "Go Pit Fighting!",
-            callback () {
+            callback (html) {
                 let ath = token.actor.data.data.skills.ath.mod;
                 let acr = token.actor.data.data.skills.acr.mod;
                 let hitdie = canvas.tokens.controlled[0].actor.items.find(i => i.type === 'class').data.data.hitDice;
@@ -273,9 +322,9 @@ let dPitFighting = new Dialog ({
                 let DC3 = new Roll("2d10 + 5", {}).roll().total;
             
                 let hdR = new Roll(`1${hitdie}`, {}).roll().total;
-                let athR = new Roll(`1d20 + ${ath}`, {}).roll().total;
-                let acrR = new Roll(`1d20 + ${acr}`, {}).roll().total;
-                let conR = new Roll(`1d20 + ${hdR}`, {}).roll().total;
+                let athR = fRollType(html, ath)
+                let acrR = fRollType(html, acr)
+                let conR = fRollType(html, hdR)
             
                 let gp = null;
 
@@ -309,9 +358,9 @@ let dPitFighting = new Dialog ({
 let dropdownCarousing = `<form action="/action_page.php">
                     <label for="carousing-locale">Choose a Carousing Location:</label>
                     <select name="locale" id="locale">
-                        <option value="low">Low-class Carousing</option>
-                        <option value="middle">Middle-class Carousing</option>
-                        <option value="high">High-class Carousing</option>
+                        <option value="low">Lower-class</option>
+                        <option value="middle">Middle-class</option>
+                        <option value="high">High-class</option>
                     </select>
                 </form>`
 var dictLow = {
@@ -346,23 +395,46 @@ var dictUpper = {
 }
 let dCarousing = new Dialog ({
     title: "Carousing Time, Baby!",
-    content: `Where are you going carousing? <BR> 
-            ${dropdownCarousing}`,
+    content: `
+    <H2>Resources</H2>
+        Carousing covers a workweek of fine food, strong drink, and socializing. A character can attempt to carouse among lower-, middle-, or upper-class folk. 
+        A character can carouse with the lower class for 10 gp to cover expenses, or 50 gp for the middle class. 
+        Carousing with the upper class requires 250 gp for the workweek and access to the local nobility.
+        A character with the noble background can mingle with the upper class, but other characters can do so only if you judge that the character has made sufficient contacts. 
+        Alternatively, a character might use a disguise kit and the Deception skill to pass as a noble visiting from a distant city.
+    <H2>Resolution</H2>
+        After a workweek of carousing, a character stands to make contacts within the selected social class. 
+        The character makes a Charisma (Persuasion) check using the Carousing table. 
+    <H3>Contacts</H3>
+    Contacts are NPCs who now share a bond with the character. Each one either owes the character a favor or has some reason to bear a grudge. A hostile contact works against the character, placing obstacles but stopping short of committing a crime or a violent act. Allied contacts are friends who will render aid to the character, but not at the risk of their lives.
+    <I>Lower-class</I> contacts include criminals, laborers, mercenaries, the town guard, and any other folk who normally frequent the cheapest taverns in town.
+    <I>Middle-class</I> contacts include guild members, spellcasters, town officials, and other folk who frequent well-kept establishments.
+    <I>Upper-class</I> contacts are nobles and their personal servants. Carousing with such folk covers formal banquets, state dinners, and the like.
+    <H2>User Inputs</H2>
+        ${dropdownCarousing}
+        ${dropdownAdvDis}`,
     buttons: {
         goCarousing: {
             id: "1",
             label: "Go Carousing!",
             callback (html) {
                 let contact = "";
-                let check = new Roll(`1d20 + ${token.actor.data.data.skills.per.total}`).roll().total;
+                check = fRollType(html, token.actor.data.data.skills.per.total)
                 let d100 = new Roll(`1d100`).roll().total;
                 let locale = html.find('#locale').val();
                 let result = "";
-                check = Math.ceil(check / 5);
-                // Log the above
-                console.log(`d100: ${d100}`)
-                console.log(`Check: ${check}`);
-                console.log(`Locale: ${locale}`);
+                let gold = 0
+                // Get the class
+                let oClass = ""
+                oClass = fGetLabel("locale")
+                // Determine how much money they spend
+                if (locale == "low") {
+                    gold = 10
+                } else if (locale == "middle") {
+                    gold = 50
+                } else {
+                    gold = 250
+                }
                 // Determine if a complications happens
                 if (d100 <= 25) {
                     // Pull a result from the correct dictionary
@@ -374,8 +446,11 @@ let dCarousing = new Dialog ({
                         result = randomProperty(dictUpper);
                     }
                     messageComp += `${result}`;
+                } else {
+                    messageComp += `No complication.`
                 }
                 // Determine the type of contact the character makes
+                check = Math.ceil(check / 5)
                 if (check == 1 || check == 0) {
                     contact = "a hostile";
                 } else if (check == 2) {
@@ -387,8 +462,15 @@ let dCarousing = new Dialog ({
                 } else if (check >= 5) {
                     contact = "three allied";
                 }
-                let resultMessage = `${name} has made <I>${contact}</I> contact(s).`
+                let resultMessage = `${name} has spent ${gold} gp carousing with some ${oClass} folks and made <I>${contact}</I> contact(s).`
                 printMessage(`${DTmessage} ${resultMessage} <BR> ${messageComp}`)
+                // Log the above
+                console.log(`CAROUSING LOG
+                            d100: ${d100}
+                            Check: ${check}
+                            Locale: ${locale}
+                            Class: ${oClass}
+                            Gold: ${gold}`)
             }
         }
     }
@@ -425,7 +507,23 @@ var dictCrime = {
 
 let dCrime = new Dialog ({
     title: "You wanna be a criminal, eh?",
-    content: "You will make 3 checks: Dexterity (Stealth), Dexterity (thieves' tools), and one of your choosing: A.) Intelligence (Investigation), B.) Wisdom (Perception), or C.) Charisma (Deception)" + dropdownCrime1 + "<BR>" + dropdownCrime2,
+    content: `
+    <H2>Resources</H2>
+        A character must spend one week and at least <B>25 gp</B> gathering information on potential targets before committing the intended crime.
+    <H2>Resolution</H2>
+        The character must make a series of checks, with the DC for all the checks chosen by the character according to the amount of profit sought from the crime.
+        The chosen DC can be 10, 15, 20, or 25. Successful completion of the crime yields a number of gold pieces, as shown on the Loot Value table.
+        To attempt a crime, the character makes three checks: Dexterity (Stealth), Dexterity using thieves' tools, 
+        and the player's choice of Intelligence (Investigation), Wisdom (Perception), or Charisma (Deception).
+        If none of the checks are successful, the character is caught and jailed. 
+        The character must pay a fine equal to the profit the crime would have earned and must spend one week in jail for each 25 gp of the fine.
+        If only one check is successful, the heist fails but the character escapes.
+        If two checks are successful, the heist is a partial success, netting the character half the payout.
+        If all three checks are successful, the character earns the full value of the loot.
+    <H2>User Inputs</H2>
+        ${dropdownCrime1} 
+        ${dropdownCrime2}
+        ${dropdownAdvDis}`,
     buttons: {
         crimeTime: {
             id: "1",
@@ -435,17 +533,17 @@ let dCrime = new Dialog ({
                 activity = activity;
                 let mark = html.find('#mark').val();
                 let check3skill = html.find('#check3').val();
-                let check1 = new Roll(`1d20 + ${token.actor.data.data.skills.ste.total}`).roll().total;
+                let check1 = fRollType(html, token.actor.data.data.skills.ste.total)
                 let thievesTools = 0; // TO-DO
-                let check2 = new Roll(`1d20 + ${token.actor.data.data.abilities.dex.mod} + ${thievesTools}`).roll().total;
+                let check2 = fRollType(html, token.actor.data.data.abilities.dex.mod)
                 let check3 = "";
                 // Get the 3rd check
                 if (check3skill == "inv") {
-                    check3 = new Roll(`1d20 + ${token.actor.data.data.skills.inv.total}`).roll().total;
+                    check3 = fRollType(html, token.actor.data.data.skills.inv.total)
                 } else if (check3skill === "perc") {
-                    check3 = new Roll(`1d20 + ${token.actor.data.data.skills.prc.total}`).roll().total;
+                    check3 = fRollType(html, token.actor.data.data.skills.prc.total)
                 } else if (check3skill === "dec") {
-                    check3 = new Roll(`1d20 + ${token.actor.data.data.skills.dec.total}`).roll().total;
+                    check3 = fRollType(html, token.actor.data.data.skills.dec.total)
                 }
                 console.log(`Mark: ${mark}`);
                 console.log(`Check 3 Skill: ${check3skill}`)
@@ -457,16 +555,16 @@ let dCrime = new Dialog ({
                 let profit = "";
                 if (mark == "struggling") {
                     dc = 10;
-                    profit = 50;
+                    profit = 50
                 } else if (mark == "prosperous") {
                     dc = 15;
-                    profit = 100;
+                    profit = 100
                 } else if (mark == "noble") {
                     dc = 20;
-                    profit = 200;
+                    profit = 200
                 } else if (mark == "rich-figure") {
                     dc = 25;
-                    profit = 1000;
+                    profit = 1000
                 }
                 let jailTime = profit / 25;
                 console.log(`DC: ${dc}`);
@@ -475,9 +573,9 @@ let dCrime = new Dialog ({
                 // Determine the outcome
                 let compMessage = "";
                 if (check1 >= dc && check2 >= dc && check3 >= dc) {
-                    message = `The heist is an unequivocal success! ${name} earns ${profit} gp!`
+                    message = `The heist is an unequivocal success! ${name} earns ${profit - 25} gp!`
                 } else if (check1 >= dc && check2 >= dc || check2 >= dc && check3 >= dc || check1 >= dc && check3 >= dc) {
-                    message = `${name} escapes with half of the desired haul, netting ${profit / 2} gp`;
+                    message = `${name} escapes with half of the desired haul, netting ${(profit - 25) / 2} gp`;
                 } else if (check1 >= dc || check2 >= dc || check3 >= dc) {
                     complication = randomProperty(dictCrime);
                     message = `The heist has failed and ${name} has narrowly escaped the long arm of the law!`
@@ -509,14 +607,29 @@ var dictReligiousService = {
 };
 let dReligiousService = new Dialog ({
     title: `Religious Service`,
-    content: `${dropdownReligion}`,
+    content: `
+    <H2>Resources</H2>
+        Performing religious service requires access to, and often attendance at, a temple whose beliefs and ethos align with the character's. 
+        If such a place is available, the activity takes one workweek of time but involves no gold piece expenditure.
+    <H2>Resolution</H2>
+        At the end of the required time, the character chooses to make either an Intelligence (Religion) check or a Charisma (Persuasion) check. 
+        The total of the check determines the benefits of service, as shown on the Religious Service table. <BR>
+        <U><H3>Favors</H3></U>
+            A favor, in broad terms, is a promise of future assistance from a representative of the temple. 
+            It can be expended to ask the temple for help in dealing with a specific problem, for general political or social support, or to reduce the cost of cleric spellcasting by 50 percent. 
+            A favor could also take the form of a deity's intervention, such as an omen, a vision, or a minor miracle provided at a key moment. This latter sort of favor is expended by the DM, who also determines its nature.
+            Favors earned need not be expended immediately, but only a certain number can be stored up. 
+            A character can have a maximum number of unused favors equal to 1 + the character's Charisma modifier (minimum of one unused favor).
+    <H2>User Inputs</H2>
+        ${dropdownReligion}
+        ${dropdownAdvDis}`,
     buttons: {
         ok: {
             id: "1",
             label: "OK",
             callback (html) {
                 let skill = html.find('#check').val();
-                let check = new Roll(`1d20 + ${token.actor.data.data.skills[skill].total}`).roll().total;
+                let check = fRollType(html, token.actor.data.data.skills[skill].total)
                 let d100 = new Roll(`1d100`).roll().total;
                 // Determine if a complications happens
                 if (d100 <= 25) {
@@ -564,23 +677,24 @@ let dropdownResearch = `<form action="/action_page.php">
             </form>`
 let dResearch = new Dialog ({
     title: `Research`,
-    content: `<H2>Resources</H2>
-    Typically, a character needs access to a library or a sage to conduct research. 
-    Assuming such access is available, conducting research requires one workweek of effort 
-    and at least 50 gp spent on materials, bribes, gifts, and other expenses.
+    content: `
+    <H2>Resources</H2>
+        Typically, a character needs access to a library or a sage to conduct research. 
+        Assuming such access is available, conducting research requires one workweek of effort 
+        and at least 50 gp spent on materials, bribes, gifts, and other expenses.
     <H2>Resolution</H2>
-    The character declares the focus of the research—a specific person, place, or thing. 
-    After one workweek, the character makes an Intelligence check with a +1 bonus per 50 gp spent beyond the initial 50 gp, to a maximum of +6. 
-    In addition, a character who has access to a particularly well-stocked library or knowledgeable sages gains advantage on this check. 
-    Determine how much lore a character learns using the Research Outcomes table.
-    ${dropdownResearch}
-    ${dropdownAdvDis}`,
+        The character declares the focus of the research—a specific person, place, or thing. 
+        After one workweek, the character makes an Intelligence check with a +1 bonus per 50 gp spent beyond the initial 50 gp, to a maximum of +6. 
+        In addition, a character who has access to a particularly well-stocked library or knowledgeable sages gains advantage on this check. 
+        Determine how much lore a character learns using the Research Outcomes table.
+    <H2>User Inputs</H2>
+        ${dropdownResearch}
+        ${dropdownAdvDis}`,
     buttons: {
         ok: {
             id: "1",
             label: "OK",
             callback (html) {
-                let check1 = 0
                 // Normal, Advantage, Disadvantage
                 check1 = fRollType(html, token.actor.data.data.abilities.int.mod)
                 // Other variables
@@ -654,7 +768,17 @@ let radiosWork = `<p>Please select either "Not Skilled", "Proficiency" or "Exper
             </form>`;
 let dWork = new Dialog ({
     title: "Work",
-    content: `${dropdownWork} ${radiosWork}`,
+    content: `
+            <H2>Resources</H2>
+                Performing a job requires one workweek of effort.
+            <H2>Resolution</H2>
+                To determine how much money a character earns, the character makes an ability check: 
+                Strength (Athletics), Dexterity (Acrobatics), Intelligence using a set of tools, Charisma (Performance), or Charisma using a musical instrument. 
+                Consult the Wages table to see how much money is generated according to the total of the check.
+            <H2>User Inputs</H2>
+                ${dropdownWork} 
+                ${radiosWork}
+                ${dropdownAdvDis}`,
     buttons: {
         ok: {
             id: "1",
@@ -669,6 +793,7 @@ let dWork = new Dialog ({
                 let per = token.actor.data.data.skills.prf.mod
                 let instrument = token.actor.data.data.abilities.cha.mod
                 let skill = eval(html.find("#check").val())
+
                 let bonus = 0
                 // Check for proficiency or expertise
                 if (skillLevel == "prof") {
@@ -676,6 +801,8 @@ let dWork = new Dialog ({
                 } else if (skillLevel == "exp") {
                     bonus = token.actor.data.data.attributes.prof * 2;
                 }
+                // Normal, Advantage, Disadvantage
+                check = fRollType(html, skill + bonus)
                 // Check for a complication
                 if (d100 <= 20) {
                     messageComp += randomProperty(dictWork);
@@ -683,8 +810,7 @@ let dWork = new Dialog ({
                     messageComp += `No Complication`
                 }
                 // Determine the outcome
-                let roll = new Roll(`1d20 + ${bonus}`).roll().total;
-                let total = roll + skill;
+                let total = check + skill;
                 // Get outcome
                 if (total <= 9) {
                     resultMessage = `20 sp`
@@ -698,7 +824,7 @@ let dWork = new Dialog ({
                 console.log(`WORK LOG
                             Skill Level: ${skillLevel}
                             d100: ${d100}
-                            Roll: ${roll}
+                            Check: ${check}
                             Skill: ${skill}
                             Bonus: ${bonus}
                             Total: ${total}`)
@@ -710,25 +836,154 @@ let dWork = new Dialog ({
     }
 });
 
+// Trainig dialog b/c bullshit
+let dTraining = new Dialog({
+    title: "Training",
+    content: "",
+    buttons: {
+        ok: {
+            id: "1",
+            label: "OK",
+            callback (html) {
+                
+            }
+        }
+    }
+})
+
+// SCRIBING A SPELL SCROLL
+
+// Create the initial dialog where the user selects the downtime activity they wish to perform
+let dropdownSpellLevel = `<form action="/action_page.php">
+                <label for="spelllevel">Spell Level:</label>
+                <select name="spelllevel" id="spelllevel">
+                    <option value="cantrip">Cantrip</option>
+                    <option value="1st">1st</option>
+                    <option value="2nd">2nd</option>
+                    <option value="3rd">3rd</option>
+                    <option value="4th">4th</option>
+                    <option value="5th">5th</option>
+                    <option value="6th">6th</option>
+                    <option value="7th">7th</option>
+                    <option value="8th">8th</option>
+                    <option value="9th">9th</option>
+                </select>
+            </form>`
+// Scribing Data
+let oaScribingSpellScroll = [
+    {"spell_level":"cantrip","hours":8,"days":1,"workweeks":0.1,"cost":"15 gp"},
+    {"spell_level":"1st","hours":8,"days":1,"workweeks":0.1,"cost":"25 gp"},
+    {"spell_level":"2nd","hours":24,"days":3,"workweeks":0.3,"cost":"250 gp"},
+    {"spell_level":"3rd","hours":80,"days":10,"workweeks":1,"cost":"500 gp"},
+    {"spell_level":"4th","hours":160,"days":20,"workweeks":2,"cost":"2,500 gp"},
+    {"spell_level":"5th","hours":320,"days":40,"workweeks":4,"cost":"5,000 gp"},
+    {"spell_level":"6th","hours":640,"days":80,"workweeks":8,"cost":"15,000 gp"},
+    {"spell_level":"7th","hours":1280,"days":160,"workweeks":16,"cost":"25,000 gp"},
+    {"spell_level":"8th","hours":2560,"days":320,"workweeks":32,"cost":"50,000 gp"},
+    {"spell_level":"9th","hours":3840,"days":480,"workweeks":48,"cost":"250,000 gp"}
+]
+
+let tScribeSpellScroll = `<style type="text/css">
+                        table.tableizer-table {
+                            font-size: 12px;
+                            border: 1px solid #CCC; 
+                            font-family: Georgia, serif;
+                        } 
+                        .tableizer-table td {
+                            padding: 4px;
+                            margin: 3px;
+                            border: 1px solid #CCC;
+                        }
+                        .tableizer-table th {
+                            background-color: #104E8B; 
+                            color: #FFF;
+                            font-weight: bold;
+                        }
+                        </style>
+                        <table class="tableizer-table">
+                            <thead><tr class="tableizer-firstrow"><th>Spell Level</th><th>Hours</th><th>Days</th><th>Workweeks</th><th>Cost</th></tr></thead><tbody>
+                                <tr><td>Cantrip</td><td>8</td><td>1</td><td>0.1</td><td>15 gp</td></tr>
+                                <tr><td>1st</td><td>8</td><td>1</td><td>0.1</td><td>25 gp</td></tr>
+                                <tr><td>2nd</td><td>24</td><td>3</td><td>0.3</td><td>250 gp</td></tr>
+                                <tr><td>3rd</td><td>80</td><td>10</td><td>1</td><td>500 gp</td></tr>
+                                <tr><td>4th</td><td>160</td><td>20</td><td>2</td><td>2,500 gp</td></tr>
+                                <tr><td>5th</td><td>320</td><td>40</td><td>4</td><td>5,000 gp</td></tr>
+                                <tr><td>6th</td><td>640</td><td>80</td><td>8</td><td>15,000 gp</td></tr>
+                                <tr><td>7th</td><td>1280</td><td>160</td><td>16</td><td>25,000 gp</td></tr>
+                                <tr><td>8th</td><td>2560</td><td>320</td><td>32</td><td>50,000 gp</td></tr>
+                                <tr><td>9th</td><td>3840</td><td>480</td><td>48</td><td>250,000 gp</td></tr>
+                        </tbody></table>`
+// Complications Dictionary
+let dictScribing = {
+
+}
+// Dialog
+let dScribeSpellScroll = new Dialog({
+    title: "Scribe a Spell Scroll",
+    content: `
+    <H2>Resources</H2>
+        Scribing a spell scroll takes an amount of time and money related to the level of the spell the character wants to scribe, as shown in the Spell Scroll Costs table. 
+        In addition, the character must have proficiency in the Arcana skill and must provide any material components required for the casting of the spell.
+         Moreover, the character must have the spell prepared, or it must be among the character's known spells, in order to scribe a scroll of that spell.
+        If the scribed spell is a cantrip, the version on the scroll works as if the caster were 1st level.
+    <H2>Table(s)</H2>
+        ${tScribeSpellScroll}
+    <H2>User Inputs</H2>
+        ${dropdownSpellLevel}`,
+    buttons: {
+            ok: {
+                id: "1",
+                label: "OK",
+                callback (html) {
+                    // Complications
+                    let d100 = new Roll(`1d100`).roll().total
+                    if (d100 <= 10) {
+                        messageComp += randomProperty(dictScribing);
+                    } else {
+                        messageComp += `No Complication`
+                    }
+                    // Get the Spell Level from User Input
+                    let sSpellLevel = html.find("#spelllevel").val()
+                    // Pull data from oaScribingSpellScroll based on sSpellLevel
+                    let iHours = oaScribingSpellScroll.find(i => i.spell_level == sSpellLevel).hours
+                    let iDays = oaScribingSpellScroll.find(i => i.spell_level == sSpellLevel).days
+                    let sCost = oaScribingSpellScroll.find(i => i.spell_level == sSpellLevel).cost
+                    let iWorkWeeks = oaScribingSpellScroll.find(i => i.spell_level == sSpellLevel).workweeks
+                    // Print the message
+                    resultMessage += `It will take you <B>${iHours} hours</B> worth of work and cost you <B>${sCost}</B> to Scribe a <I>${sSpellLevel}-level Spell Scroll</I>. <BR>
+                                        <B>${iHours} hours</B> is equal to <B>${iDays} days</B> or <B>${iWorkWeeks} workweeks</B>. Note that you can do no more than 8 hours of work per day.`
+                    printMessage(`${DTmessage} ${resultMessage} <BR> ${messageComp}`)
+                    // Log to console
+                    console.log(`SCRIBING LOG
+                                Spell Level: ${sSpellLevel}
+                                Hours: ${iHours}
+                                Days: ${iDays}
+                                Cost: ${sCost}
+                                Workweeks: ${iWorkWeeks}`)
+                }
+            }
+        }   
+})
+
 // PRIMARY DIALOG FUNCTIONS AND DIALOG
 
 // Create the initial dialog where the user selects the downtime activity they wish to perform
 let dropdownInitial = `<form action="/action_page.php">
                 <label for="dta">Choose a Downtime Activity:</label>
                 <select name="dta" id="dta">
-                    <option value="dBuyMagicItem">Buy a Magic Item</option> // TO-DO
+                    <option value="dBuyMagicItem">Buy a Magic Item (N/A)</option> // TO-DO
                     <option value="dCarousing">Carousing</option>
-                    <option value="dCraftItem">Craft an Item</option> // TO-DO
+                    <option value="dCraftItem">Craft an Item (N/A)</option> // TO-DO
                     <option value="dCrime">Crime</option>
                     <option value="dGambling">Gambling</option>
                     <option value="dPitFighting">Pit Fighting</option>
-                    <option value="dRelax">Rest & Relaxation</option> // TO-DO
+                    <option value="dRelax">Rest & Relaxation (N/A)</option> // TO-DO
                     <option value="dReligiousService">Religious Service</option>
                     <option value="dResearch">Research</option>
-                    <option value="dScribeSpellScroll">Scribe a Spell Scroll</option> // TO-DO
-                    <option value="dSellMagicItem">Sell a Magic Item</option> // TO-DO
-                    <option value="dTraining">Training</option> // TO-DO
-                    <option value="dWork">Work</option> // TO-DO
+                    <option value="dScribeSpellScroll">Scribe a Spell Scroll</option>
+                    <option value="dSellMagicItem">Sell a Magic Item (N/A)</option> // TO-DO
+                    <option value="dTraining">Training</option>
+                    <option value="dWork">Work</option>
                 </select>
             </form>`
 
@@ -748,7 +1003,11 @@ let dDowntimeActivity = new Dialog ({
                              Value: ${dta}
                              Activity: ${activity}`)
                 DTmessage = `<H2> Downtime Activity: ${activity}</H2> <H3><U>Outcome</U></H3>`;
-                vdta.render(true);
+                if (activity === 'Training') {
+                    game.macros.getName("Fast_Training").execute()
+                } else {
+                    vdta.render(true);
+                }
             }
         }
     }
