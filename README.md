@@ -22,8 +22,19 @@ All the macros that I use in FoundryVTT
     * Crafting
         * Tinkering
         * ...
-* Tavern Games
-* Downtime Activities
+* Tavern Games (https://docs.google.com/document/d/1Ni13TFBxyANRbVXLNEbmKod4riVXHkD63Yad49BewFs/edit)
+    * Crown & Anchor
+    * Goblin's Eye
+    * Dragon's Breath
+    * Tymora's Spinner
+    * Twenty-one
+    * Hand of Fate
+    * Racing Lizards Game
+    * Fruit Machine
+    * Skeleton Slots
+    * Threes Away
+    * Dead-eye Dice
+* Downtime Activities (https://5e.tools/variantrules.html#downtime%20revisited_xge,flstsource:dmg=0~phb=0~mtf=0~scag=0~vgm=0~mm=0~gos=0~esk=0~tce=0,flopsource:extend)
     * Buy a Magic Item
         * Description
             * Table
@@ -33,7 +44,7 @@ All the macros that I use in FoundryVTT
             * Handle Advantage/Disadvantage
     * [x] Carousing
         * [x] Description
-            * Table
+            * [x] Table
         * [x] User Inputs
             * [x] Handle Advantage/Disadvantage
     * Craft an Item
@@ -43,17 +54,17 @@ All the macros that I use in FoundryVTT
             * Handle Advantage/Disadvantage
     * [x] Crime
         * [x] Description
-            * Table
+            * [x] Table
         * [x] User Inputs
             * [x] Handle Advantage/Disadvantage
     * [x] Gambling
         * [x] Description
-            * Table
+            * [x] Table
         * [x] User Inputs
             * [x] Handle Advantage/Disadvantage
     * [x] Pit Fighting
         * [x] Description
-            * Table
+            * [x] Table
         * [x] User Inputs
             * [x] Handle Advantage/Disadvantage
     * Rest & Relaxation
@@ -63,12 +74,12 @@ All the macros that I use in FoundryVTT
             * Handle Advantage/Disadvantage
     * [x] Religious Service
         * [x] Description
-            * Table
+            * [x] Table
         * [x] User Inputs
             * [x] Handle Advantage/Disadvantage
     * [x] Research
         * [x] Description
-            * Table
+            * [x] Table
         * [x] User Inputs
             * [x] Handle Advantage/Disadvantage
     * [x] Scribe a Spell Scroll
@@ -84,7 +95,7 @@ All the macros that I use in FoundryVTT
         * [x] Run *Fast_Training* macro
     * [x] Work
         * [x] Description
-            * Table
+            * [x] Table
         * [x] User Inputs
             * [x] Handle Advantage/Disadvantage
 **LONG-TERM TO-DO LIST**

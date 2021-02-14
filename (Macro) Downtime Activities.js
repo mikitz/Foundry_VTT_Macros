@@ -1,3 +1,13 @@
+/*
+
+*/
+
+// Get the name of the called macro
+let macroName = this.name;
+// Display a UI message if no actor is selected
+if (!actor) {
+    ui.notifications.warn(`An actor must be selected prior to calling the ${macroName} macro.`);
+}
 // Define the print message function
 function printMessage(message){
 	let chatData = {
@@ -99,7 +109,7 @@ function fRollType(html, modifier) {
 // DEFINE SOME DICE
 function getRndInteger(min, max) {
     return Math.floor(Math.random() * (max - min + 1) ) + min;
-  }
+}
 let d4 = new getRndInteger(1, 4);
 let d6 = new getRndInteger(1, 6);
 let d8 = new getRndInteger(1, 8);
