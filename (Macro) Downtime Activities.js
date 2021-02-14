@@ -744,7 +744,7 @@ var dictWork = {
     4: "Your employer is involved with a dark cult or a criminal enterprise.",
     5: "A crime ring targets your business for extortion.*",
     6: "You gain a reputation for laziness (unjustified or not, as you choose), giving you disadvantage on checks made for this downtime activity for the next six workweeks you devote to it.*",
-};
+}
 let dropdownWork = `<form action="/action_page.php">
                 <label for="check">Choose your Check:</label>
                 <select name="check" id="check">
@@ -915,7 +915,12 @@ let tScribeSpellScroll = `<style type="text/css">
                         </tbody></table>`
 // Complications Dictionary
 let dictScribing = {
-
+    1: "You bought up the last of the rare ink used to craft scrolls, angering a wizard in town.", 
+    2: "The priest of a temple of good accuses you of trafficking in dark magic.*", 
+    3: "A wizard eager to collect one of your spells in a book presses you to sell the scroll.", 
+    4: "Due to a strange error in creating the scroll, it is instead a random spell of the same level.", 
+    5: "The rare parchment you bought for your scroll has a barely visible map on it.", 
+    6: "A thief attempts to break into your workroom.*" 
 }
 // Dialog
 let dScribeSpellScroll = new Dialog({
@@ -937,7 +942,7 @@ let dScribeSpellScroll = new Dialog({
                 callback (html) {
                     // Complications
                     let d100 = new Roll(`1d100`).roll().total
-                    if (d100 <= 10) {
+                    if (d100 <= 20) {
                         messageComp += randomProperty(dictScribing);
                     } else {
                         messageComp += `No Complication`
@@ -959,7 +964,8 @@ let dScribeSpellScroll = new Dialog({
                                 Hours: ${iHours}
                                 Days: ${iDays}
                                 Cost: ${sCost}
-                                Workweeks: ${iWorkWeeks}`)
+                                Workweeks: ${iWorkWeeks}
+                                d100: ${d100}`)
                 }
             }
         }   
