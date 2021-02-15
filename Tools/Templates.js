@@ -60,6 +60,13 @@ var randomProperty = function (obj) {
     var keys = Object.keys(obj);
     return obj[keys[ keys.length * Math.random() << 0]];
 };
+// Declare some functions to round numbers
+function fRound5(x) { 
+    return Math.ceil(x / 5) * 5
+} 
+function fRound10(x) { 
+    return Math.ceil(x / 10) * 10 
+} 
 
 // DIALOG
 let dCrownAnchor = new Dialog ({

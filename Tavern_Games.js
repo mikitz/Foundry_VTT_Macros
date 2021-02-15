@@ -281,13 +281,11 @@ let tiDarts = `
                         <input id="darts" name="darts" type="number" min="0"></input>
                     </div>
                 </form>`;
-// Dialog
-let dGoblinsEye = new Dialog ({
-    title: "Goblin's Eye",
-    content: `
+// Content
+let cGoblinsEye = `
         <H2>Description</H2>
             <B>Goblin's Eye</B> is a game of darts. Characters take turns throwing three darts at the Goblin's Eye board. 
-            Each throw of a dart is comprised of two rolls: 1d20 and 1d6+3.
+            Each throw of a dart is comprised of two rolls: 1d20 and 1d6 + Dexterity modifier.
         <H2>Outcomes</H2>
             <style type="text/css">
             table.tableizer-table {
@@ -311,7 +309,7 @@ let dGoblinsEye = new Dialog ({
                 <tr><td>1d20</td><td>Determines what number is hit on the board.</td></tr>
                 <tr><td>1d6</td><td>Determines where on the number it hits.</td></tr>
             </tbody></table>
-            
+
             <style type="text/css">
             table.tableizer-table {
                 font-size: 12px;
@@ -337,13 +335,27 @@ let dGoblinsEye = new Dialog ({
                 <tr><td>10+</td><td>Goblin's Eye!</td></tr>
             </tbody></table>
         <H2>User Inputs</H2>
-            ${tiDarts}`,
+            ${tiDarts}`
+
+// Dialog
+let dGoblinsEye = new Dialog ({
+    title: "Goblin's Eye",
+    content: cGoblinsEye,
     buttons: {
         ok: {
             id: 1,
             label: "OK",
             callback(html){
-
+                // Get the number of darts from the user input
+                let vDarts = Number(html.find("#darts")[0].value)
+                // Roll as many dice as there are darts
+                let rd6 = new Roll(`${vDarts}d20`).roll()
+                let rd20 = new Roll(`${vDarts}d6 + ${token.actor.data.data.abilities.dex.mod}`).roll()
+                // Log to console
+                console.log(`GOBLIN'S EYE LOG
+                            # of Darts: ${vDarts}`)
+                console.log(rd6)
+                console.log(rd20)
             }
         }
     }
